@@ -1,0 +1,203 @@
+const body = document.body;
+const menuToggle = document.querySelector("[data-menu-toggle]");
+const nav = document.querySelector("[data-nav]");
+const footerToggle = document.querySelector("#footer-menu");
+const footerPanel = document.querySelector(".footer-panel");
+const whatsappForm = document.querySelector("[data-whatsapp-form]");
+const contactForm = document.querySelector("#solicitar-contato");
+const contactLinks = document.querySelectorAll('a[href="#solicitar-contato"]');
+const revealTargets = document.querySelectorAll(
+  ".intro-item, .action-card, .service-card, .regime-card, .feature-list div, .steps article, .faq-item, .contact-copy, .contact-card",
+);
+const whatsappNumber = "553384401388";
+
+const setSelectValue = (select, value) => {
+  if (!(select instanceof HTMLSelectElement)) {
+    return;
+  }
+
+  const cleanValue = String(value || "").trim().toLowerCase();
+  if (!cleanValue) {
+    return;
+  }
+
+  const foundOption = Array.from(select.options).find(
+    (option) => option.value.trim().toLowerCase() === cleanValue,
+  );
+
+  if (foundOption) {
+    select.value = foundOption.value;
+  }
+};
+
+let highlightTimeoutId;
+const highlightForm = () => {
+  if (!(contactForm instanceof HTMLElement)) {
+    return;
+  }
+
+  if (highlightTimeoutId) {
+    clearTimeout(highlightTimeoutId);
+  }
+
+  contactForm.classList.remove("is-highlighted");
+  void contactForm.offsetWidth;
+  contactForm.classList.add("is-highlighted");
+
+  highlightTimeoutId = window.setTimeout(() => {
+    contactForm.classList.remove("is-highlighted");
+  }, 950);
+};
+
+const closeMenu = () => {
+  if (!(menuToggle instanceof HTMLButtonElement) || !(nav instanceof HTMLElement)) {
+    return;
+  }
+
+  nav.classList.remove("is-open");
+  menuToggle.setAttribute("aria-expanded", "false");
+  menuToggle.setAttribute("aria-label", "Abrir menu");
+};
+
+if (menuToggle instanceof HTMLButtonElement && nav instanceof HTMLElement) {
+  menuToggle.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    menuToggle.setAttribute("aria-expanded", String(isOpen));
+    menuToggle.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
+  });
+
+  nav.addEventListener("click", (event) => {
+    if (event.target instanceof HTMLAnchorElement) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!nav.classList.contains("is-open")) {
+      return;
+    }
+
+    const target = event.target;
+    if (!(target instanceof Node)) {
+      return;
+    }
+
+    if (!nav.contains(target) && !menuToggle.contains(target)) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 820) {
+      closeMenu();
+    }
+  });
+}
+
+if (footerToggle instanceof HTMLInputElement && footerPanel instanceof HTMLElement) {
+  footerPanel.addEventListener("click", (event) => {
+    if (event.target instanceof HTMLAnchorElement) {
+      footerToggle.checked = false;
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      footerToggle.checked = false;
+    }
+  });
+}
+
+if (contactLinks.length) {
+  const interestSelect = whatsappForm?.querySelector("[data-interest-select]");
+  const regimeSelect = whatsappForm?.querySelector("[data-regime-select]");
+
+  contactLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      setSelectValue(interestSelect, link.getAttribute("data-interest"));
+      setSelectValue(regimeSelect, link.getAttribute("data-regime"));
+      highlightForm();
+
+      if (footerToggle instanceof HTMLInputElement) {
+        footerToggle.checked = false;
+      }
+
+      window.setTimeout(() => {
+        const nomeField = whatsappForm?.querySelector('input[name="nome"]');
+        if (nomeField instanceof HTMLInputElement) {
+          nomeField.focus({ preventScroll: true });
+        }
+      }, 340);
+    });
+  });
+}
+
+if (body.classList.contains("motion-on")) {
+  body.classList.add("motion-ready");
+
+  if (!("IntersectionObserver" in window)) {
+    revealTargets.forEach((item) => item.classList.add("is-visible"));
+  } else {
+    const revealObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
+
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      },
+      {
+        root: null,
+        threshold: 0.16,
+        rootMargin: "0px 0px -30px 0px",
+      },
+    );
+
+    revealTargets.forEach((item) => revealObserver.observe(item));
+  }
+}
+
+if (whatsappForm instanceof HTMLFormElement) {
+  whatsappForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const submitButton = whatsappForm.querySelector(".button-fizzy");
+    if (submitButton instanceof HTMLButtonElement) {
+      submitButton.disabled = true;
+      submitButton.classList.add("is-sending");
+    }
+
+    const formData = new FormData(whatsappForm);
+    const nome = String(formData.get("nome") || "").trim() || "Nao informado";
+    const empresa = String(formData.get("empresa") || "").trim() || "Nao informado";
+    const interesse = String(formData.get("interesse") || "").trim() || "Nao informado";
+    const regime = String(formData.get("regime") || "").trim() || "Nao informado";
+    const mensagem = String(formData.get("mensagem") || "").trim() || "Nao informado";
+
+    const text = [
+      "Ola! Vim pelo site da Almenara Contabilidade e quero solicitar atendimento.",
+      "",
+      `Nome: ${nome}`,
+      `Empresa: ${empresa}`,
+      `Interesse: ${interesse}`,
+      `Regime tributario: ${regime}`,
+      `Mensagem: ${mensagem}`,
+    ].join("\n");
+
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+    window.setTimeout(() => {
+      window.location.href = url;
+    }, 420);
+
+    window.setTimeout(() => {
+      if (submitButton instanceof HTMLButtonElement) {
+        submitButton.disabled = false;
+        submitButton.classList.remove("is-sending");
+      }
+    }, 2600);
+  });
+}

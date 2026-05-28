@@ -1,0 +1,28 @@
+﻿window.ALMENARA_NEWS_DATA = {
+    "generatedAt":  "2026-05-27T20:37:50.3086505Z",
+    "sourceCount":  5,
+    "itemCount":  3,
+    "items":  [
+                  {
+                      "title":  "Reforma tributaria: acompanhe os destaques no Senado",
+                      "url":  "https://www12.senado.leg.br/noticias/destaques/reforma-tributaria",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "",
+                      "summary":  "Pagina oficial com noticias e andamento dos temas relacionados a reforma tributaria."
+                  },
+                  {
+                      "title":  "Economia na Camara: feed oficial",
+                      "url":  "https://www.camara.leg.br/noticias/rss/dinamico/ECONOMIA",
+                      "source":  "Camara dos Deputados",
+                      "publishedAt":  "",
+                      "summary":  "Canal RSS oficial para acompanhar publicacoes de economia no legislativo."
+                  },
+                  {
+                      "title":  "Portal Contabeis: noticias e legislacao",
+                      "url":  "https://www.contabeis.com.br/rss/noticias/",
+                      "source":  "Portal Contabeis",
+                      "publishedAt":  "",
+                      "summary":  "Feed setorial com noticias contabeis, fiscais e tributarias para rotina empresarial."
+                  }
+              ]
+};
