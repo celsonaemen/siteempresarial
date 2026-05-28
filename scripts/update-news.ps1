@@ -7,7 +7,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $feedSources = @(
-  @{ Name = "Senado Noticias"; Url = "https://www12.senado.leg.br/noticias/feed/todasnoticias" },
+  @{ Name = "Senado Noticias"; Url = "https://www12.senado.leg.br/noticias/rss" },
   @{ Name = "Camara Economia"; Url = "https://www.camara.leg.br/noticias/rss/dinamico/ECONOMIA" },
   @{ Name = "Camara Ultimas"; Url = "https://www.camara.leg.br/noticias/rss/ultimas-noticias" },
   @{ Name = "Portal Contabeis Noticias"; Url = "https://www.contabeis.com.br/rss/noticias/" },

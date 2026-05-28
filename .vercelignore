@@ -1,0 +1,10 @@
+# Allowlist deployment for static site only
+/*
+!index.html
+!styles.css
+!script.js
+!assets
+!assets/**
+!news
+!news/**
+!vercel.json

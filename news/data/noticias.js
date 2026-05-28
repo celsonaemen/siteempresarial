@@ -1,8 +1,57 @@
 ﻿window.ALMENARA_NEWS_DATA = {
-    "generatedAt":  "2026-05-28T16:30:41.6599473Z",
+    "generatedAt":  "2026-05-28T17:57:23.5051631Z",
     "sourceCount":  5,
     "itemCount":  24,
     "items":  [
+                  {
+                      "title":  "Presidentes da Câmara e do STF discutem medidas para reduzir a judicialização no país",
+                      "url":  "https://www.camara.leg.br/noticias/1277491-presidentes-da-camara-e-do-stf-discutem-medidas-para-reduzir-a-judicializacao-no-pais/",
+                      "source":  "Camara Ultimas",
+                      "publishedAt":  "2026-05-28T17:50:00.0000000+00:00",
+                      "summary":  "Hugo Motta e Edson Fachin debateram medidas para fortalecer soluções consensuais de conflitos e modernizar o sistema de Justiça"
+                  },
+                  {
+                      "title":  "Câmara aprova permissão para comunidades terapêuticas acolherem crianças e adolescentes",
+                      "url":  "https://www.camara.leg.br/noticias/1277457-camara-aprova-permissao-para-comunidades-terapeuticas-acolherem-criancas-e-adolescentes/",
+                      "source":  "Camara Ultimas",
+                      "publishedAt":  "2026-05-28T17:45:00.0000000+00:00",
+                      "summary":  "Internação será permitida para tratamento de dependência química; proposta será enviada ao Senado"
+                  },
+                  {
+                      "title":  "Áudio: Criação de conselho sobre minerais estratégicos divide debatedores",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/criacao-de-conselho-sobre-minerais-estrategicos-divide-debatedores",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T17:44:02.0000000+00:00",
+                      "summary":  "O Senado analisa dois projetos principais sobre minerais críticos e estratégicos: o PL 4.443/2025, com origem no Senado; e o PL 2.780/2024, que chegou à Casa após aprovação na Câmara. Participantes do debate desta quinta-feira (28) na Comissão de Infraestrutura pediram a análise conjunta das propostas e contaram com o apoio do relator do projeto do Senado, Wilder Morais (PL-GO). Os especialistas também fizeram críticas à criação de um Conselho de Estado sobre minerais estratégicos, prevista na texto da Câmara."
+                  },
+                  {
+                      "title":  "Plenário analisa PEC que estende imunidade tributária das igrejas a entidades associadas; acompanhe",
+                      "url":  "https://www.camara.leg.br/noticias/1277292-plenario-analisa-pec-que-estende-imunidade-tributaria-das-igrejas-a-entidades-associadas-acompanhe/",
+                      "source":  "Camara Ultimas",
+                      "publishedAt":  "2026-05-28T17:40:00.0000000+00:00",
+                      "summary":  ""
+                  },
+                  {
+                      "title":  "Fim da escala 6x1: entenda o impacto operacional para o DP",
+                      "url":  "https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/",
+                      "source":  "Portal Contabeis Noticias",
+                      "publishedAt":  "2026-05-28T14:30:01.0000000-03:00",
+                      "summary":  "Webinar gratuito aborda os efeitos práticos do fim da escala 6x1 no Departamento Pessoal e como empresas e profissionais devem se preparar. Leia mais em https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/"
+                  },
+                  {
+                      "title":  "Comissão aprova projeto que acelera a venda de bens apreendidos do crime organizado",
+                      "url":  "https://www.camara.leg.br/noticias/1277416-comissao-aprova-projeto-que-acelera-a-venda-de-bens-apreendidos-do-crime-organizado/",
+                      "source":  "Camara Ultimas",
+                      "publishedAt":  "2026-05-28T17:16:00.0000000+00:00",
+                      "summary":  "Proposta segue em análise na Câmara dos Deputados"
+                  },
+                  {
+                      "title":  "Fraude no INSS? PF faz nova fase de operação!",
+                      "url":  "https://www.contabeis.com.br/noticias/77074/fraude-no-inss-pf-faz-nova-fase-de-operacao/",
+                      "source":  "Portal Contabeis Noticias",
+                      "publishedAt":  "2026-05-28T14:00:02.0000000-03:00",
+                      "summary":  "Confira os detalhes da ação que investiga desvios bilionários em aposentadorias do INSS . Leia mais em https://www.contabeis.com.br/noticias/77074/fraude-no-inss-pf-faz-nova-fase-de-operacao/"
+                  },
                   {
                       "title":  "Comissão aprova suspensão de decreto que criou a Força Nacional de Segurança Publica",
                       "url":  "https://www.camara.leg.br/noticias/1277249-comissao-aprova-suspensao-de-decreto-que-criou-a-forca-nacional-de-seguranca-publica/",
@@ -11,11 +60,39 @@
                       "summary":  "O projeto continua em análise na Câmara dos Deputados"
                   },
                   {
+                      "title":  "Áudio: Vai à sanção projeto que cria no Ceará a Rota Turística da Fé",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/vai-a-sancao-projeto-que-cria-no-ceara-a-rota-turistica-da-fe",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T15:47:11.0000000+00:00",
+                      "summary":  "A Comissão de Desenvolvimento Regional e Turismo do Senado (CDR) aprovou na terça-feira (26) o projeto de lei que cria a Rota Turística da Fé, no Ceará, que abrange 13 cidades e tem foco no turismo cultural, histórico e de aventura. O projeto (PL 5.057/2023) segue para a sanção da Presidência da República."
+                  },
+                  {
+                      "title":  "Áudio: Vai à Câmara proposta que reconhece Quixadá como capital dos monólitos",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/vai-a-camara-proposta-que-reconhece-quixada-como-capital-dos-monolitos",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T15:38:04.0000000+00:00",
+                      "summary":  "Em reunião na segunda-feira (26), A Comissão de Desenvolvimento Regional do Senado (CDR) deu parecer favorável ao projeto de lei que reconhece o município de Quixadá, no Ceará, como capital nacional dos monólitos. Agora o projeto (PL 5.057/2023) deve seguir para a Câmara dos Deputados. Ouça o áudio para saber mais."
+                  },
+                  {
                       "title":  "Ministro defende atuação da Polícia Federal e cooperação com a Interpol; assista",
                       "url":  "https://www.camara.leg.br/noticias/1277393-ministro-defende-atuacao-da-policia-federal-e-cooperacao-com-a-interpol-assista/",
                       "source":  "Camara Ultimas",
                       "publishedAt":  "2026-05-28T15:20:00.0000000+00:00",
-                      "summary":  "Wellington Lima e Silva participou de audiência pública na Câmara dos Deputados"
+                      "summary":  "Wellington Lima e Silva esteve presente na Câmara dos Deputados na quarta-feira (27)"
+                  },
+                  {
+                      "title":  "Áudio: Senado analisa políticas voltadas ao contato de crianças com a natureza",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/senado-analisa-politicas-voltadas-ao-contato-de-criancas-com-a-natureza",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T15:13:50.0000000+00:00",
+                      "summary":  "A Comissão de Direitos Humanos do Senado (CDH) aprovou na quarta-feira (27) um projeto de lei que estabelece princípios e diretrizes para políticas públicas voltadas à garantia do direito de crianças e adolescentes à natureza. O projeto (PL 2.225/2024) segue para análise em outro colegiado do Senado: a a Comissão de Meio Ambiente (CMA). Ouça o áudio para saber mais."
+                  },
+                  {
+                      "title":  "Áudio: Projeto permite que servidora federal vítima de violência doméstica se afaste por 6 meses",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/projeto-permite-que-servidora-federal-vitima-de-violencia-domestica-se-afaste-por-6-meses",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T15:02:49.0000000+00:00",
+                      "summary":  "Avançou no Senado um projeto de lei que tem como foco as servidoras públicas federais que estiverem em situação de violência doméstica e familiar: o texto permite que elas se afastem por até seis meses do trabalho — e sem perder o direito à remuneração. O projeto (PL 3.171/2023) recebeu parecer favorável da Comissão de Direitos Humanos (CDH) na quarta-feira (27) e agora segue para análise na Comissão de Constituição e Justiça (CCJ). Se for aprovado na CCJ, a proposta seguirá para a Câmara dos Deputados."
                   },
                   {
                       "title":  "IRPF 2026: busca por contadores cresce até 189% na reta final",
@@ -25,11 +102,25 @@
                       "summary":  "Prazo de entrega do IR 2026 se aproxima e contribuintes buscam auxílio profissional para evitar erros e cair na malha fina . Leia mais em https://www.contabeis.com.br/noticias/77069/irpf-2026-busca-por-contadores-cresce-ate-189-na-reta-final/"
                   },
                   {
+                      "title":  "Áudio: Bets: plataforma de autoexclusão já soma mais de 570 mil cadastros",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/bets-plataforma-de-autoexclusao-ja-soma-mais-de-570-mil-cadastros",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T14:52:54.0000000+00:00",
+                      "summary":  "Criada no final do ano passado, a plataforma de autoexclusão criada pelo Ministério da Fazenda para usuários de sites de apostas on-line (bets) já registrou mais de 570 mil cadastros em todo o país. O sistema permite que o cidadão bloqueie voluntariamente o próprio CPF em todas as bets regularizadas. O senador Humberto Costa (PT-PE) alertou para o crescimento da ludopatia, transtorno relacionado ao vício em jogos de azar."
+                  },
+                  {
                       "title":  "Câmara aprova novas regras para internação de adolescentes usuários de drogas em situação de risco; acompanhe",
                       "url":  "https://www.camara.leg.br/noticias/1277289-camara-aprova-novas-regras-para-internacao-de-adolescentes-usuarios-de-drogas-em-situacao-de-risco-acompanhe/",
                       "source":  "Camara Ultimas",
                       "publishedAt":  "2026-05-28T14:50:00.0000000+00:00",
                       "summary":  "A proposta segue agora para o Senado."
+                  },
+                  {
+                      "title":  "Após aprovação na Câmara, Senado analisará fim da escala 6x1",
+                      "url":  "https://www12.senado.leg.br/noticias/materias/2026/05/28/apos-aprovacao-na-camara-senado-analisara-fim-da-escala-6x1",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T14:47:15.0000000+00:00",
+                      "summary":  "O Senado recebe nos próximos dias a proposta de emenda à Constituição que estabelece a jornada máxima de trabalho em 40 semanais, permitindo aos trabalhadores dois dias de descanso para cada cinco dias trabalhados. A PEC 221/2019, que acaba com a escala 6x1 — hoje definida em 44 horas semanais de trabalho por um dia de folga — foi aprovada por ampla maioria na quarta-feira (27), em dois turnos, pela Câmara dos Deputados. A proposta é que a carga horária seja reduzida em um período de transição de 14 meses, sem que haja qualquer redução de salário. Na Câmara, os deputados aprovaram um substitutivo (texto alternativo) do deputado Leo Prates (Republicanos-BA) para a PEC, apresentada pelo deputado Reginaldo Lopes (PT-MG), que estabelecia 36 horas semanais, assim como para a PEC 8/2025, da deputada Érika Hilton (Psol-SP), que dividia carga máxima de 36 horas em quatro dias de trabalho. Conforme o texto aprovado, após dois meses da publicação da emenda constitucional passam a valer dois dias de descanso remunerado por semana. A preferência é de que pelo menos um desses dias seja aos domingos. A partir de então, os trabalhadores celetistas terão de cumprir a carga horária semanal máxima de 42 horas. Somente um ano após esse período — atendendo o prazo de 14 meses — é que será estabelecida definitivamente a carga semanal de 40 horas. Durante esse prazo de transição, será permitido que, por convenção ou acordo coletivo de trabalho, seja ampliada a duração diária da jornada (geralmente de oito horas) para que sejam cumpridas as 42 horas semanais. Debate Ainda na quarta-feira, o Plenário do Senado aprovou requerimento para a realização de sessão temática (REQ 414/2026) destinada a debater os possíveis impactos sociais e econômicos da PEC. Assinaram o requerimento os senadores Dr. Hiran (PP-RR), Wellington Fagundes (PL-MT), Weverton (PDT-MA) e Professora Dorinha Seabra (União-TO). Assim como aconteceu na Câmara, a PEC será submetida a dois turnos de discussão e votação no Senado. Se o texto for aprovado sem alteração no projeto da Câmara, a emenda constitucional é promulgada pelas Mesas das duas Casas. Se for modificada, a proposta volta para a Câmara. Setor produtivo O fim da escala 6x1 tem gerado manifestações por parte dos empregadores. Na terça-feira (26), o presidente do Senado, Davi Alcolumbre, recebeu representantes do setor produtivo. O grupo reivindicou que a discussão da proposta seja feita de maneira técnica e, de preferência, após as eleições de outubro. Presidente da Confederação Nacional da Indústria (CNI), Ricardo Alban disse que a intenção da visita não foi contestar a proposta, mas buscar uma solução que atenda a todos os envolvidos. — Não se pode discutir um assunto desses, com tamanha seriedade e importância, de uma forma açodada. Esperamos e temos fé que o Senado vai entender isso — disse Alban. Debate No Senado, alguns senadores já manifestaram suas posições. Em discurso no Plenário na quarta, o senador Oriovisto Guimarães (PSDB-PR) abriu o debate sobre o assunto criticando o fim da escala 6x1, sem redução de salário. Para o parlamentar, a proposta tem caráter eleitoral e não deveria ser analisada pelos senadores antes das eleições deste ano. — Não houve aumento de produtividade e investimento em máquinas que justificassem isso. As consequências são terríveis. (...) Isso tem um efeito devastador em escola privada e em muitas prefeituras e estados que remuneram por hora, que contratam por CLT. Ninguém para pensar nisso. Na contramão, o senador Cleitinho (Republicanos-DF) apoiou os dois dias de folga previstos na PEC e pediu que a matéria seja votada o quanto antes. Para ele, a pauta não é de esquerda ou de direita. — Essa pauta da questão da escala não é uma pauta ideológica, gente. Vai lá na rua, vai ao shopping, vai ao supermercado e pergunta ao trabalhador se ele é de esquerda ou de direita. Ele está se lixando para isso! Ele quer ter um pouco de dignidade, e eu tenho propriedade para falar disso, porque a vida inteira eu trabalhei nessa maldita escala — afirmou Cleitinho. Já o senador Izalci Lucas (PL-DF) disse à Agência Senado que \"ninguém é contra dar mais tempo de lazer e descanso para o trabalhador se dedicar à sua família\", mas que é preciso \"olhar para o mundo real da economia\". — A grande preocupação com essa proposta é: quem vai pagar essa conta? O impacto financeiro imediato sobre o setor produtivo, especialmente sobre as micro e pequenas empresas que operam com margens muito estreitas e poucos funcionários, pode ser devastador se a mudança for feita de forma abrupta. É preciso debater esse tema com muita responsabilidade fiscal e econômica, avaliando alternativas viáveis para que a redução de jornada não resulte em fechamento de comércios ou desemprego na ponta — expôs Izalci. À Agência Senado, o senador Humberto Costa (PT-PE) também manifestou voto favorável à proposta. Ele espera que a PEC seja analisada pelo Plenário antes do recesso parlamentar de julho. — Mesmo com uma oposição tacanha, que de tudo fez para criar obstáculos à aprovação da PEC, nós conseguimos uma estrondosa vitória. Eu espero que essa matéria seja rapidamente pautada no Senado e que possamos votá-la até antes do recesso parlamentar, em favor das trabalhadoras e dos trabalhadores brasileiros — afirmou Humberto Costa."
                   },
                   {
                       "title":  "Comissão aprova atendimento acessível a mulheres com deficiência vítimas de violência doméstica",
@@ -53,6 +144,13 @@
                       "summary":  "Receita exige envio da DASN-Simei mesmo sem faturamento; atraso gera multa e pode deixar CNPJ irregular. Leia mais em https://www.contabeis.com.br/noticias/77070/mei-tem-ate-domingo-31-para-entregar-declaracao-obrigatoria/"
                   },
                   {
+                      "title":  "Debatedores pedem controle estatal menor em política de minerais críticos",
+                      "url":  "https://www12.senado.leg.br/noticias/materias/2026/05/28/debatedores-pedem-controle-estatal-menor-em-politica-de-minerais-criticos",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T14:27:25.0000000+00:00",
+                      "summary":  "Em debate nesta quinta-feira (28) na Comissão de Infraestrutura (CI), representantes do setor de mineração defenderam a criação da política de minerais críticos que permita rapidez nas decisões, incentivos ao investimento privado e controle estatal equilibrado. A audiência pública foi a segunda da semana sobre o tema, a pedido do senador Wilder Morais (PL-GO). Ele é relator do Projeto de Lei (PL) 4.443/2025, do senador Renan Calheiros (MDB-AL), que cria a Política Nacional de Minerais Críticos e Estratégicos. Os minerais críticos, como cobalto, lítio, grafite e níquel, e as terras-raras, grupo de 17 elementos químicos da tabela periódica, são essenciais para projetos de transição energética e tecnologias de ponta, como painéis solares, smartphones, motores de veículos elétricos e equipamentos militares. O Brasil tem a segunda maior reserva global de terras-raras, ficando atrás apenas da China. As reservas nacionais de minerais críticos, como lítio, grafite e nióbio, também colocam o país em destaque mundial. Wilder alertou para o risco de o Brasil perder o que considerou uma janela de oportunidade aberta pela demanda global, caso as medidas de incentivo demorem a ser implementadas. — O mundo inteiro está atrás desses minerais críticos. A nossa missão aqui, como parlamentares, é que a gente não possa perder esse bonde. No estado de Goiás temos dois processos já bastante avançados em terras-raras, estamos apoiando de perto. Incentivos ao setor O presidente do Instituto Brasileiro de Mineração (Ibram), Pablo Cesário, afirmou que a mineração exige investimentos altos e de longo prazo, com alto risco. Segundo ele, a oportunidade existe porque, desde a pandemia de covid-19, as nações perceberam a necessidade de depender menos umas das outras — o que ele chamou de “fim da hiperglobalização”. Cesário defendeu pontos de outro projeto sobre o tema, o PL 2.780/2024, aprovado na Câmara no início de maio e em análise no Senado, que, segundo ele, prevê mais incentivos fiscais e benefícios de exportação. — Vamos ter que encontrar o equilíbrio fino entre o controle do Estado e a liberdade do mercado. Infelizmente, boa parte das nossas empresas mineradoras não se financia no Brasil; vai para o Canadá ou para a Austrália. O projeto da Câmara prevê incentivos fiscais de R$ 5 bilhões entre 2030 e 2034. E cria o Fundo Garantidor da Atividade Mineral, para cobrir eventuais inadimplências. O fundo será composto por até R$ 2 bilhões da União, além da receita de empresas ligadas à mineração. Lição do lítio A consultora do Centro Brasileiro de Relações Internacionais (Cebri), Rafaela Guedes, citou o exemplo da produção de lítio para afirmar que a futura política corre o risco de afastar investimentos se focar em barreiras para a exportação. Segundo ela, o ideal é o “incentivo condicionado a contrapartidas” das empresas. — No passado, o Brasil manteve restrição para exportação de lítio, para estimular o desenvolvimento industrial doméstico. Na prática, não produziu a cadeia robusta que se desejava. O que se observou foi um ambiente menos atrativo ao investimento. Quando o Estado tenta substituir, por comando normativo, condições que ainda não existem no mundo real, o risco é afastar investimento. Ela elogiou a política de impostos reduzidos para o setor de infraestrutura e de portos (Reidi e Reporto), cujos beneficiários precisam ter projetos previamente aprovados e não ter pendências fiscais para usufruir dos benefícios. O projeto de Renan estabelece um percentual mínimo de mineral para ser processado no Brasil antes da exportação do produto. Já o projeto da Câmara cria o Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos (Cimce), que pode determinar limites à exportação, como a vinculação a futuros parâmetros de industrialização nacional. Cimce Rafaela e o conselheiro da Associação Brasileira de Empresas de Pesquisa Mineral e Mineração (ABPM), Guilherme Simões Ferreira, criticaram o poder que o projeto da Câmara dá ao Cimce. Ferreira afirmou que conselhos com funções executivas costumam não ter estrutura suficiente para atender às demandas do setor em tempo adequado. — Já vivenciamos, na prática, essa situação. Quem exerce atividade no setor mineral sabe da morosidade da atividade de pesquisa em faixa de fronteira, porque precisa do atendimento prévio do Conselho de Defesa Nacional, e nem sempre há uma operacionalização que permite celeridade na tomada de decisão. Ambos defenderam a tramitação conjunta dos dois projetos. Mas, para Ferreira, o texto do Senado tem como foco “uma política de fomento à descoberta”, o que ele defendeu como mais eficiente do que uma política de “punição e controle” estabelecida na outra proposta. Estrutura limitada O diretor-geral da Agência Nacional de Mineração (ANM), Mauro Henrique Moreira Sousa, afirmou que o órgão não possui estrutura para receber as novas atribuições propostas, como a habilitação de projetos de pesquisa e desenvolvimento do setor e a fiscalização de sua aplicação. Segundo Moreira, a ANM possui poucas pessoas e está em processo de modernização do seu funcionamento. — Tem sido um debate permanente sobre a estruturação e o fortalecimento da ANM, e nós ainda não experimentamos essa questão de modo muito contundente. Moreira defendeu uma política “sem muita criatividade”, com investimento nas estruturas já existentes. É o caso das zonas de processamento, criadas pelo Poder Executivo em regiões de intensa mineração para atrair empresas focadas no tratamento dos materiais. As regiões contam com incentivos governamentais e com licenciamento ambiental especial, ambas as medidas previstas na proposta do Senado."
+                  },
+                  {
                       "title":  "Motta defende análise de impacto fiscal sobre mudanças no faturamento de MEI",
                       "url":  "https://www.camara.leg.br/noticias/1277356-motta-defende-analise-de-impacto-fiscal-sobre-mudancas-no-faturamento-de-mei/",
                       "source":  "Camara Economia",
@@ -67,109 +165,11 @@
                       "summary":  "Empresas do Simples Nacional enfrentam incertezas sobre créditos tributários, NF-e e desenquadramento após resolução do Comitê Gestor. Leia mais em https://www.contabeis.com.br/noticias/77066/reforma-tributaria-traz-incertezas-ao-simples-nacional-ja-em-2026/"
                   },
                   {
-                      "title":  "Comissão aprova projeto que pune gestor que não pagar piso salarial de professores",
-                      "url":  "https://www.camara.leg.br/noticias/1277247-comissao-aprova-projeto-que-pune-gestor-que-nao-pagar-piso-salarial-de-professores/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T13:47:00.0000000+00:00",
-                      "summary":  "Proposta continua em análise na Câmara dos Deputados"
-                  },
-                  {
-                      "title":  "Comissão aprova uso de nome religioso em órgãos públicos federais",
-                      "url":  "https://www.camara.leg.br/noticias/1277243-comissao-aprova-uso-de-nome-religioso-em-orgaos-publicos-federais/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T13:42:00.0000000+00:00",
-                      "summary":  "Projeto de lei continua em análise na Câmara dos Deputados"
-                  },
-                  {
-                      "title":  "O contador do futuro será um potencializador de negócios",
-                      "url":  "https://www.contabeis.com.br/noticias/77072/o-contador-do-futuro-sera-um-potencializador-de-negocios/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T10:30:01.0000000-03:00",
-                      "summary":  "Descubra como a tecnologia e os dados estão transformando o contador em um parceiro estratégico nas decisões de negócios, expandindo sua atuação. Leia mais em https://www.contabeis.com.br/noticias/77072/o-contador-do-futuro-sera-um-potencializador-de-negocios/"
-                  },
-                  {
-                      "title":  "Motta quer votar regulamentação da inteligência artificial até o final de junho",
-                      "url":  "https://www.camara.leg.br/noticias/1277316-motta-quer-votar-regulamentacao-da-inteligencia-artificial-ate-o-final-de-junho/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T13:22:00.0000000+00:00",
-                      "summary":  "Presidente da Câmara afirmou que proposta deve chegar ao Plenário até o fim de junho, durante evento sobre economia digital"
-                  },
-                  {
-                      "title":  "Câmara inicia sessão para analisar propostas; acompanhe",
-                      "url":  "https://www.camara.leg.br/noticias/1277293-camara-inicia-sessao-para-analisar-propostas-acompanhe/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T13:17:00.0000000+00:00",
-                      "summary":  ""
-                  },
-                  {
-                      "title":  "Comissão aprova projeto que exige autodeclaração de cor de candidatos e cria regras para cotas eleitorais",
-                      "url":  "https://www.camara.leg.br/noticias/1277245-comissao-aprova-projeto-que-exige-autodeclaracao-de-cor-de-candidatos-e-cria-regras-para-cotas-eleitorais/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T13:07:00.0000000+00:00",
-                      "summary":  "O texto ainda será analisado pela Comissão de Constituição e Justiça e pelo Plenário da Câmara; depois segue para análise do Senado"
-                  },
-                  {
-                      "title":  "Reforma tributária: CNC entrega 28 sugestões para regulamentação",
-                      "url":  "https://www.contabeis.com.br/noticias/77067/reforma-tributaria-cnc-entrega-28-sugestoes-para-regulamentacao/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T10:00:01.0000000-03:00",
-                      "summary":  "Entidade apresentou sugestões para reduzir custos, evitar insegurança jurídica e facilitar adaptação das empresas ao novo sistema tributário. Leia mais em https://www.contabeis.com.br/noticias/77067/reforma-tributaria-cnc-entrega-28-sugestoes-para-regulamentacao/"
-                  },
-                  {
-                      "title":  "Fim do 6x1: Brasil terá transição mais rápida que outros países",
-                      "url":  "https://www.contabeis.com.br/noticias/77068/fim-do-6x1-brasil-tera-transicao-mais-rapida-que-outros-paises/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T09:30:01.0000000-03:00",
-                      "summary":  "Emenda aprovada para fim da escala 6x1 prevê transição de 14 meses, enquanto países vizinhos estenderam prazo por até 5 anos. Leia mais em https://www.contabeis.com.br/noticias/77068/fim-do-6x1-brasil-tera-transicao-mais-rapida-que-outros-paises/"
-                  },
-                  {
-                      "title":  "Câmara pode votar propostas sobre impactos econômicos da guerra, feminicídio, educação e imunidade tributária",
-                      "url":  "https://www.camara.leg.br/noticias/1277268-camara-pode-votar-propostas-sobre-impactos-economicos-da-guerra-feminicidio-educacao-e-imunidade-tributaria/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T12:21:00.0000000+00:00",
-                      "summary":  "Pauta inclui propostas sobre imunidade tributária para organizações religiosas, TDAH e tratamento de jovens com dependência química"
-                  },
-                  {
-                      "title":  "Comissão debate políticas públicas de educação de jovens e adultos; participe",
-                      "url":  "https://www.camara.leg.br/noticias/1276588-comissao-debate-politicas-publicas-de-educacao-de-jovens-e-adultos-participe/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T12:21:00.0000000+00:00",
-                      "summary":  "Audiência pública discutirá o tema no contexto do 19º Encontro Nacional de Educação de Jovens e Adultos (Eneja)"
-                  },
-                  {
-                      "title":  "Câmara aprova fim da escala 6x1; veja proposta que avança ao Senado",
-                      "url":  "https://www.contabeis.com.br/noticias/77065/camara-aprova-fim-da-escala-6x1-veja-proposta-que-avanca-ao-senado/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T09:00:02.0000000-03:00",
-                      "summary":  "Proposta segue para o Senado e estabelece transição de dois dias de descanso remunerado e redução gradual de horas. Leia mais em https://www.contabeis.com.br/noticias/77065/camara-aprova-fim-da-escala-6x1-veja-proposta-que-avanca-ao-senado/"
-                  },
-                  {
-                      "title":  "Comissão promove debate sobre a APA Costa dos Corais; participe",
-                      "url":  "https://www.camara.leg.br/noticias/1276943-comissao-promove-debate-sobre-a-apa-costa-dos-corais-participe/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T11:55:00.0000000+00:00",
-                      "summary":  ""
-                  },
-                  {
-                      "title":  "Comissão debate impacto das bets na economia e na saúde pública",
-                      "url":  "https://www.camara.leg.br/noticias/1275747-comissao-debate-impacto-das-bets-na-economia-e-na-saude-publica/",
-                      "source":  "Camara Economia",
-                      "publishedAt":  "2026-05-28T11:35:00.0000000+00:00",
-                      "summary":  "Audiência pública discutirá o endividamento das famílias e o aumento da demanda por atendimento médico devido ao vício em jogos"
-                  },
-                  {
-                      "title":  "Antifraude se torna novo padrão de compliance para escritórios virtuais",
-                      "url":  "https://www.contabeis.com.br/noticias/77031/antifraude-se-torna-novo-padrao-de-compliance-para-escritorios-virtuais/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T08:30:02.0000000-03:00",
-                      "summary":  "Escritórios virtuais se tornam infraestrutura essencial para PMEs, com foco em segurança, governança e antifraude. Leia mais em https://www.contabeis.com.br/noticias/77031/antifraude-se-torna-novo-padrao-de-compliance-para-escritorios-virtuais/"
-                  },
-                  {
-                      "title":  "Comissão debate os 70 anos da Comissão Nacional de Energia Nuclear",
-                      "url":  "https://www.camara.leg.br/noticias/1276930-comissao-debate-os-70-anos-da-comissao-nacional-de-energia-nuclear/",
-                      "source":  "Camara Ultimas",
-                      "publishedAt":  "2026-05-28T11:27:00.0000000+00:00",
-                      "summary":  ""
+                      "title":  "Áudio: CDH aprova prazo de avaliação indeterminado para deficiência permanente",
+                      "url":  "https://www12.senado.leg.br/noticias/audios/2026/05/cdh-aprova-prazo-de-avaliacao-indeterminado-para-deficiencia-permanente",
+                      "source":  "Senado Noticias",
+                      "publishedAt":  "2026-05-28T13:56:48.0000000+00:00",
+                      "summary":  "Os prazos de validade para a avaliação biopsicossocial de deficiência podem aumentar, segundo um projeto aprovado na quarta-feira (27) pela Comissão de Direitos Humanos (CDH). Pelo texto, do senador Alan Rick (Republicanos-AC), relatado por Flávio Arns (PSB-PR), as novas avaliações devem durar cinco anos, nos casos de deficiência reversível ou progressiva. Já para deficiência permanente ou irreversível, o prazo deve ser indeterminado. O texto segue para votação na Comissão de Assuntos Sociais (CAS)."
                   }
               ]
 };
