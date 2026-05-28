@@ -1,6 +1,8 @@
 # Allowlist deployment for static site only
 /*
 !index.html
+!privacidade.html
+!speed-insights.js
 !styles.css
 !script.js
 !assets

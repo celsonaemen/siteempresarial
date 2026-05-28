@@ -185,6 +185,8 @@ if (whatsappForm instanceof HTMLFormElement) {
       `Interesse: ${interesse}`,
       `Regime tributário: ${regime}`,
       `Mensagem: ${mensagem}`,
+      "",
+      "Privacidade: usuário ciente do uso dos dados para atendimento via WhatsApp.",
     ].join("\n");
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;

@@ -1097,8 +1097,41 @@ textarea {
 }
 
 .contact-form label:nth-of-type(5),
+.privacy-consent,
 .contact-form .button {
   grid-column: 1 / -1;
+}
+
+.contact-form .privacy-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: -2px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.privacy-consent input {
+  width: auto;
+  min-width: 18px;
+  margin-top: 2px;
+  padding: 0;
+  box-shadow: none;
+  accent-color: var(--green);
+}
+
+.privacy-consent a {
+  color: var(--green-dark);
+  font-weight: 800;
+  border-bottom: 1px solid rgba(23, 98, 72, 0.34);
+}
+
+.privacy-consent a:hover,
+.privacy-consent a:focus-visible {
+  color: var(--blue);
+  outline: none;
 }
 
 .contact-form input:focus,
@@ -1124,6 +1157,81 @@ textarea {
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.privacy-main {
+  width: min(var(--max-width), 100%);
+  margin: 0 auto;
+  padding: 124px 24px 72px;
+}
+
+.privacy-hero {
+  display: grid;
+  gap: 14px;
+  max-width: 820px;
+  margin-bottom: 34px;
+}
+
+.privacy-hero h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+}
+
+.privacy-hero p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.privacy-content {
+  display: grid;
+  gap: 22px;
+  max-width: 920px;
+}
+
+.privacy-block {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 16px 42px rgba(24, 35, 31, 0.08);
+}
+
+.privacy-block h2 {
+  margin: 0 0 10px;
+  font-size: 1.22rem;
+}
+
+.privacy-block p,
+.privacy-block li {
+  color: var(--muted);
+}
+
+.privacy-block p {
+  margin: 0;
+}
+
+.privacy-block p + p {
+  margin-top: 10px;
+}
+
+.privacy-block ul {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.privacy-block a {
+  color: var(--green-dark);
+  font-weight: 800;
+  border-bottom: 1px solid rgba(23, 98, 72, 0.34);
+}
+
+.privacy-block a:hover,
+.privacy-block a:focus-visible {
+  color: var(--blue);
+  outline: none;
 }
 
 .footer-toggle {
