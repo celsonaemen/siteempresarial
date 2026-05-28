@@ -133,11 +133,15 @@ if (contactLinks.length) {
 }
 
 if (body.classList.contains("motion-on")) {
+  const revealItem = (item) => item.classList.add("is-visible");
+  const revealAllItems = () => revealTargets.forEach(revealItem);
+
   body.classList.add("motion-ready");
 
   if (!("IntersectionObserver" in window)) {
-    revealTargets.forEach((item) => item.classList.add("is-visible"));
+    revealAllItems();
   } else {
+    const revealFallbackId = window.setTimeout(revealAllItems, 1800);
     const revealObserver = new IntersectionObserver(
       (entries, observer) => {
         entries.forEach((entry) => {
@@ -145,18 +149,31 @@ if (body.classList.contains("motion-on")) {
             return;
           }
 
-          entry.target.classList.add("is-visible");
+          revealItem(entry.target);
           observer.unobserve(entry.target);
         });
+
+        if (Array.from(revealTargets).every((item) => item.classList.contains("is-visible"))) {
+          window.clearTimeout(revealFallbackId);
+        }
       },
       {
         root: null,
-        threshold: 0.16,
-        rootMargin: "0px 0px -30px 0px",
+        threshold: 0.06,
+        rootMargin: "0px 0px 180px 0px",
       },
     );
 
-    revealTargets.forEach((item) => revealObserver.observe(item));
+    revealTargets.forEach((item) => {
+      const rect = item.getBoundingClientRect();
+
+      if (rect.top < window.innerHeight + 180) {
+        revealItem(item);
+        return;
+      }
+
+      revealObserver.observe(item);
+    });
   }
 }
 
