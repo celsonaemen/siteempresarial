@@ -1,0 +1,22 @@
+﻿{
+    "generatedAt":  "2026-05-28T16:28:22.5585537Z",
+    "sourceCount":  2,
+    "items":  {
+                  "USDBRL":  {
+                                 "value":  5.0557,
+                                 "pctChange":  -0.339053
+                             },
+                  "EURBRL":  {
+                                 "value":  5.88582,
+                                 "pctChange":  -8.3E-05
+                             },
+                  "BTCBRL":  {
+                                 "value":  367829,
+                                 "pctChange":  -3.493
+                             },
+                  "SELIC":  {
+                                "value":  14.5,
+                                "date":  "17/06/2026"
+                            }
+              }
+}

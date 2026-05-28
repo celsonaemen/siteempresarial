@@ -1,10 +1,12 @@
 const newsList = document.querySelector("[data-news-list]");
 const newsUpdated = document.querySelector("[data-news-updated]");
 const marketUpdated = document.querySelector("[data-market-updated]");
+
 const NEWS_DATA_URL = "./data/noticias.json";
-const INLINE_DATA_KEY = "ALMENARA_NEWS_DATA";
-const MARKET_QUOTES_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL";
-const MARKET_SELIC_URL = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json";
+const MARKET_DATA_URL = "./data/mercado.json";
+
+const INLINE_NEWS_KEY = "ALMENARA_NEWS_DATA";
+const INLINE_MARKET_KEY = "ALMENARA_MARKET_DATA";
 
 const formatDateTime = (value) => {
   if (!value) {
@@ -144,7 +146,7 @@ const renderNewsItems = (items) => {
   return true;
 };
 
-const applyPayload = (payload) => {
+const applyNewsPayload = (payload) => {
   if (!payload || !Array.isArray(payload.items)) {
     return false;
   }
@@ -160,10 +162,74 @@ const applyPayload = (payload) => {
   return rendered;
 };
 
-let hasInlineRender = false;
-const inlinePayload = globalThis[INLINE_DATA_KEY];
-if (inlinePayload) {
-  hasInlineRender = applyPayload(inlinePayload);
+const applyMarketPayload = (payload) => {
+  if (!payload || !payload.items) {
+    return false;
+  }
+
+  const usd = payload.items.USDBRL;
+  const eur = payload.items.EURBRL;
+  const btc = payload.items.BTCBRL;
+  const selic = payload.items.SELIC;
+
+  const hasAnyData = Boolean(usd || eur || btc || selic);
+  if (!hasAnyData) {
+    return false;
+  }
+
+  setMarketText(
+    "USDBRL",
+    formatMoney(usd?.value),
+    `Variação diária: ${formatPercent(usd?.pctChange)}`,
+  );
+  setMarketText(
+    "EURBRL",
+    formatMoney(eur?.value),
+    `Variação diária: ${formatPercent(eur?.pctChange)}`,
+  );
+  setMarketText(
+    "BTCBRL",
+    formatMoney(btc?.value),
+    `Variação diária: ${formatPercent(btc?.pctChange)}`,
+  );
+  setMarketText(
+    "SELIC",
+    Number.isFinite(Number(selic?.value))
+      ? `${Number(selic.value).toFixed(2).replace(".", ",")}% a.a.`
+      : "--",
+    selic?.date ? `Último valor oficial: ${selic.date}` : "Último valor oficial: --",
+  );
+
+  if (marketUpdated instanceof HTMLElement) {
+    marketUpdated.textContent = payload.generatedAt
+      ? `Indicadores atualizados em ${formatDateTime(payload.generatedAt)}`
+      : "Indicadores atualizados.";
+  }
+
+  return true;
+};
+
+const renderMarketUnavailable = () => {
+  setMarketText("USDBRL", "--", "Variação diária: indisponível");
+  setMarketText("EURBRL", "--", "Variação diária: indisponível");
+  setMarketText("BTCBRL", "--", "Variação diária: indisponível");
+  setMarketText("SELIC", "--", "Último valor oficial: indisponível");
+
+  if (marketUpdated instanceof HTMLElement) {
+    marketUpdated.textContent = "Indicadores indisponíveis no momento.";
+  }
+};
+
+let hasInlineNews = false;
+const inlineNewsPayload = globalThis[INLINE_NEWS_KEY];
+if (inlineNewsPayload) {
+  hasInlineNews = applyNewsPayload(inlineNewsPayload);
+}
+
+let hasInlineMarket = false;
+const inlineMarketPayload = globalThis[INLINE_MARKET_KEY];
+if (inlineMarketPayload) {
+  hasInlineMarket = applyMarketPayload(inlineMarketPayload);
 }
 
 const loadNews = async () => {
@@ -173,10 +239,8 @@ const loadNews = async () => {
 
   // Em file://, muitos navegadores bloqueiam fetch de JSON local.
   if (window.location.protocol === "file:") {
-    if (newsUpdated instanceof HTMLElement) {
-      if (!hasInlineRender) {
-        newsUpdated.textContent = "Atualização em andamento.";
-      }
+    if (newsUpdated instanceof HTMLElement && !hasInlineNews) {
+      newsUpdated.textContent = "Atualização em andamento.";
     }
     return;
   }
@@ -188,15 +252,15 @@ const loadNews = async () => {
     }
 
     const payload = await response.json();
-    const rendered = applyPayload(payload);
-    if (!rendered && !hasInlineRender) {
+    const rendered = applyNewsPayload(payload);
+    if (!rendered && !hasInlineNews) {
       renderStateCard(
         "Sem notícias no momento",
         "Estamos atualizando os destaques. Tente novamente em instantes.",
       );
     }
   } catch (error) {
-    if (!hasInlineRender) {
+    if (!hasInlineNews) {
       renderStateCard(
         "Falha ao carregar notícias",
         "Não foi possível carregar agora. Tente novamente em instantes.",
@@ -216,63 +280,33 @@ const loadMarket = async () => {
     return;
   }
 
-  marketUpdated.textContent = "Atualizando indicadores...";
+  if (!hasInlineMarket) {
+    marketUpdated.textContent = "Atualizando indicadores...";
+  }
+
+  // Em file://, muitos navegadores bloqueiam fetch de JSON local.
+  if (window.location.protocol === "file:") {
+    if (!hasInlineMarket) {
+      marketUpdated.textContent = "Atualização em andamento.";
+    }
+    return;
+  }
 
   try {
-    const [quotesResponse, selicResponse] = await Promise.all([
-      fetch(`${MARKET_QUOTES_URL}?v=${Date.now()}`, { cache: "no-store" }),
-      fetch(`${MARKET_SELIC_URL}&v=${Date.now()}`, { cache: "no-store" }),
-    ]);
-
-    if (!quotesResponse.ok) {
-      throw new Error(`Quotes HTTP ${quotesResponse.status}`);
+    const response = await fetch(`${MARKET_DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
     }
 
-    if (!selicResponse.ok) {
-      throw new Error(`Selic HTTP ${selicResponse.status}`);
+    const payload = await response.json();
+    const rendered = applyMarketPayload(payload);
+    if (!rendered && !hasInlineMarket) {
+      renderMarketUnavailable();
     }
-
-    const quotesPayload = await quotesResponse.json();
-    const selicPayload = await selicResponse.json();
-
-    const usd = quotesPayload?.USDBRL;
-    const eur = quotesPayload?.EURBRL;
-    const btc = quotesPayload?.BTCBRL;
-    const selic = Array.isArray(selicPayload) ? selicPayload[0] : null;
-
-    setMarketText(
-      "USDBRL",
-      formatMoney(usd?.bid),
-      `Variação diária: ${formatPercent(usd?.pctChange)}`,
-    );
-    setMarketText(
-      "EURBRL",
-      formatMoney(eur?.bid),
-      `Variação diária: ${formatPercent(eur?.pctChange)}`,
-    );
-    setMarketText(
-      "BTCBRL",
-      formatMoney(btc?.bid),
-      `Variação diária: ${formatPercent(btc?.pctChange)}`,
-    );
-    setMarketText(
-      "SELIC",
-      Number.isFinite(Number(selic?.valor))
-        ? `${Number(selic.valor).toFixed(2).replace(".", ",")}% a.a.`
-        : "--",
-      selic?.data ? `Último valor oficial: ${selic.data}` : "Último valor oficial: --",
-    );
-
-    marketUpdated.textContent = `Indicadores atualizados em ${new Intl.DateTimeFormat("pt-BR", {
-      dateStyle: "short",
-      timeStyle: "short",
-    }).format(new Date())}`;
   } catch (error) {
-    setMarketText("USDBRL", "--", "Variação diária: indisponível");
-    setMarketText("EURBRL", "--", "Variação diária: indisponível");
-    setMarketText("BTCBRL", "--", "Variação diária: indisponível");
-    setMarketText("SELIC", "--", "Último valor oficial: indisponível");
-    marketUpdated.textContent = "Indicadores indisponíveis no momento.";
+    if (!hasInlineMarket) {
+      renderMarketUnavailable();
+    }
     console.error("Erro ao carregar indicadores de mercado:", error);
   }
 };
