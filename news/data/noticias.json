@@ -4,25 +4,25 @@
     "itemCount":  3,
     "items":  [
                   {
-                      "title":  "Reforma tributaria: acompanhe os destaques no Senado",
+                      "title":  "Reforma tributária: acompanhe os destaques no Senado",
                       "url":  "https://www12.senado.leg.br/noticias/destaques/reforma-tributaria",
-                      "source":  "Senado Noticias",
+                      "source":  "Senado Notícias",
                       "publishedAt":  "",
-                      "summary":  "Pagina oficial com noticias e andamento dos temas relacionados a reforma tributaria."
+                      "summary":  "Página oficial com notícias e andamento dos temas relacionados à reforma tributária."
                   },
                   {
-                      "title":  "Economia na Camara: feed oficial",
+                      "title":  "Economia na Câmara: feed oficial",
                       "url":  "https://www.camara.leg.br/noticias/rss/dinamico/ECONOMIA",
-                      "source":  "Camara dos Deputados",
+                      "source":  "Câmara dos Deputados",
                       "publishedAt":  "",
-                      "summary":  "Canal RSS oficial para acompanhar publicacoes de economia no legislativo."
+                      "summary":  "Canal RSS oficial para acompanhar publicações de economia no legislativo."
                   },
                   {
-                      "title":  "Portal Contabeis: noticias e legislacao",
+                      "title":  "Portal Contábeis: notícias e legislação",
                       "url":  "https://www.contabeis.com.br/rss/noticias/",
-                      "source":  "Portal Contabeis",
+                      "source":  "Portal Contábeis",
                       "publishedAt":  "",
-                      "summary":  "Feed setorial com noticias contabeis, fiscais e tributarias para rotina empresarial."
+                      "summary":  "Feed setorial com notícias contábeis, fiscais e tributárias para rotina empresarial."
                   }
               ]
 }

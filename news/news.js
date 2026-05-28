@@ -1,16 +1,19 @@
 const newsList = document.querySelector("[data-news-list]");
 const newsUpdated = document.querySelector("[data-news-updated]");
+const marketUpdated = document.querySelector("[data-market-updated]");
 const NEWS_DATA_URL = "./data/noticias.json";
 const INLINE_DATA_KEY = "ALMENARA_NEWS_DATA";
+const MARKET_QUOTES_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL";
+const MARKET_SELIC_URL = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json";
 
 const formatDateTime = (value) => {
   if (!value) {
-    return "Data nao informada";
+    return "Data não informada";
   }
 
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) {
-    return "Data nao informada";
+    return "Data não informada";
   }
 
   return new Intl.DateTimeFormat("pt-BR", {
@@ -22,7 +25,7 @@ const formatDateTime = (value) => {
 const truncateText = (value, maxLength) => {
   const text = String(value || "").trim();
   if (!text) {
-    return "Clique para abrir a noticia completa.";
+    return "Clique para abrir a notícia completa.";
   }
 
   if (text.length <= maxLength) {
@@ -30,6 +33,40 @@ const truncateText = (value, maxLength) => {
   }
 
   return `${text.slice(0, maxLength).trimEnd()}...`;
+};
+
+const formatMoney = (value) => {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
+    return "--";
+  }
+
+  return new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  }).format(number);
+};
+
+const formatPercent = (value) => {
+  const number = Number(value);
+  if (!Number.isFinite(number)) {
+    return "--";
+  }
+
+  return `${number.toFixed(2).replace(".", ",")}%`;
+};
+
+const setMarketText = (key, value, meta) => {
+  const valueNode = document.querySelector(`[data-market-value="${key}"]`);
+  const metaNode = document.querySelector(`[data-market-meta="${key}"]`);
+
+  if (valueNode instanceof HTMLElement) {
+    valueNode.textContent = value;
+  }
+
+  if (metaNode instanceof HTMLElement) {
+    metaNode.textContent = meta;
+  }
 };
 
 const renderStateCard = (title, message) => {
@@ -56,7 +93,7 @@ const buildNewsCard = (item) => {
   article.className = "news-card news-live-card";
 
   const title = document.createElement("h3");
-  title.textContent = String(item.title || "Noticia sem titulo");
+  title.textContent = String(item.title || "Notícia sem título");
 
   const summary = document.createElement("p");
   summary.textContent = truncateText(item.summary, 180);
@@ -65,7 +102,7 @@ const buildNewsCard = (item) => {
   meta.className = "news-meta";
 
   const source = document.createElement("span");
-  source.textContent = String(item.source || "Fonte nao informada");
+  source.textContent = String(item.source || "Fonte não informada");
 
   const published = document.createElement("span");
   published.textContent = formatDateTime(item.publishedAt);
@@ -79,7 +116,7 @@ const buildNewsCard = (item) => {
   link.href = String(item.url || "#");
   link.target = "_blank";
   link.rel = "noopener";
-  link.textContent = "Abrir noticia";
+  link.textContent = "Abrir notícia";
 
   links.append(link);
   article.append(title, summary, meta, links);
@@ -94,7 +131,7 @@ const renderNewsItems = (items) => {
 
   if (!Array.isArray(items) || !items.length) {
     renderStateCard(
-      "Sem noticias no momento",
+      "Sem notícias no momento",
       "Estamos atualizando os destaques. Tente novamente em instantes.",
     );
     return false;
@@ -138,7 +175,7 @@ const loadNews = async () => {
   if (window.location.protocol === "file:") {
     if (newsUpdated instanceof HTMLElement) {
       if (!hasInlineRender) {
-        newsUpdated.textContent = "Atualizacao em andamento.";
+        newsUpdated.textContent = "Atualização em andamento.";
       }
     }
     return;
@@ -154,24 +191,91 @@ const loadNews = async () => {
     const rendered = applyPayload(payload);
     if (!rendered && !hasInlineRender) {
       renderStateCard(
-        "Sem noticias no momento",
+        "Sem notícias no momento",
         "Estamos atualizando os destaques. Tente novamente em instantes.",
       );
     }
   } catch (error) {
     if (!hasInlineRender) {
       renderStateCard(
-        "Falha ao carregar noticias",
-        "Nao foi possivel carregar agora. Tente novamente em instantes.",
+        "Falha ao carregar notícias",
+        "Não foi possível carregar agora. Tente novamente em instantes.",
       );
 
       if (newsUpdated instanceof HTMLElement) {
-        newsUpdated.textContent = "Atualizacao indisponivel no momento.";
+        newsUpdated.textContent = "Atualização indisponível no momento.";
       }
     }
 
-    console.error("Erro ao carregar noticias:", error);
+    console.error("Erro ao carregar notícias:", error);
+  }
+};
+
+const loadMarket = async () => {
+  if (!(marketUpdated instanceof HTMLElement)) {
+    return;
+  }
+
+  marketUpdated.textContent = "Atualizando indicadores...";
+
+  try {
+    const [quotesResponse, selicResponse] = await Promise.all([
+      fetch(`${MARKET_QUOTES_URL}?v=${Date.now()}`, { cache: "no-store" }),
+      fetch(`${MARKET_SELIC_URL}&v=${Date.now()}`, { cache: "no-store" }),
+    ]);
+
+    if (!quotesResponse.ok) {
+      throw new Error(`Quotes HTTP ${quotesResponse.status}`);
+    }
+
+    if (!selicResponse.ok) {
+      throw new Error(`Selic HTTP ${selicResponse.status}`);
+    }
+
+    const quotesPayload = await quotesResponse.json();
+    const selicPayload = await selicResponse.json();
+
+    const usd = quotesPayload?.USDBRL;
+    const eur = quotesPayload?.EURBRL;
+    const btc = quotesPayload?.BTCBRL;
+    const selic = Array.isArray(selicPayload) ? selicPayload[0] : null;
+
+    setMarketText(
+      "USDBRL",
+      formatMoney(usd?.bid),
+      `Variação diária: ${formatPercent(usd?.pctChange)}`,
+    );
+    setMarketText(
+      "EURBRL",
+      formatMoney(eur?.bid),
+      `Variação diária: ${formatPercent(eur?.pctChange)}`,
+    );
+    setMarketText(
+      "BTCBRL",
+      formatMoney(btc?.bid),
+      `Variação diária: ${formatPercent(btc?.pctChange)}`,
+    );
+    setMarketText(
+      "SELIC",
+      Number.isFinite(Number(selic?.valor))
+        ? `${Number(selic.valor).toFixed(2).replace(".", ",")}% a.a.`
+        : "--",
+      selic?.data ? `Último valor oficial: ${selic.data}` : "Último valor oficial: --",
+    );
+
+    marketUpdated.textContent = `Indicadores atualizados em ${new Intl.DateTimeFormat("pt-BR", {
+      dateStyle: "short",
+      timeStyle: "short",
+    }).format(new Date())}`;
+  } catch (error) {
+    setMarketText("USDBRL", "--", "Variação diária: indisponível");
+    setMarketText("EURBRL", "--", "Variação diária: indisponível");
+    setMarketText("BTCBRL", "--", "Variação diária: indisponível");
+    setMarketText("SELIC", "--", "Último valor oficial: indisponível");
+    marketUpdated.textContent = "Indicadores indisponíveis no momento.";
+    console.error("Erro ao carregar indicadores de mercado:", error);
   }
 };
 
 loadNews();
+loadMarket();

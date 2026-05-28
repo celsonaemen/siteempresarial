@@ -171,19 +171,19 @@ if (whatsappForm instanceof HTMLFormElement) {
     }
 
     const formData = new FormData(whatsappForm);
-    const nome = String(formData.get("nome") || "").trim() || "Nao informado";
-    const empresa = String(formData.get("empresa") || "").trim() || "Nao informado";
-    const interesse = String(formData.get("interesse") || "").trim() || "Nao informado";
-    const regime = String(formData.get("regime") || "").trim() || "Nao informado";
-    const mensagem = String(formData.get("mensagem") || "").trim() || "Nao informado";
+    const nome = String(formData.get("nome") || "").trim() || "Não informado";
+    const empresa = String(formData.get("empresa") || "").trim() || "Não informado";
+    const interesse = String(formData.get("interesse") || "").trim() || "Não informado";
+    const regime = String(formData.get("regime") || "").trim() || "Não informado";
+    const mensagem = String(formData.get("mensagem") || "").trim() || "Não informado";
 
     const text = [
-      "Ola! Vim pelo site da Almenara Contabilidade e quero solicitar atendimento.",
+      "Olá! Vim pelo site da Almenara Contabilidade e quero solicitar atendimento.",
       "",
       `Nome: ${nome}`,
       `Empresa: ${empresa}`,
       `Interesse: ${interesse}`,
-      `Regime tributario: ${regime}`,
+      `Regime tributário: ${regime}`,
       `Mensagem: ${mensagem}`,
     ].join("\n");
 
