@@ -542,16 +542,12 @@ textarea {
 }
 
 .about-lead {
-  display: grid;
-  align-content: start;
-  gap: 20px;
+  display: block;
 }
 
 .about-visual {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  min-height: 260px;
-  max-height: 360px;
+  width: min(100%, 460px);
+  margin-top: 24px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(24, 35, 31, 0.1);
@@ -1646,15 +1642,6 @@ textarea {
     gap: 24px;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-
-  .about-lead {
-    gap: 16px;
-  }
-
-  .about-visual {
-    min-height: 220px;
-    max-height: none;
   }
 
   .section h2,
