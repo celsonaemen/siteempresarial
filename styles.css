@@ -547,11 +547,31 @@ textarea {
 
 .about-visual {
   width: min(100%, 460px);
+  display: block;
   margin-top: 24px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(24, 35, 31, 0.1);
   object-fit: cover;
+  transform-origin: 50% 50%;
+  transition:
+    transform 280ms ease,
+    box-shadow 220ms ease,
+    filter 280ms ease;
+}
+
+.motion-on .about-visual {
+  opacity: 0;
+  animation:
+    aboutVisualFadeIn 900ms ease-out 180ms forwards,
+    aboutVisualFloat 7.8s ease-in-out 1.3s infinite;
+}
+
+.motion-on .about-visual:hover,
+.motion-on .about-visual:focus-visible {
+  transform: translateY(-3px) scale(1.015);
+  box-shadow: 0 18px 42px rgba(24, 35, 31, 0.16);
+  filter: saturate(1.03);
 }
 
 .section h2,
@@ -1991,6 +2011,27 @@ textarea {
   }
 }
 
+@keyframes aboutVisualFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-6px) scale(1.01);
+  }
+}
+
+@keyframes aboutVisualFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .motion-on .hero-media {
   animation: heroDrift 18s ease-in-out infinite;
   transform-origin: center;
@@ -2119,6 +2160,7 @@ textarea {
   .motion-on .hero h1,
   .motion-on .hero-text,
   .motion-on .hero-actions,
+  .motion-on .about-visual,
   .motion-on .contact-form.is-highlighted,
   .button-fizzy::before,
   .button-fizzy::after,
@@ -2147,5 +2189,10 @@ textarea {
   .motion-on.motion-ready .contact-copy.is-visible p,
   .motion-on.motion-ready .contact-copy.is-visible .contact-actions {
     animation: none;
+  }
+
+  .motion-on .about-visual {
+    opacity: 1;
+    transition: none;
   }
 }
