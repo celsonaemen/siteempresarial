@@ -163,6 +163,139 @@ function Get-ItemPublishedAt {
   return $null
 }
 
+function Convert-ToSearchText {
+  param([AllowNull()][string]$Value)
+
+  if ([string]::IsNullOrWhiteSpace($Value)) {
+    return ""
+  }
+
+  $normalized = $Value.Normalize([Text.NormalizationForm]::FormD)
+  $builder = New-Object Text.StringBuilder
+
+  foreach ($character in $normalized.ToCharArray()) {
+    $category = [Globalization.CharUnicodeInfo]::GetUnicodeCategory($character)
+    if ($category -ne [Globalization.UnicodeCategory]::NonSpacingMark) {
+      [void]$builder.Append($character)
+    }
+  }
+
+  return $builder.ToString().ToLowerInvariant()
+}
+
+$strongRelevanceTerms = @(
+  "contabil",
+  "contabilidade",
+  "contabeis",
+  "contador",
+  "tribut",
+  "fiscal",
+  "imposto",
+  "receita federal",
+  "reforma tributaria",
+  "nota fiscal",
+  "simples nacional"
+)
+
+$strongRelevanceCodes = @(
+  "nf-e",
+  "nfe",
+  "sped",
+  "esocial",
+  "dctf",
+  "irpf",
+  "irpj",
+  "csll",
+  "pis",
+  "cofins",
+  "icms",
+  "iss",
+  "inss",
+  "fgts"
+)
+
+$mediumRelevanceTerms = @(
+  "folha",
+  "trabalhista",
+  "departamento pessoal",
+  "empregador",
+  "salario minimo",
+  "empresa",
+  "empresas",
+  "empreendedor",
+  "negocio"
+)
+
+$mediumRelevanceCodes = @(
+  "cnpj",
+  "mei"
+)
+
+function Test-SearchCode {
+  param(
+    [string]$Text,
+    [string]$Code
+  )
+
+  $pattern = "(^|[^a-z0-9])" + [regex]::Escape($Code) + "([^a-z0-9]|$)"
+  return [regex]::IsMatch($Text, $pattern)
+}
+
+function Get-NewsRelevanceScore {
+  param($Item)
+
+  $searchText = Convert-ToSearchText "$($Item.title) $($Item.summary) $($Item.source)"
+  $score = 0
+
+  foreach ($term in $strongRelevanceTerms) {
+    if ($searchText.Contains($term)) {
+      $score += 3
+    }
+  }
+
+  foreach ($code in $strongRelevanceCodes) {
+    if (Test-SearchCode -Text $searchText -Code $code) {
+      $score += 3
+    }
+  }
+
+  foreach ($term in $mediumRelevanceTerms) {
+    if ($searchText.Contains($term)) {
+      $score += 1
+    }
+  }
+
+  foreach ($code in $mediumRelevanceCodes) {
+    if (Test-SearchCode -Text $searchText -Code $code) {
+      $score += 1
+    }
+  }
+
+  if ($Item.source -like "Portal Contabeis*") {
+    $score += 2
+  }
+
+  if ($Item.source -eq "Camara Economia") {
+    $score += 1
+  }
+
+  return $score
+}
+
+function Get-NewsMinimumScore {
+  param($Item)
+
+  if ($Item.source -eq "Senado Noticias" -or $Item.source -eq "Camara Ultimas") {
+    return 6
+  }
+
+  if ($Item.source -eq "Camara Economia") {
+    return 4
+  }
+
+  return 3
+}
+
 $collected = New-Object System.Collections.Generic.List[object]
 
 foreach ($feed in $feedSources) {
@@ -197,9 +330,22 @@ foreach ($feed in $feedSources) {
   }
 }
 
-$topItems = $collected |
+$dedupedItems = $collected |
   Group-Object -Property url |
-  ForEach-Object { $_.Group | Select-Object -First 1 } |
+  ForEach-Object { $_.Group | Select-Object -First 1 }
+
+$rankedItems = $dedupedItems | ForEach-Object {
+  $_ | Add-Member -NotePropertyName relevanceScore -NotePropertyValue (Get-NewsRelevanceScore -Item $_) -Force
+  $_
+}
+
+$relevantItems = $rankedItems | Where-Object { $_.relevanceScore -ge (Get-NewsMinimumScore -Item $_) }
+
+if (@($relevantItems).Count -eq 0 -and @($rankedItems).Count -gt 0) {
+  Write-Warning "Nenhuma noticia passou pelo filtro de relevancia. Tentando manter o arquivo anterior."
+}
+
+$topItems = $relevantItems |
   Sort-Object -Property sortKey -Descending |
   Select-Object -First $MaxItems |
   Select-Object title, url, source, publishedAt, summary
@@ -219,6 +365,14 @@ if ((@($topItems).Count -eq 0) -and (Test-Path -LiteralPath $OutputPath)) {
   } catch {
     Write-Warning "Nao foi possivel ler o arquivo anterior. O JSON sera salvo vazio."
   }
+}
+
+if ((@($topItems).Count -eq 0) -and (@($rankedItems).Count -gt 0)) {
+  Write-Warning "Usando feeds sem filtro apenas como contingencia para nao deixar a pagina vazia."
+  $topItems = $rankedItems |
+    Sort-Object -Property sortKey -Descending |
+    Select-Object -First $MaxItems |
+    Select-Object title, url, source, publishedAt, summary
 }
 
 $payload = [PSCustomObject]@{
