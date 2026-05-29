@@ -580,6 +580,35 @@ textarea {
   list-style: none;
 }
 
+.about-focus-card {
+  margin-top: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #f4f7f5;
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.about-focus-image {
+  width: 100%;
+  max-height: 168px;
+  border-radius: calc(var(--radius) - 2px);
+  object-fit: cover;
+  border: 1px solid rgba(24, 35, 31, 0.08);
+}
+
+.about-focus-copy h3 {
+  margin: 0 0 6px;
+  color: var(--green-dark);
+  font-size: 1.04rem;
+}
+
+.about-focus-copy p {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
 .detail-list li {
   display: flex;
   justify-content: space-between;
