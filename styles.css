@@ -1325,7 +1325,7 @@ textarea {
 
 .footer-company-card {
   width: min(620px, 100%);
-  min-height: 102px;
+  min-height: 126px;
   perspective: 1100px;
   outline: none;
 }
@@ -1333,7 +1333,7 @@ textarea {
 .footer-company-inner {
   position: relative;
   width: 100%;
-  min-height: 102px;
+  min-height: 126px;
   transition: transform 620ms cubic-bezier(0.16, 1, 0.3, 1);
   transform-style: preserve-3d;
 }
@@ -1351,7 +1351,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   gap: 4px;
-  min-height: 102px;
+  min-height: 126px;
   padding: 12px 16px;
   border: 1px solid rgba(223, 229, 223, 0.9);
   border-radius: 14px;
@@ -1373,6 +1373,8 @@ textarea {
 
 .footer-company-back {
   transform: rotateY(180deg);
+  overflow: hidden;
+  padding: 0;
 }
 
 .footer-company-back strong {
@@ -1382,6 +1384,62 @@ textarea {
 .footer-company-back span {
   font-size: 0.82rem;
   line-height: 1.25;
+}
+
+.footer-visit-photo {
+  position: absolute;
+  inset: 8px;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 12px;
+  box-shadow: 0 14px 30px rgba(24, 35, 31, 0.16);
+  transform-origin: 92% 50%;
+  transition:
+    transform 980ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 780ms ease,
+    filter 780ms ease;
+  transition-delay: 260ms;
+}
+
+.footer-visit-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.footer-visit-info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 126px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding: 12px 16px;
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 480ms ease,
+    transform 620ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.footer-company-card:hover .footer-visit-photo,
+.footer-company-card:focus-visible .footer-visit-photo,
+.footer-company-card:focus-within .footer-visit-photo {
+  opacity: 0.2;
+  filter: saturate(0.85);
+  transform: translateX(38%) scale(0.26);
+  transition-delay: 620ms;
+}
+
+.footer-company-card:hover .footer-visit-info,
+.footer-company-card:focus-visible .footer-visit-info,
+.footer-company-card:focus-within .footer-visit-info {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 940ms;
 }
 
 .footer-company-link {
@@ -1761,7 +1819,18 @@ textarea {
   .footer-company-card,
   .footer-company-inner,
   .footer-company-face {
-    min-height: 112px;
+    min-height: 154px;
+  }
+
+  .footer-visit-info {
+    min-height: 154px;
+  }
+
+  .footer-company-card:hover .footer-visit-photo,
+  .footer-company-card:focus-visible .footer-visit-photo,
+  .footer-company-card:focus-within .footer-visit-photo {
+    opacity: 0.16;
+    transform: translateX(34%) scale(0.22);
   }
 
   .footer-actions {
