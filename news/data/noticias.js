@@ -1,175 +1,175 @@
-﻿window.ALMENARA_NEWS_DATA = {
-    "generatedAt":  "2026-05-29T19:52:46.2672740Z",
-    "sourceCount":  5,
-    "itemCount":  24,
-    "items":  [
-                  {
-                      "title":  "Governo estuda ampliar contratações no MEI após avanço do fim da escala 6x1",
-                      "url":  "https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T16:30:01.0000000-03:00",
-                      "summary":  "Câmara discute aumento do teto do MEI e possibilidade de até dois funcionários para pequenos negócios diante da nova jornada de trabalho. Leia mais em https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/"
-                  },
-                  {
-                      "title":  "IR 2026: primeira parcela de imposto devido deve ser paga hoje (29)",
-                      "url":  "https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T16:00:01.0000000-03:00",
-                      "summary":  "Contribuintes com imposto a pagar na declaração IRPF 2026 têm até sexta-feira (29) para quitar à vista ou a primeira parcela. Leia mais em https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/"
-                  },
-                  {
-                      "title":  "Primeiro lote de restituição do IRPF 2026 é pago hoje (29)",
-                      "url":  "https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T15:30:02.0000000-03:00",
-                      "summary":  "Receita Federal libera R$ 16 bilhões no maior lote da história. Veja quem tem direito e como consultar. Leia mais em https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/"
-                  },
-                  {
-                      "title":  "Novo salário mínimo em SP é sancionado; alta é de 46% em 4 anos",
-                      "url":  "https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T15:00:01.0000000-03:00",
-                      "summary":  "Novo piso salarial paulista foi sancionado por Tarcísio de Freitas e ficará acima do salário mínimo nacional em 15,6%. Leia mais em https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/"
-                  },
-                  {
-                      "title":  "Carga tributária sobre a renda bate recorde em 2025",
-                      "url":  "https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T14:30:02.0000000-03:00",
-                      "summary":  "Levantamento aponta que tributação federal sobre renda, lucros e ganhos atingiu 9,16% do PIB em 2025, impulsionada pelo IRRF. Leia mais em https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/"
-                  },
-                  {
-                      "title":  "Receita define regra do IRRF para portabilidade de previdência privada",
-                      "url":  "https://www.contabeis.com.br/noticias/77138/receita-define-regra-do-irrf-para-portabilidade-de-previdencia-privada/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T14:00:01.0000000-03:00",
-                      "summary":  "Solução da Receita Federal altera contagem do prazo de acumulação no regime regressivo em transferências entre planos de previdência. Leia mais em https://www.contabeis.com.br/noticias/77138/receita-define-regra-do-irrf-para-portabilidade-de-previdencia-privada/"
-                  },
-                  {
-                      "title":  "Desenrola Empresas ultrapassa R$ 8 bilhões em crédito renegociado",
-                      "url":  "https://www.contabeis.com.br/noticias/77141/desenrola-empresas-ultrapassa-r-8-bilhoes-em-credito-renegociado/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T12:00:02.0000000-03:00",
-                      "summary":  "Programa voltado a pequenos negócios já movimentou bilhões em contratações e amplia acesso ao crédito para empresas endividadas. Leia mais em https://www.contabeis.com.br/noticias/77141/desenrola-empresas-ultrapassa-r-8-bilhoes-em-credito-renegociado/"
-                  },
-                  {
-                      "title":  "RFB prorroga prazo para sugestões ao Regulamento do IBS",
-                      "url":  "https://www.contabeis.com.br/noticias/77136/rfb-prorroga-prazo-para-sugestoes-ao-regulamento-do-ibs/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T11:30:01.0000000-03:00",
-                      "summary":  "Sugestões enviadas ao Regulamento do IBS serão analisadas pelas equipes técnicas antes de eventuais incorporações. Leia mais em https://www.contabeis.com.br/noticias/77136/rfb-prorroga-prazo-para-sugestoes-ao-regulamento-do-ibs/"
-                  },
-                  {
-                      "title":  "Empresas terão menos tempo para confirmar operações na NF-e",
-                      "url":  "https://www.contabeis.com.br/noticias/77139/empresas-terao-menos-tempo-para-confirmar-operacoes-na-nf-e/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T11:00:01.0000000-03:00",
-                      "summary":  "Confira novo prazo para manifestação conclusiva do destinatário em NF-e a partir de junho de 2026. Leia mais em https://www.contabeis.com.br/noticias/77139/empresas-terao-menos-tempo-para-confirmar-operacoes-na-nf-e/"
-                  },
-                  {
-                      "title":  "Manifestação do destinatário na NF-e muda de prazo: veja os impactos práticos",
-                      "url":  "https://www.contabeis.com.br/noticias/77137/manifestacao-do-destinatario-na-nf-e-muda-de-prazo-veja-os-impactos-praticos/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T10:30:01.0000000-03:00",
-                      "summary":  "Entenda as mudanças nos prazos da manifestação do destinatário na NF-e e NFC-e e como elas afetam a rotina fiscal das empresas e contadores. Leia mais em https://www.contabeis.com.br/noticias/77137/manifestacao-do-destinatario-na-nf-e-muda-de-prazo-veja-os-impactos-praticos/"
-                  },
-                  {
-                      "title":  "Nova PEC defende pagamento de jornada por horas trabalhadas",
-                      "url":  "https://www.contabeis.com.br/noticias/77135/nova-pec-defende-pagamento-de-jornada-por-horas-trabalhadas/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T10:00:02.0000000-03:00",
-                      "summary":  "Senador oopõe emenda constitucional para flexibilizar jornada e remuneração proporcional às horas trabalhadas, em contraste com a escala 6x1. Leia mais em https://www.contabeis.com.br/noticias/77135/nova-pec-defende-pagamento-de-jornada-por-horas-trabalhadas/"
-                  },
-                  {
-                      "title":  "Portal do SPED migra para nova plataforma hoje (29)",
-                      "url":  "https://www.contabeis.com.br/noticias/77133/portal-do-sped-migra-para-nova-plataforma-hoje-29/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T09:30:02.0000000-03:00",
-                      "summary":  "Comunicado oficial sobre a migração do Portal Sped segue sem novas atualizações ou prorrogação. Leia mais em https://www.contabeis.com.br/noticias/77133/portal-do-sped-migra-para-nova-plataforma-hoje-29/"
-                  },
-                  {
-                      "title":  "Reta final do IRPF: milhões ainda devem declarações hoje (29)",
-                      "url":  "https://www.contabeis.com.br/noticias/77134/reta-final-do-irpf-milhoes-ainda-devem-declaracoes-hoje-29/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-29T09:00:01.0000000-03:00",
-                      "summary":  "Prazo do IRPF 2026 termina hoje (29) e Receita Federal espera mais de 3 milhões de envios na reta final. Leia mais em https://www.contabeis.com.br/noticias/77134/reta-final-do-irpf-milhoes-ainda-devem-declaracoes-hoje-29/"
-                  },
-                  {
-                      "title":  "Câmara aprova PEC que amplia imunidade tributária para entidades religiosas",
-                      "url":  "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
-                      "source":  "Camara Economia",
-                      "publishedAt":  "2026-05-28T20:43:00.0000000+00:00",
-                      "summary":  "Proposta segue para o Senado Federal"
-                  },
-                  {
-                      "title":  "CFC aposta em uso de APIs para sucesso da reforma tributária",
-                      "url":  "https://www.contabeis.com.br/noticias/77088/cfc-aposta-em-uso-de-apis-para-sucesso-da-reforma-tributaria/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T17:00:05.0000000-03:00",
-                      "summary":  "Confira como a tecnologia vai transformar o cálculo de impostos para empresas. Leia mais em https://www.contabeis.com.br/noticias/77088/cfc-aposta-em-uso-de-apis-para-sucesso-da-reforma-tributaria/"
-                  },
-                  {
-                      "title":  "INSS leva seis minutos para negar aposentadoria",
-                      "url":  "https://www.contabeis.com.br/noticias/77087/inss-leva-seis-minutos-para-negar-aposentadoria/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T16:30:01.0000000-03:00",
-                      "summary":  "Tempo médio de análise de benefícios cai, mas espera por resposta ainda demora dias em algumas regiões do país. Leia mais em https://www.contabeis.com.br/noticias/77087/inss-leva-seis-minutos-para-negar-aposentadoria/"
-                  },
-                  {
-                      "title":  "Receita esclarece isenção de IR sobre premiação cultural",
-                      "url":  "https://www.contabeis.com.br/noticias/77079/receita-esclarece-isencao-de-ir-sobre-premiacao-cultural/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T16:00:01.0000000-03:00",
-                      "summary":  "Cosit define quando valores pagos pela Lei Paulo Gustavo podem ser considerados isentos do Imposto de Renda . Leia mais em https://www.contabeis.com.br/noticias/77079/receita-esclarece-isencao-de-ir-sobre-premiacao-cultural/"
-                  },
-                  {
-                      "title":  "Motta espera que a redução da jornada de trabalho entre em vigor no segundo semestre",
-                      "url":  "https://www.camara.leg.br/noticias/1277492-motta-espera-que-a-reducao-da-jornada-de-trabalho-entre-em-vigor-no-segundo-semestre/",
-                      "source":  "Camara Economia",
-                      "publishedAt":  "2026-05-28T18:54:00.0000000+00:00",
-                      "summary":  "Entre as prioridades para as próximas semanas, Motta destacou medidas voltadas para micro e pequenas empresas e microempreendedores individuais"
-                  },
-                  {
-                      "title":  "Saiba como corrigir informações na declaração do MEI",
-                      "url":  "https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T15:30:01.0000000-03:00",
-                      "summary":  "Descubra o passo a passo para enviar a declaração retificadora e evitar problemas fiscais. Leia mais em https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/"
-                  },
-                  {
-                      "title":  "Senado aprova manutenção de benefícios fiscais para entidades filantrópicas",
-                      "url":  "https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T15:00:01.0000000-03:00",
-                      "summary":  "PLP aprovado por unanimidade evita tributação sobre entidades sem fins lucrativos e inclui medidas para cultura, esporte e PcDs. Leia mais em https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/"
-                  },
-                  {
-                      "title":  "Fim da escala 6x1: entenda o impacto operacional para o DP",
-                      "url":  "https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T14:30:01.0000000-03:00",
-                      "summary":  "Webinar gratuito aborda os efeitos práticos do fim da escala 6x1 no Departamento Pessoal e como empresas e profissionais devem se preparar. Leia mais em https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/"
-                  },
-                  {
-                      "title":  "Fraude no INSS? PF faz nova fase de operação!",
-                      "url":  "https://www.contabeis.com.br/noticias/77074/fraude-no-inss-pf-faz-nova-fase-de-operacao/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T14:00:02.0000000-03:00",
-                      "summary":  "Confira os detalhes da ação que investiga desvios bilionários em aposentadorias do INSS . Leia mais em https://www.contabeis.com.br/noticias/77074/fraude-no-inss-pf-faz-nova-fase-de-operacao/"
-                  },
-                  {
-                      "title":  "IRPF 2026: busca por contadores cresce até 189% na reta final",
-                      "url":  "https://www.contabeis.com.br/noticias/77069/irpf-2026-busca-por-contadores-cresce-ate-189-na-reta-final/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T12:00:02.0000000-03:00",
-                      "summary":  "Prazo de entrega do IR 2026 se aproxima e contribuintes buscam auxílio profissional para evitar erros e cair na malha fina . Leia mais em https://www.contabeis.com.br/noticias/77069/irpf-2026-busca-por-contadores-cresce-ate-189-na-reta-final/"
-                  },
-                  {
-                      "title":  "MEI tem até domingo (31) para entregar declaração obrigatória",
-                      "url":  "https://www.contabeis.com.br/noticias/77070/mei-tem-ate-domingo-31-para-entregar-declaracao-obrigatoria/",
-                      "source":  "Portal Contabeis Noticias",
-                      "publishedAt":  "2026-05-28T11:30:02.0000000-03:00",
-                      "summary":  "Receita exige envio da DASN-Simei mesmo sem faturamento; atraso gera multa e pode deixar CNPJ irregular. Leia mais em https://www.contabeis.com.br/noticias/77070/mei-tem-ate-domingo-31-para-entregar-declaracao-obrigatoria/"
-                  }
-              ]
+window.ALMENARA_NEWS_DATA = {
+  "generatedAt": "2026-05-30T12:11:37.7185599Z",
+  "sourceCount": 5,
+  "itemCount": 24,
+  "items": [
+    {
+      "title": "Reforma Tributária: 10 regras que exigem ajustes imediatos nas empresas",
+      "url": "https://www.contabeis.com.br/noticias/77039/reforma-tributaria-10-regras-que-exigem-ajustes-imediatos-nas-empresas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-30T09:00:01.0000000-03:00",
+      "summary": "Veja o que muda na prática para o contribuinte após publicação oficial do governo que regulamenta a Contribuição sobre Bens e Serviços ( CBS ) e o Imposto sobre Bens e Serviços ( IBS ) Leia mais em https://www.contabeis.com.br/noticias/77039/reforma-tributaria-10-regras-que-exigem-ajustes-imediatos-nas-empresas/"
+    },
+    {
+      "title": "Nova NR-1 obriga empresas a prevenir riscos à saúde mental no trabalho",
+      "url": "https://www.contabeis.com.br/noticias/77150/nova-nr-1-obriga-empresas-a-prevenir-riscos-a-saude-mental-no-trabalho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T17:30:01.0000000-03:00",
+      "summary": "Atualização da norma exige que empresas monitorem estresse, assédio e sobrecarga emocional para evitar multas e ações trabalhistas. Leia mais em https://www.contabeis.com.br/noticias/77150/nova-nr-1-obriga-empresas-a-prevenir-riscos-a-saude-mental-no-trabalho/"
+    },
+    {
+      "title": "IASB propõe mudança na IFRS para PMEs",
+      "url": "https://www.contabeis.com.br/noticias/77148/iasb-propoe-mudanca-na-ifrs-para-pmes/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T17:00:01.0000000-03:00",
+      "summary": "Alteração proposta pelo IASB prevê mudanças de escopo limitado na norma contábil. Leia mais em https://www.contabeis.com.br/noticias/77148/iasb-propoe-mudanca-na-ifrs-para-pmes/"
+    },
+    {
+      "title": "Governo estuda ampliar contratações no MEI após avanço do fim da escala 6x1",
+      "url": "https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T16:30:01.0000000-03:00",
+      "summary": "Câmara discute aumento do teto do MEI e possibilidade de até dois funcionários para pequenos negócios diante da nova jornada de trabalho. Leia mais em https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/"
+    },
+    {
+      "title": "IR 2026: primeira parcela de imposto devido deve ser paga hoje (29)",
+      "url": "https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T16:00:01.0000000-03:00",
+      "summary": "Contribuintes com imposto a pagar na declaração IRPF 2026 têm até sexta-feira (29) para quitar à vista ou a primeira parcela. Leia mais em https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/"
+    },
+    {
+      "title": "Primeiro lote de restituição do IRPF 2026 é pago hoje (29)",
+      "url": "https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T15:30:02.0000000-03:00",
+      "summary": "Receita Federal libera R$ 16 bilhões no maior lote da história. Veja quem tem direito e como consultar. Leia mais em https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/"
+    },
+    {
+      "title": "Novo salário mínimo em SP é sancionado; alta é de 46% em 4 anos",
+      "url": "https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T15:00:01.0000000-03:00",
+      "summary": "Novo piso salarial paulista foi sancionado por Tarcísio de Freitas e ficará acima do salário mínimo nacional em 15,6%. Leia mais em https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/"
+    },
+    {
+      "title": "Carga tributária sobre a renda bate recorde em 2025",
+      "url": "https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T14:30:02.0000000-03:00",
+      "summary": "Levantamento aponta que tributação federal sobre renda, lucros e ganhos atingiu 9,16% do PIB em 2025, impulsionada pelo IRRF. Leia mais em https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/"
+    },
+    {
+      "title": "Receita define regra do IRRF para portabilidade de previdência privada",
+      "url": "https://www.contabeis.com.br/noticias/77138/receita-define-regra-do-irrf-para-portabilidade-de-previdencia-privada/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T14:00:01.0000000-03:00",
+      "summary": "Solução da Receita Federal altera contagem do prazo de acumulação no regime regressivo em transferências entre planos de previdência. Leia mais em https://www.contabeis.com.br/noticias/77138/receita-define-regra-do-irrf-para-portabilidade-de-previdencia-privada/"
+    },
+    {
+      "title": "Desenrola Empresas ultrapassa R$ 8 bilhões em crédito renegociado",
+      "url": "https://www.contabeis.com.br/noticias/77141/desenrola-empresas-ultrapassa-r-8-bilhoes-em-credito-renegociado/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T12:00:02.0000000-03:00",
+      "summary": "Programa voltado a pequenos negócios já movimentou bilhões em contratações e amplia acesso ao crédito para empresas endividadas. Leia mais em https://www.contabeis.com.br/noticias/77141/desenrola-empresas-ultrapassa-r-8-bilhoes-em-credito-renegociado/"
+    },
+    {
+      "title": "RFB prorroga prazo para sugestões ao Regulamento do IBS",
+      "url": "https://www.contabeis.com.br/noticias/77136/rfb-prorroga-prazo-para-sugestoes-ao-regulamento-do-ibs/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T11:30:01.0000000-03:00",
+      "summary": "Sugestões enviadas ao Regulamento do IBS serão analisadas pelas equipes técnicas antes de eventuais incorporações. Leia mais em https://www.contabeis.com.br/noticias/77136/rfb-prorroga-prazo-para-sugestoes-ao-regulamento-do-ibs/"
+    },
+    {
+      "title": "Empresas terão menos tempo para confirmar operações na NF-e",
+      "url": "https://www.contabeis.com.br/noticias/77139/empresas-terao-menos-tempo-para-confirmar-operacoes-na-nf-e/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T11:00:01.0000000-03:00",
+      "summary": "Confira novo prazo para manifestação conclusiva do destinatário em NF-e a partir de junho de 2026. Leia mais em https://www.contabeis.com.br/noticias/77139/empresas-terao-menos-tempo-para-confirmar-operacoes-na-nf-e/"
+    },
+    {
+      "title": "Manifestação do destinatário na NF-e muda de prazo: veja os impactos práticos",
+      "url": "https://www.contabeis.com.br/noticias/77137/manifestacao-do-destinatario-na-nf-e-muda-de-prazo-veja-os-impactos-praticos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T10:30:01.0000000-03:00",
+      "summary": "Entenda as mudanças nos prazos da manifestação do destinatário na NF-e e NFC-e e como elas afetam a rotina fiscal das empresas e contadores. Leia mais em https://www.contabeis.com.br/noticias/77137/manifestacao-do-destinatario-na-nf-e-muda-de-prazo-veja-os-impactos-praticos/"
+    },
+    {
+      "title": "Nova PEC defende pagamento de jornada por horas trabalhadas",
+      "url": "https://www.contabeis.com.br/noticias/77135/nova-pec-defende-pagamento-de-jornada-por-horas-trabalhadas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T10:00:02.0000000-03:00",
+      "summary": "Senador oopõe emenda constitucional para flexibilizar jornada e remuneração proporcional às horas trabalhadas, em contraste com a escala 6x1. Leia mais em https://www.contabeis.com.br/noticias/77135/nova-pec-defende-pagamento-de-jornada-por-horas-trabalhadas/"
+    },
+    {
+      "title": "Portal do SPED migra para nova plataforma hoje (29)",
+      "url": "https://www.contabeis.com.br/noticias/77133/portal-do-sped-migra-para-nova-plataforma-hoje-29/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T09:30:02.0000000-03:00",
+      "summary": "Comunicado oficial sobre a migração do Portal Sped segue sem novas atualizações ou prorrogação. Leia mais em https://www.contabeis.com.br/noticias/77133/portal-do-sped-migra-para-nova-plataforma-hoje-29/"
+    },
+    {
+      "title": "Reta final do IRPF: milhões ainda devem declarações hoje (29)",
+      "url": "https://www.contabeis.com.br/noticias/77134/reta-final-do-irpf-milhoes-ainda-devem-declaracoes-hoje-29/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-29T09:00:01.0000000-03:00",
+      "summary": "Prazo do IRPF 2026 termina hoje (29) e Receita Federal espera mais de 3 milhões de envios na reta final. Leia mais em https://www.contabeis.com.br/noticias/77134/reta-final-do-irpf-milhoes-ainda-devem-declaracoes-hoje-29/"
+    },
+    {
+      "title": "Câmara aprova PEC que amplia imunidade tributária para entidades religiosas",
+      "url": "https://www.camara.leg.br/noticias/1277383-camara-aprova-pec-que-amplia-imunidade-tributaria-para-entidades-religiosas/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-05-28T20:43:00.0000000+00:00",
+      "summary": "Proposta segue para o Senado Federal"
+    },
+    {
+      "title": "CFC aposta em uso de APIs para sucesso da reforma tributária",
+      "url": "https://www.contabeis.com.br/noticias/77088/cfc-aposta-em-uso-de-apis-para-sucesso-da-reforma-tributaria/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T17:00:05.0000000-03:00",
+      "summary": "Confira como a tecnologia vai transformar o cálculo de impostos para empresas. Leia mais em https://www.contabeis.com.br/noticias/77088/cfc-aposta-em-uso-de-apis-para-sucesso-da-reforma-tributaria/"
+    },
+    {
+      "title": "INSS leva seis minutos para negar aposentadoria",
+      "url": "https://www.contabeis.com.br/noticias/77087/inss-leva-seis-minutos-para-negar-aposentadoria/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T16:30:01.0000000-03:00",
+      "summary": "Tempo médio de análise de benefícios cai, mas espera por resposta ainda demora dias em algumas regiões do país. Leia mais em https://www.contabeis.com.br/noticias/77087/inss-leva-seis-minutos-para-negar-aposentadoria/"
+    },
+    {
+      "title": "Receita esclarece isenção de IR sobre premiação cultural",
+      "url": "https://www.contabeis.com.br/noticias/77079/receita-esclarece-isencao-de-ir-sobre-premiacao-cultural/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T16:00:01.0000000-03:00",
+      "summary": "Cosit define quando valores pagos pela Lei Paulo Gustavo podem ser considerados isentos do Imposto de Renda . Leia mais em https://www.contabeis.com.br/noticias/77079/receita-esclarece-isencao-de-ir-sobre-premiacao-cultural/"
+    },
+    {
+      "title": "Motta espera que a redução da jornada de trabalho entre em vigor no segundo semestre",
+      "url": "https://www.camara.leg.br/noticias/1277492-motta-espera-que-a-reducao-da-jornada-de-trabalho-entre-em-vigor-no-segundo-semestre/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-05-28T18:54:00.0000000+00:00",
+      "summary": "Entre as prioridades para as próximas semanas, Motta destacou medidas voltadas para micro e pequenas empresas e microempreendedores individuais"
+    },
+    {
+      "title": "Saiba como corrigir informações na declaração do MEI",
+      "url": "https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T15:30:01.0000000-03:00",
+      "summary": "Descubra o passo a passo para enviar a declaração retificadora e evitar problemas fiscais. Leia mais em https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/"
+    },
+    {
+      "title": "Senado aprova manutenção de benefícios fiscais para entidades filantrópicas",
+      "url": "https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T15:00:01.0000000-03:00",
+      "summary": "PLP aprovado por unanimidade evita tributação sobre entidades sem fins lucrativos e inclui medidas para cultura, esporte e PcDs. Leia mais em https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/"
+    },
+    {
+      "title": "Fim da escala 6x1: entenda o impacto operacional para o DP",
+      "url": "https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-28T14:30:01.0000000-03:00",
+      "summary": "Webinar gratuito aborda os efeitos práticos do fim da escala 6x1 no Departamento Pessoal e como empresas e profissionais devem se preparar. Leia mais em https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/"
+    }
+  ]
 };
