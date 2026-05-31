@@ -1,8 +1,36 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-05-30T12:11:37.7185599Z",
+  "generatedAt": "2026-05-31T12:18:14.6067661Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "NR-1: fatores psicossociais já entram na gestão de riscos ocupacionais",
+      "url": "https://www.contabeis.com.br/noticias/77040/nr-1-fatores-psicossociais-ja-entram-na-gestao-de-riscos-ocupacionais/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-31T09:00:01.0000000-03:00",
+      "summary": "Nova NR-1 exige que empresas incluam saúde mental, pressão e assédio na gestão de riscos. Entenda as mudanças e o impacto na governança corporativa. Leia mais em https://www.contabeis.com.br/noticias/77040/nr-1-fatores-psicossociais-ja-entram-na-gestao-de-riscos-ocupacionais/"
+    },
+    {
+      "title": "Atestado médico é em dias corridos ou úteis? Veja a regra",
+      "url": "https://www.contabeis.com.br/noticias/77128/atestado-medico-e-em-dias-corridos-ou-uteis-veja-a-regra/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-30T12:00:01.0000000-03:00",
+      "summary": "Entenda como funciona a contagem do afastamento médico e quando sábados, domingos e feriados entram no atestado. Leia mais em https://www.contabeis.com.br/noticias/77128/atestado-medico-e-em-dias-corridos-ou-uteis-veja-a-regra/"
+    },
+    {
+      "title": "CFC e CNMP avançam em cooperação no combate ao crime organizado",
+      "url": "https://www.contabeis.com.br/noticias/77041/cfc-e-cnmp-avancam-em-cooperacao-no-combate-ao-crime-organizado/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-30T11:00:01.0000000-03:00",
+      "summary": "Conselho Federal de Contabilidade (CFC) e Conselho Nacional do Ministério Público (CNMP) firmam tratativas para cooperação em fiscalização e combate a ilícitos financeiros. Leia mais em https://www.contabeis.com.br/noticias/77041/cfc-e-cnmp-avancam-em-cooperacao-no-combate-ao-crime-organizado/"
+    },
+    {
+      "title": "Brasileiros têm até 80% da renda comprometida com despesas",
+      "url": "https://www.contabeis.com.br/noticias/77011/brasileiros-tem-ate-80-da-renda-comprometida-com-despesas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-05-30T10:00:32.0000000-03:00",
+      "summary": "Estudo inédito da Serasa Experian mapeia gastos e revela sufoco financeiro nas regiões. Leia mais em https://www.contabeis.com.br/noticias/77011/brasileiros-tem-ate-80-da-renda-comprometida-com-despesas/"
+    },
     {
       "title": "Reforma Tributária: 10 regras que exigem ajustes imediatos nas empresas",
       "url": "https://www.contabeis.com.br/noticias/77039/reforma-tributaria-10-regras-que-exigem-ajustes-imediatos-nas-empresas/",
@@ -142,34 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-05-28T16:00:01.0000000-03:00",
       "summary": "Cosit define quando valores pagos pela Lei Paulo Gustavo podem ser considerados isentos do Imposto de Renda . Leia mais em https://www.contabeis.com.br/noticias/77079/receita-esclarece-isencao-de-ir-sobre-premiacao-cultural/"
-    },
-    {
-      "title": "Motta espera que a redução da jornada de trabalho entre em vigor no segundo semestre",
-      "url": "https://www.camara.leg.br/noticias/1277492-motta-espera-que-a-reducao-da-jornada-de-trabalho-entre-em-vigor-no-segundo-semestre/",
-      "source": "Camara Economia",
-      "publishedAt": "2026-05-28T18:54:00.0000000+00:00",
-      "summary": "Entre as prioridades para as próximas semanas, Motta destacou medidas voltadas para micro e pequenas empresas e microempreendedores individuais"
-    },
-    {
-      "title": "Saiba como corrigir informações na declaração do MEI",
-      "url": "https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-28T15:30:01.0000000-03:00",
-      "summary": "Descubra o passo a passo para enviar a declaração retificadora e evitar problemas fiscais. Leia mais em https://www.contabeis.com.br/noticias/77078/saiba-como-corrigir-informacoes-na-declaracao-do-mei/"
-    },
-    {
-      "title": "Senado aprova manutenção de benefícios fiscais para entidades filantrópicas",
-      "url": "https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-28T15:00:01.0000000-03:00",
-      "summary": "PLP aprovado por unanimidade evita tributação sobre entidades sem fins lucrativos e inclui medidas para cultura, esporte e PcDs. Leia mais em https://www.contabeis.com.br/noticias/77077/senado-aprova-manutencao-de-beneficios-fiscais-para-entidades-filantropicas/"
-    },
-    {
-      "title": "Fim da escala 6x1: entenda o impacto operacional para o DP",
-      "url": "https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-28T14:30:01.0000000-03:00",
-      "summary": "Webinar gratuito aborda os efeitos práticos do fim da escala 6x1 no Departamento Pessoal e como empresas e profissionais devem se preparar. Leia mais em https://www.contabeis.com.br/noticias/77073/fim-da-escala-6x1-entenda-o-impacto-operacional-para-o-dp/"
     }
   ]
 };
