@@ -1728,7 +1728,9 @@ textarea {
 .footer-actions {
   display: inline-flex;
   align-items: center;
+  align-self: flex-end;
   gap: 14px;
+  padding-bottom: 10px;
 }
 
 .site-footer a,
