@@ -1389,12 +1389,15 @@ textarea {
 .footer-company-front::before {
   content: "";
   position: absolute;
-  inset: -18px;
+  top: 50%;
+  left: 18px;
+  width: 44px;
+  height: 44px;
   z-index: 0;
-  background: url("assets/foto-contabilidade-almenara.png") center / cover no-repeat;
-  filter: blur(18px) saturate(1.08);
-  opacity: 0.42;
-  transform: scale(1.08);
+  background: url("assets/foto-contabilidade-almenara.png") center / contain no-repeat;
+  filter: blur(8px) saturate(1.08);
+  opacity: 0.5;
+  transform: translateY(-50%);
 }
 
 .footer-company-front::after {
