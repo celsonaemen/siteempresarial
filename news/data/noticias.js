@@ -1,14 +1,133 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-01T16:46:00.7329522Z",
+  "generatedAt": "2026-06-02T15:03:40.7186976Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
     {
-      "title": "CCS: Debate sugere reforço de critérios contra desinformação nas eleições",
-      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/01/ccs-debate-sugere-reforco-de-criterios-contra-desinformacao-nas-eleicoes",
+      "title": "PGFN assume dívida ativa do FGTS; o que muda para empresas",
+      "url": "https://www.contabeis.com.br/noticias/77181/pgfn-assume-divida-ativa-do-fgts-o-que-muda-para-empresas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T11:30:02.0000000-03:00",
+      "summary": "Entenda os impactos para empresas, contadores e a regularização dos débitos. Leia mais em https://www.contabeis.com.br/noticias/77181/pgfn-assume-divida-ativa-do-fgts-o-que-muda-para-empresas/"
+    },
+    {
+      "title": "RFB muda cronograma de pagamento do último lote do IR 2026",
+      "url": "https://www.contabeis.com.br/noticias/77140/rfb-muda-cronograma-de-pagamento-do-ultimo-lote-do-ir-2026/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T11:00:01.0000000-03:00",
+      "summary": "Receita Federal ajusta cronograma de restituição do IRPF 2026. Saiba a nova data para o 4º lote e confira o calendário. Leia mais em https://www.contabeis.com.br/noticias/77140/rfb-muda-cronograma-de-pagamento-do-ultimo-lote-do-ir-2026/"
+    },
+    {
+      "title": "Projeto prevê devolução da CBS cobrada em produtos têxteis e calçados nacionais",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/02/projeto-preve-devolucao-da-cbs-cobrada-em-produtos-texteis-e-calcados-nacionais",
       "source": "Senado Noticias",
-      "publishedAt": "2026-06-01T15:33:27.0000000+00:00",
-      "summary": "Debatedores de uma audiência pública promovida pelo Conselho de Comunicação Social (CCS) do Congresso Nacional, nesta segunda-feira (1º), defenderam critérios, como a atualização da legislação, para evitar a disseminação de informações falsas na internet. O debate tratou, principalmente, das eleições de 2026. Com foco no risco de desinformação e de influência das ferramentas de inteligência artificial nas campanhas eleitorais, a audiência também revelou falhas nas fiscalizações dos conteúdos reproduzidos na internet e a falta de mecanismos para garantir transparência. O debate foi sugerido pela vice-presidente do CCS, Angela Cignachi, que manifestou preocupação com desafios a serem enfrentados ao longo do pleito deste ano, especialmente após o lançamento de ferramentas de inteligência artificial, como o ChatGPT, em 2022. — Não é exagero dizer que a comunicação mudou muito de lá para cá. Embora já tenhamos passado pelas eleições municipais nesse meio tempo, é certo que as eleições de 2026 trazem desafios inéditos para a comunicação social, para a ciência política e para o direito eleitoral porque a tecnologia, nesses últimos quatro anos, avançou em um ritmo nunca visto. Angela frisou que publicações via internet passaram a atacar também o processo eleitoral e o sistema eletrônico de votação do país, “atingindo diretamente a confiabilidade e a credibilidade da urna eletrônica e da própria Justiça Eleitoral”. Na opinião da conselheira, pilares do sistema eleitoral como a dignidade da pessoa humana, a igualdade de chances entre os candidatos e a soberania popular não podem ser alcançados sem uma comunicação social justa e bem regulada. — É inegável a ameaça à nossa democracia. Registra-se que o TSE [Tribunal Superior Eleitoral] respondeu à altura a todas essas ameaças, mas, mesmo assim, os prejuízos à confiabilidade da população à Justiça Eleitoral são evidentes. E o desafio deste ano ainda consegue ser maior do que aquele de 2022. O debate político precisa ser vigoroso, livre e, às vezes, até acalorado, mas a fiscalização não pode inviabilizar a crítica política, que é a alma da democracia — disse Angela. Segundo Angela, um relatório com os resultados do debate deverá ser elaborado pelo CCS e encaminhado aos senadores e deputados. O objetivo, conforme a conselheira, é levar ao conhecimento dos parlamentares e da sociedade a contribuição do órgão sobre o assunto. Atualização Para o advogado Diogo Rais, especialista em direito digital, a legislação eleitoral precisa ser atualizada, já que o cenário digital apresentou mudanças profundas ao longo dos últimos anos. Segundo o debatedor, o TSE tem inovado nesse campo, ao já ter modernizado pelo menos 100 dispositivos de suas resoluções sobre o tema. Na visão de Rais, o Congresso precisa trabalhar por normas legislativas mais atuais já que, no campo eleitoral digital, a legislação quase não mudou. — É hora de o Congresso Nacional definir balizas mínimas normativas para as eleições na internet. Talvez uma revisão das leis, que são do tempo do Orkut, considerando o cenário atual de inteligência artificial generativa, redes sociais extremamente dinâmicas, com entrega de conteúdo, curadoria e moderação do conteúdo. Para mim, o Tribunal Superior Eleitoral está fazendo milagre com o que tem, pois ele não tem legislação nenhuma para se basear e tem criado resoluções porque uma eleição precisa acontecer. Diogo Rais também falou sobre a função social da propaganda eleitoral. Segundo o debatedor, embora seja amada por uma parte da população e, por outra parcela da sociedade, essa ferramenta seja considerada “um incomodo necessário”, a propaganda eleitoral é fundamental para ajudar a renovar as representações políticas nos espaços de poder. Ele defendeu que o uso do instrumento continue sendo estimulado, mesmo num ambiente virtual cada vez mais crescente. — Não é bobagem: é uma forma de fazer a democracia se concretizar. É com a propaganda eleitoral que alguém do povo pode chegar a se eleger. A propaganda eleitoral se enquadra no direito fundamental da tomada de decisão das pessoas, concretizado por meio do voto, sendo a forma de os candidatos serem conhecidos e buscarem apoio. Avanço da IA Diretora de projetos do Aláfia Lab, Maria Paula Almada frisou que a inteligência artificial já faz parte da “dieta informacional” dos brasileiros, sendo usada como fonte de notícia por quase 10% da população atualmente. Ela defendeu, portanto, o fortalecimento das estruturas de educação midiática e o estímulo ao jornalismo profissional como formas de garantir informações seguras no ambiente virtual. O Aláfia Lab é um laboratório de pesquisa e inovação de Salvador é focado no impacto social das tecnologias digitais, comunicação e internet. — Fizemos uma pesquisa para mais de 1,5 mil respondentes. Para 9,7% deles, a principal fonte de informação são as ferramentas de IA, antes mesmo do jornal impresso, que ficou em 9,5%. Os dados também mostram que o uso dessas ferramentas ocorre de maneira desigual no país: ele é mais frequente entre pessoas jovens, de maior renda e com maior escolaridade. Entre brasileiros de 18 e 29 anos, por exemplo, 51% já utilizaram o ChatGPT, enquanto, entre pessoas com 45 anos ou mais, esse índice cai para 35%. Isso é bom para termos um panorama do que vamos encarar nas eleições. Maria Paula também chamou a atenção para o aumento do uso de avatares artificiais que simulam eleitores e comentaristas políticos, por exemplo, observando que esses instrumentos podem piorar os índices de desinformação. Para a especialista, o aprofundamento do debate é essencial, “com vistas a uma solução efetiva para a questão, tanto para o pleito de 2026 quanto para as eleições futuras”. — Na verdade, o avatar é uma ferramenta de inteligência artificial que, quando circula, alcança um número significativo de pessoas. E isso nos leva a um desafio extremamente importante, até por ser esse um problema cada vez mais difícil de se identificar. Não existe solução simples, mas também não podemos ficar num “enxuga-gelo”. Precisamos pensar em estratégias para resolver de vez a questão. Fiscalização limitada Pesquisadora do Laboratório de Estudos de Internet e Redes Sociais da Universidade Federal do Rio de Janeiro (UFRJ), Débora Salles apontou limites na fiscalização da publicidade em ambiente virtual no país. Ela frisou a ocorrência de veiculação de conteúdos na internet sem a devida transparência, bem como fraudes encontradas em anúncios difundidos por meio de ferramentas de inteligência artificial. Para Débora, as eleições de 2026 enfrentam desafios significativos, especialmente quanto à possibilidade de publicidade fraudulenta, às dificuldades de fiscalização das modulações de conteúdos e um acesso ineficiente da população a dados oficiais e seguros. — Apesar da obrigação de as plataformas informarem os tipos de riscos, vemos que esse é um exercício de conformidade e não fornece a transparência desses serviços. E como essa fiscalização da publicidade online é limitada, a gente vê a criação de um mercado paralelo de publicidade político-eleitoral nessas plataformas, que operam sem garantias de isonomia, sem garantia de transparência e sem respeito às normas locais. Já o presidente do Clube Associativo dos Profissionais de Marketing Político, Bruno Hoffman, salientou que as eleições são vistas muitas vezes como ferramenta comercial, “sem compromisso com a verdade ou com a natureza da atividade”. Para o convidado, é importante a sociedade ter em mente que comunicação demanda tempo e empenho para gerar voto consciente. — Estamos aqui para mostrar e reafirmar que fazemos parte da solução quando o assunto é eleições livres, participação popular e fortalecimento da democracia. Compomos um conjunto de atores responsáveis por estruturar a competição eleitoral em sua dimensão prática. Sem essa mediação, a competição corre o risco de se tornar superficial, dominada por sensacionalismo, polarização e desinformação. Não há democracia onde não há comunicação livre — avaliou. Ambiente complexo O debate foi conduzido pela presidente do CCS, Patrícia Blanco, que reforçou os desafios impostos ao longo dos últimos quatro anos pelo crescimento indiscriminado do uso das ferramentas de inteligência artificial. Ela adiantou que o conselho fará outra audiência pública sobre o assunto em julho. — A IA chegou de forma avassaladora em todos os níveis, impondo um desafio adicional a um ambiente já de extrema complexidade. Por isso, acho muito relevante o Conselho de Comunicação Social se debruçar sobre esse tema, com a participação de tantos especialistas no assunto — disse Patrícia. À tarde, o CCS fará uma reunião deliberativa a partir das 14 horas. Na pauta estão relatórios dos conselheiros sobre proposições em análise no Congresso, relatórios sobre o andamento dos trabalhos das comissões e comunicações dos conselheiros."
+      "publishedAt": "2026-06-02T13:59:28.0000000+00:00",
+      "summary": "Está em tramitação no Senado um projeto de lei que cria um sistema de cashback (devolução de dinheiro) da Contribuição sobre Bens e Serviços (CBS) para quem comprar calçados e produtos têxteis fabricados no Brasil. O projeto (PL 148/2026) foi apresentado pelo senador Cleitinho (Republicanos-MG). Ele afirma que o objetivo é reequilibrar a competitividade da indústria nacional frente à redução de impostos para produtos importados via postal. “A opção do governo federal de zerar o imposto de importação mostra que há margem para redução na carga tributária. Assim, se o governo facilita a entrada de mercadorias externas, é coerente oferecer mecanismos de compensação para os fabricantes locais, evitando que eles sejam prejudicados. O cashback de CBS funciona como uma medida de equilíbrio”, argumenta o senador. O texto prevê que a devolução será gerida pela Secretaria da Receita Federal e deverá ocorrer em até 90 dias. Para implementar essas medidas, a proposta de Cleitinho altera a norma que criou a CBS: a Lei Complementar 214, de 2025."
+    },
+    {
+      "title": "O fim da escala 6x1 vai mudar apenas a jornada ou vai transformar a forma de contratar?",
+      "url": "https://www.contabeis.com.br/noticias/77187/o-fim-da-escala-6x1-vai-mudar-apenas-a-jornada-ou-vai-transformar-a-forma-de-contratar/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T10:45:02.0000000-03:00",
+      "summary": "Analise os possíveis efeitos do fim da escala 6x1 na organização empresarial, contratações e custos operacionais no Brasil. Leia mais em https://www.contabeis.com.br/noticias/77187/o-fim-da-escala-6x1-vai-mudar-apenas-a-jornada-ou-vai-transformar-a-forma-de-contratar/"
+    },
+    {
+      "title": "INSS: prazo para contestar descontos indevidos termina em 20 de junho",
+      "url": "https://www.contabeis.com.br/noticias/77186/inss-prazo-para-contestar-descontos-indevidos-termina-em-20-de-junho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T10:30:01.0000000-03:00",
+      "summary": "Aposentados e pensionistas têm até 20 de junho para contestar cobranças associativas não autorizadas e pedir ressarcimento. Leia mais em https://www.contabeis.com.br/noticias/77186/inss-prazo-para-contestar-descontos-indevidos-termina-em-20-de-junho/"
+    },
+    {
+      "title": "Imposto de Renda pode virar automático em até três anos",
+      "url": "https://www.contabeis.com.br/noticias/77184/imposto-de-renda-pode-virar-automatico-em-ate-tres-anos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T10:00:01.0000000-03:00",
+      "summary": "Ministério da Fazenda projeta o fim da prestação de contas tradicional do IR. Entenda como o fisco fará o processo. Leia mais em https://www.contabeis.com.br/noticias/77184/imposto-de-renda-pode-virar-automatico-em-ate-tres-anos/"
+    },
+    {
+      "title": "Novo portal do SPED já está no ar com novidades para contadores",
+      "url": "https://www.contabeis.com.br/noticias/77180/novo-portal-do-sped-ja-esta-no-ar-com-novidades-para-contadores/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T09:00:02.0000000-03:00",
+      "summary": "Receita Federal lança novo portal do SPED com interface moderna, padronizada e integrada ao ecossistema digital do GOV.BR. Saiba as novidades. Leia mais em https://www.contabeis.com.br/noticias/77180/novo-portal-do-sped-ja-esta-no-ar-com-novidades-para-contadores/"
+    },
+    {
+      "title": "Sincovaga-SP lança assessoria técnica inédita e gratuita para contadores de supermercados",
+      "url": "https://www.contabeis.com.br/noticias/77170/sincovaga-sp-lanca-assessoria-tecnica-inedita-e-gratuita-para-contadores-de-supermercados/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-02T08:30:01.0000000-03:00",
+      "summary": "Sincovaga-SP lança serviço gratuito com suporte tributário, técnico e previdenciário para contabilistas do varejo alimentar e supermercadista. Leia mais em https://www.contabeis.com.br/noticias/77170/sincovaga-sp-lanca-assessoria-tecnica-inedita-e-gratuita-para-contadores-de-supermercados/"
+    },
+    {
+      "title": "Áudio: Projeto permite redução no valor do ganho de capital de imóveis no IR",
+      "url": "https://www12.senado.leg.br/noticias/audios/2026/06/projeto-permite-reducao-no-valor-do-ganho-de-capital-de-imoveis-no-ir",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-01T20:48:15.0000000+00:00",
+      "summary": "O Senado analisa três projetos que beneficiam o contribuinte aumentando as deduções pagas no Imposto de Renda. Um deles, autoriza a atualização anual do valor do imóvel pelo IPCA, a partir de 1996, e reduz o valor do ganho de capital (PL 2.497/2026). Os outros dois permitem deduzir da base de cálculo do IRPF os gastos com aquisição de aparelhos auditivos, lentes de contato corretivas e óculos de grau, inclusive a armação (PL 2.438/2026 e PL 2.450/2026)."
+    },
+    {
+      "title": "Saque-aniversário do FGTS de junho é liberado hoje",
+      "url": "https://www.contabeis.com.br/noticias/77174/saque-aniversario-do-fgts-de-junho-e-liberado-hoje/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T17:30:02.0000000-03:00",
+      "summary": "Veja o calendário de pagamentos e o prazo limite para resgatar o saldo. Leia mais em https://www.contabeis.com.br/noticias/77174/saque-aniversario-do-fgts-de-junho-e-liberado-hoje/"
+    },
+    {
+      "title": "Izalci propõe livre negociação da jornada semanal e ampliação do teletrabalho",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/01/izalci-propoe-livre-negociacao-da-jornada-semanal-e-ampliacao-do-teletrabalho",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-01T20:17:23.0000000+00:00",
+      "summary": "O senador Izalci Lucas (PL-DF) criticou, nesta segunda-feira (1º), propostas de redução da jornada de trabalho e defendeu a flexibilização das relações entre empregadores e empregados. O parlamentar argumentou que a legislação precisa acompanhar as transformações tecnológicas e as diferentes realidades do mercado, permitindo que a carga horária seja definida por negociação entre patrões, trabalhadores e sindicatos. — A CLT é de Getúlio Vargas. Não tem lógica a gente colocar como parâmetro a CLT de 1943. As pessoas têm que acordar, têm que ver que o mundo mudou e colocar de acordo com a realidade — declarou. O senador defendeu ainda a ampliação do teletrabalho em atividades compatíveis com o modelo remoto. A modalidade poderia aumentar a produtividade e reduzir o tempo gasto pelos trabalhadores em deslocamentos diários. — Vamos prestigiar aquelas atividades em que dá para trabalhar de teletrabalho, remoto, porque hoje o cara sai de casa, leva duas horas para chegar no trabalho e lá ele faz a burocracia pelo computador. Muitas vezes, conferência virtual com procuradores ou outros servidores, e podia estar em casa fazendo a mesma coisa — afirmou. Izalci também desaprovou medidas econômicas do governo federal, como a redução da tributação sobre importações de produtos de até US$ 50. Ele defendeu que a iniciativa prejudica empresas brasileiras e aumenta a dívida pública e os prejuízos de estatais. Lurya Rocha, sob supervisão de Dante Accioly."
+    },
+    {
+      "title": "Comissão que analisa proposta para MEI discute reajuste de todas as faixas do Simples Nacional",
+      "url": "https://www.camara.leg.br/noticias/1278249-comissao-que-analisa-proposta-para-mei-discute-reajuste-de-todas-as-faixas-do-simples-nacional/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-01T20:10:00.0000000+00:00",
+      "summary": "Participantes de debate em Porto Alegre defenderam correção dos limites pela inflação e atualização automática dos valores"
+    },
+    {
+      "title": "Receita retoma envio do IR 2026 após prazo final; multa já é aplicada aos atrasados",
+      "url": "https://www.contabeis.com.br/noticias/77173/receita-retoma-envio-do-ir-2026-apos-prazo-final-multa-ja-e-aplicada-aos-atrasados/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T17:00:01.0000000-03:00",
+      "summary": "Contribuintes ainda podem entregar a declaração do Imposto de Renda 2026, mas já recebem multa automática por atraso. Leia mais em https://www.contabeis.com.br/noticias/77173/receita-retoma-envio-do-ir-2026-apos-prazo-final-multa-ja-e-aplicada-aos-atrasados/"
+    },
+    {
+      "title": "INSS libera calendário de junho; veja quando beneficiário recebe",
+      "url": "https://www.contabeis.com.br/noticias/77166/inss-libera-calendario-de-junho-veja-quando-beneficiario-recebe/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T16:00:02.0000000-03:00",
+      "summary": "Pagamentos começam em 24 de junho e seguem até 7 de julho. Confira as datas conforme o final do NIS. Leia mais em https://www.contabeis.com.br/noticias/77166/inss-libera-calendario-de-junho-veja-quando-beneficiario-recebe/"
+    },
+    {
+      "title": "PME: governo estuda fortalecimento do Brasil Mais Produtivo",
+      "url": "https://www.contabeis.com.br/noticias/77169/pme-governo-estuda-fortalecimento-do-brasil-mais-produtivo/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T15:30:01.0000000-03:00",
+      "summary": "Programa Brasil Mais Produtivo poderá ganhar novas linhas de crédito para modernização dos negócios. Leia mais em https://www.contabeis.com.br/noticias/77169/pme-governo-estuda-fortalecimento-do-brasil-mais-produtivo/"
+    },
+    {
+      "title": "Jogo do Brasil à noite na Copa dá direito a sair mais cedo do trabalho?",
+      "url": "https://www.contabeis.com.br/noticias/77164/jogo-do-brasil-a-noite-na-copa-da-direito-a-sair-mais-cedo-do-trabalho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T15:00:01.0000000-03:00",
+      "summary": "Descubra o que diz a CLT sobre folgas e saídas antecipadas nos jogos noturnos. Leia mais em https://www.contabeis.com.br/noticias/77164/jogo-do-brasil-a-noite-na-copa-da-direito-a-sair-mais-cedo-do-trabalho/"
+    },
+    {
+      "title": "INSS publica regras para pensão a filhos de vítimas de feminicídio",
+      "url": "https://www.contabeis.com.br/noticias/77159/inss-publica-regras-para-pensao-a-filhos-de-vitimas-de-feminicidio/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T14:30:01.0000000-03:00",
+      "summary": "Portaria define quem tem direito, como solicitar e quais documentos são exigidos para receber o benefício. Leia mais em https://www.contabeis.com.br/noticias/77159/inss-publica-regras-para-pensao-a-filhos-de-vitimas-de-feminicidio/"
+    },
+    {
+      "title": "Fim da escala 6x1: entidades divergem sobre impactos econômicos e trabalhistas",
+      "url": "https://www.contabeis.com.br/noticias/77162/fim-da-escala-6x1-entidades-divergem-sobre-impactos-economicos-e-trabalhistas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-01T14:00:01.0000000-03:00",
+      "summary": "Análise detalhada dos possíveis efeitos da aprovação da PEC que extingue a escala 6x1 e reduz a jornada para 40 horas semanais no Brasil. Leia mais em https://www.contabeis.com.br/noticias/77162/fim-da-escala-6x1-entidades-divergem-sobre-impactos-economicos-e-trabalhistas/"
     },
     {
       "title": "Quinto dia útil de junho pode cair no sábado; entenda",
@@ -51,125 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-01T09:30:01.0000000-03:00",
       "summary": "Atualização da versão 1.0.1 da minuta visa orientar contribuintes e desenvolvedores para o planejamento sistêmico da DeRE. Leia mais em https://www.contabeis.com.br/noticias/77157/dere-receita-federal-atualiza-documentos-tecnicos-da-primeira-fase/"
-    },
-    {
-      "title": "Receita e CGIBS divulgam documentação técnica da DeRE",
-      "url": "https://www.contabeis.com.br/noticias/77155/receita-e-cgibs-divulgam-documentacao-tecnica-da-dere/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-01T09:00:02.0000000-03:00",
-      "summary": "Material orienta contribuintes de regimes específicos sobre a apuração do IBS e da CBS no contexto da reforma tributária . Leia mais em https://www.contabeis.com.br/noticias/77155/receita-e-cgibs-divulgam-documentacao-tecnica-da-dere/"
-    },
-    {
-      "title": "Reforma Tributária: imersão gratuita desvenda o mapa do dinheiro para escritórios contábeis",
-      "url": "https://www.contabeis.com.br/noticias/77085/reforma-tributaria-imersao-gratuita-desvenda-o-mapa-do-dinheiro-para-escritorios-contabeis/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-01T08:30:01.0000000-03:00",
-      "summary": "Conduzido pela Omie, a formação online acontece em junho e traz estratégias práticas para transformar a maior mudança fiscal do país em faturamento recorrente para o setor. Leia mais em https://www.contabeis.com.br/noticias/77085/reforma-tributaria-imersao-gratuita-desvenda-o-mapa-do-dinheiro-para-escritorios-contabeis/"
-    },
-    {
-      "title": "Perdeu o prazo do IR 2026? Veja o que acontece agora",
-      "url": "https://www.contabeis.com.br/noticias/77149/perdeu-o-prazo-do-ir-2026-veja-o-que-acontece-agora/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-31T12:00:01.0000000-03:00",
-      "summary": "Contribuintes que não entregaram a declaração do Imposto de Renda 2026 ainda podem regularizar a situação, mas ficam sujeitos a multa e pendências no CPF. Leia mais em https://www.contabeis.com.br/noticias/77149/perdeu-o-prazo-do-ir-2026-veja-o-que-acontece-agora/"
-    },
-    {
-      "title": "Fim da escala 6x1: entenda possíveis impactos para o país",
-      "url": "https://www.contabeis.com.br/noticias/77107/fim-da-escala-6x1-entenda-possiveis-impactos-para-o-pais/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-31T11:00:01.0000000-03:00",
-      "summary": "Estudos econômicos e entidades patronais divergem sobre as consequências do fim da escala 6x1 na inflação e no PIB. Leia mais em https://www.contabeis.com.br/noticias/77107/fim-da-escala-6x1-entenda-possiveis-impactos-para-o-pais/"
-    },
-    {
-      "title": "Brasil terá jornada de 40 horas de trabalho; veja menores jornadas do mundo",
-      "url": "https://www.contabeis.com.br/noticias/77129/brasil-tera-jornada-de-40-horas-de-trabalho-veja-menores-jornadas-do-mundo/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-31T10:00:01.0000000-03:00",
-      "summary": "PEC aprovada na Câmara aproxima Brasil de discussões internacionais sobre redução da carga horária semanal. Leia mais em https://www.contabeis.com.br/noticias/77129/brasil-tera-jornada-de-40-horas-de-trabalho-veja-menores-jornadas-do-mundo/"
-    },
-    {
-      "title": "NR-1: fatores psicossociais já entram na gestão de riscos ocupacionais",
-      "url": "https://www.contabeis.com.br/noticias/77040/nr-1-fatores-psicossociais-ja-entram-na-gestao-de-riscos-ocupacionais/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-31T09:00:01.0000000-03:00",
-      "summary": "Nova NR-1 exige que empresas incluam saúde mental, pressão e assédio na gestão de riscos. Entenda as mudanças e o impacto na governança corporativa. Leia mais em https://www.contabeis.com.br/noticias/77040/nr-1-fatores-psicossociais-ja-entram-na-gestao-de-riscos-ocupacionais/"
-    },
-    {
-      "title": "Atestado médico é em dias corridos ou úteis? Veja a regra",
-      "url": "https://www.contabeis.com.br/noticias/77128/atestado-medico-e-em-dias-corridos-ou-uteis-veja-a-regra/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-30T12:00:01.0000000-03:00",
-      "summary": "Entenda como funciona a contagem do afastamento médico e quando sábados, domingos e feriados entram no atestado. Leia mais em https://www.contabeis.com.br/noticias/77128/atestado-medico-e-em-dias-corridos-ou-uteis-veja-a-regra/"
-    },
-    {
-      "title": "CFC e CNMP avançam em cooperação no combate ao crime organizado",
-      "url": "https://www.contabeis.com.br/noticias/77041/cfc-e-cnmp-avancam-em-cooperacao-no-combate-ao-crime-organizado/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-30T11:00:01.0000000-03:00",
-      "summary": "Conselho Federal de Contabilidade (CFC) e Conselho Nacional do Ministério Público (CNMP) firmam tratativas para cooperação em fiscalização e combate a ilícitos financeiros. Leia mais em https://www.contabeis.com.br/noticias/77041/cfc-e-cnmp-avancam-em-cooperacao-no-combate-ao-crime-organizado/"
-    },
-    {
-      "title": "Brasileiros têm até 80% da renda comprometida com despesas",
-      "url": "https://www.contabeis.com.br/noticias/77011/brasileiros-tem-ate-80-da-renda-comprometida-com-despesas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-30T10:00:32.0000000-03:00",
-      "summary": "Estudo inédito da Serasa Experian mapeia gastos e revela sufoco financeiro nas regiões. Leia mais em https://www.contabeis.com.br/noticias/77011/brasileiros-tem-ate-80-da-renda-comprometida-com-despesas/"
-    },
-    {
-      "title": "Reforma Tributária: 10 regras que exigem ajustes imediatos nas empresas",
-      "url": "https://www.contabeis.com.br/noticias/77039/reforma-tributaria-10-regras-que-exigem-ajustes-imediatos-nas-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-30T09:00:01.0000000-03:00",
-      "summary": "Veja o que muda na prática para o contribuinte após publicação oficial do governo que regulamenta a Contribuição sobre Bens e Serviços ( CBS ) e o Imposto sobre Bens e Serviços ( IBS ) Leia mais em https://www.contabeis.com.br/noticias/77039/reforma-tributaria-10-regras-que-exigem-ajustes-imediatos-nas-empresas/"
-    },
-    {
-      "title": "Nova NR-1 obriga empresas a prevenir riscos à saúde mental no trabalho",
-      "url": "https://www.contabeis.com.br/noticias/77150/nova-nr-1-obriga-empresas-a-prevenir-riscos-a-saude-mental-no-trabalho/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T17:30:01.0000000-03:00",
-      "summary": "Atualização da norma exige que empresas monitorem estresse, assédio e sobrecarga emocional para evitar multas e ações trabalhistas. Leia mais em https://www.contabeis.com.br/noticias/77150/nova-nr-1-obriga-empresas-a-prevenir-riscos-a-saude-mental-no-trabalho/"
-    },
-    {
-      "title": "IASB propõe mudança na IFRS para PMEs",
-      "url": "https://www.contabeis.com.br/noticias/77148/iasb-propoe-mudanca-na-ifrs-para-pmes/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T17:00:01.0000000-03:00",
-      "summary": "Alteração proposta pelo IASB prevê mudanças de escopo limitado na norma contábil. Leia mais em https://www.contabeis.com.br/noticias/77148/iasb-propoe-mudanca-na-ifrs-para-pmes/"
-    },
-    {
-      "title": "Governo estuda ampliar contratações no MEI após avanço do fim da escala 6x1",
-      "url": "https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T16:30:01.0000000-03:00",
-      "summary": "Câmara discute aumento do teto do MEI e possibilidade de até dois funcionários para pequenos negócios diante da nova jornada de trabalho. Leia mais em https://www.contabeis.com.br/noticias/77146/governo-estuda-ampliar-contratacoes-no-mei-apos-avanco-do-fim-da-escala-6x1/"
-    },
-    {
-      "title": "IR 2026: primeira parcela de imposto devido deve ser paga hoje (29)",
-      "url": "https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T16:00:01.0000000-03:00",
-      "summary": "Contribuintes com imposto a pagar na declaração IRPF 2026 têm até sexta-feira (29) para quitar à vista ou a primeira parcela. Leia mais em https://www.contabeis.com.br/noticias/77145/ir-2026-primeira-parcela-de-imposto-devido-deve-ser-paga-hoje-29/"
-    },
-    {
-      "title": "Primeiro lote de restituição do IRPF 2026 é pago hoje (29)",
-      "url": "https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T15:30:02.0000000-03:00",
-      "summary": "Receita Federal libera R$ 16 bilhões no maior lote da história. Veja quem tem direito e como consultar. Leia mais em https://www.contabeis.com.br/noticias/77143/primeiro-lote-de-restituicao-do-irpf-2026-e-pago-hoje-29/"
-    },
-    {
-      "title": "Novo salário mínimo em SP é sancionado; alta é de 46% em 4 anos",
-      "url": "https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T15:00:01.0000000-03:00",
-      "summary": "Novo piso salarial paulista foi sancionado por Tarcísio de Freitas e ficará acima do salário mínimo nacional em 15,6%. Leia mais em https://www.contabeis.com.br/noticias/77144/novo-salario-minimo-em-sp-e-sancionado-alta-e-de-46-em-4-anos/"
-    },
-    {
-      "title": "Carga tributária sobre a renda bate recorde em 2025",
-      "url": "https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-05-29T14:30:02.0000000-03:00",
-      "summary": "Levantamento aponta que tributação federal sobre renda, lucros e ganhos atingiu 9,16% do PIB em 2025, impulsionada pelo IRRF. Leia mais em https://www.contabeis.com.br/noticias/77142/carga-tributaria-sobre-a-renda-bate-recorde-em-2025/"
     }
   ]
 };
