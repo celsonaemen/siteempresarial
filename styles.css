@@ -1372,6 +1372,8 @@ textarea {
 }
 
 .footer-company-front {
+  overflow: hidden;
+  isolation: isolate;
   border-color: rgba(255, 255, 255, 0.62);
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.62), rgba(232, 247, 243, 0.32)),
@@ -1382,6 +1384,32 @@ textarea {
     0 18px 44px rgba(24, 35, 31, 0.12);
   backdrop-filter: blur(18px) saturate(1.25);
   -webkit-backdrop-filter: blur(18px) saturate(1.25);
+}
+
+.footer-company-front::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  z-index: 0;
+  background: url("assets/foto-contabilidade-almenara.png") center / cover no-repeat;
+  filter: blur(18px) saturate(1.08);
+  opacity: 0.42;
+  transform: scale(1.08);
+}
+
+.footer-company-front::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.56), rgba(235, 247, 243, 0.34)),
+    rgba(255, 255, 255, 0.18);
+}
+
+.footer-company-front > * {
+  position: relative;
+  z-index: 2;
 }
 
 .footer-company-back {
