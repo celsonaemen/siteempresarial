@@ -433,9 +433,24 @@ textarea {
 }
 
 .intro-item {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 118px;
   padding: 30px 32px;
-  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.62), rgba(239, 248, 244, 0.34)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 14px 36px rgba(24, 35, 31, 0.08);
+  backdrop-filter: blur(16px) saturate(1.18);
+  -webkit-backdrop-filter: blur(16px) saturate(1.18);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .intro-item strong,
@@ -463,6 +478,7 @@ textarea {
 
 .action-card {
   position: relative;
+  isolation: isolate;
   min-height: 190px;
   overflow: hidden;
   display: flex;
@@ -470,16 +486,43 @@ textarea {
   justify-content: space-between;
   gap: 24px;
   padding: 26px;
-  border: 1px solid rgba(23, 98, 72, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.58);
   border-radius: var(--radius);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(239, 248, 244, 0.82)),
-    var(--surface);
-  box-shadow: 0 14px 36px rgba(24, 35, 31, 0.08);
+    linear-gradient(135deg, rgba(255, 255, 255, 0.68), rgba(239, 248, 244, 0.36)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.78),
+    0 16px 42px rgba(24, 35, 31, 0.1);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
   transition:
-    transform 180ms ease,
-    border-color 180ms ease,
-    box-shadow 180ms ease;
+    transform 380ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 380ms ease,
+    background 380ms ease;
+}
+
+.intro-item::before,
+.action-card::before,
+.about-focus-card::before,
+.service-card::before,
+.steps article::before,
+.faq-item::before,
+.contact-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 22% 0%, rgba(255, 255, 255, 0.7), transparent 30%),
+    linear-gradient(115deg, transparent 10%, rgba(255, 255, 255, 0.42), transparent 56%);
+  opacity: 0.48;
+  transform: translateX(-18%) skewX(-10deg);
+  transition:
+    transform 580ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 360ms ease;
 }
 
 .action-card::after {
@@ -490,7 +533,50 @@ textarea {
   width: 120px;
   height: 120px;
   border-radius: 999px;
-  background: rgba(21, 123, 180, 0.1);
+  background:
+    radial-gradient(circle, rgba(21, 123, 180, 0.18), rgba(21, 123, 180, 0.02) 68%);
+  filter: blur(1px);
+  opacity: 0.78;
+  transition:
+    transform 580ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 360ms ease,
+    filter 360ms ease;
+}
+
+.intro-item::after,
+.about-focus-card::after,
+.service-card::after,
+.steps article::after,
+.faq-item::after,
+.contact-card::after {
+  content: "";
+  position: absolute;
+  right: -46px;
+  bottom: -58px;
+  z-index: 0;
+  width: 132px;
+  height: 132px;
+  pointer-events: none;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(21, 123, 180, 0.14), rgba(21, 123, 180, 0.01) 70%);
+  filter: blur(1px);
+  opacity: 0.62;
+  transition:
+    transform 620ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 360ms ease,
+    filter 360ms ease;
+}
+
+.intro-item > *,
+.action-card > *,
+.about-focus-card > *,
+.service-card > *,
+.steps article > *,
+.faq-item > *,
+.contact-card > * {
+  position: relative;
+  z-index: 1;
 }
 
 .action-card span {
@@ -513,9 +599,11 @@ textarea {
 
 .action-card:hover,
 .action-card:focus-visible {
-  border-color: rgba(23, 98, 72, 0.32);
-  box-shadow: 0 20px 50px rgba(24, 35, 31, 0.12);
-  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.78);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 24px 62px rgba(24, 35, 31, 0.16);
+  transform: translateY(-4px) scale(1.012);
   outline: none;
 }
 
@@ -601,13 +689,27 @@ textarea {
 }
 
 .about-focus-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   margin-top: 10px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.54);
   border-radius: var(--radius);
-  background: #f4f7f5;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.66), rgba(238, 247, 244, 0.38)),
+    rgba(255, 255, 255, 0.26);
   padding: 14px;
   display: grid;
   gap: 12px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 14px 36px rgba(24, 35, 31, 0.08);
+  backdrop-filter: blur(16px) saturate(1.18);
+  -webkit-backdrop-filter: blur(16px) saturate(1.18);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .about-focus-image {
@@ -661,12 +763,25 @@ textarea {
 }
 
 .service-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 285px;
   padding: 26px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.54);
   border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: 0 10px 32px rgba(24, 35, 31, 0.06);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.66), rgba(239, 248, 244, 0.36)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.74),
+    0 14px 36px rgba(24, 35, 31, 0.08);
+  backdrop-filter: blur(16px) saturate(1.18);
+  -webkit-backdrop-filter: blur(16px) saturate(1.18);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .service-icon {
@@ -721,6 +836,7 @@ textarea {
 
 .regime-card {
   position: relative;
+  isolation: isolate;
   min-width: 0;
   min-height: 330px;
   flex: 1 1 0;
@@ -729,12 +845,16 @@ textarea {
   flex-direction: column;
   justify-content: flex-end;
   padding: 24px;
-  border: 1px solid rgba(23, 98, 72, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.56);
   border-radius: 18px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(241, 248, 245, 0.88)),
-    var(--surface);
-  box-shadow: 0 12px 32px rgba(24, 35, 31, 0.07);
+    linear-gradient(145deg, rgba(255, 255, 255, 0.68), rgba(241, 248, 245, 0.38)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.76),
+    0 16px 42px rgba(24, 35, 31, 0.1);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
   outline: none;
   transition:
     flex 220ms ease,
@@ -747,20 +867,33 @@ textarea {
   content: "";
   position: absolute;
   inset: auto -42px -72px auto;
+  z-index: 0;
   width: 170px;
   height: 170px;
   border-radius: 999px;
-  background: rgba(21, 123, 180, 0.1);
-  transition: transform 220ms ease, opacity 220ms ease;
+  background:
+    radial-gradient(circle, rgba(21, 123, 180, 0.18), rgba(21, 123, 180, 0.01) 70%);
+  filter: blur(1px);
+  opacity: 0.72;
+  transition:
+    transform 580ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 360ms ease,
+    filter 360ms ease;
 }
 
 .regime-card::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(23, 98, 72, 0.09), transparent 42%);
-  opacity: 0;
-  transition: opacity 220ms ease;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.68), transparent 30%),
+    linear-gradient(115deg, transparent 10%, rgba(255, 255, 255, 0.36), transparent 56%);
+  opacity: 0.5;
+  transform: translateX(-18%) skewX(-10deg);
+  transition:
+    transform 580ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 360ms ease;
 }
 
 .regime-card .regime-dot {
@@ -858,22 +991,26 @@ textarea {
 .regime-card:focus-within,
 .regime-card:focus-visible {
   flex: 2.25 1 0;
-  border-color: rgba(23, 98, 72, 0.32);
-  box-shadow: 0 24px 58px rgba(24, 35, 31, 0.14);
-  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.78);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.88),
+    0 26px 68px rgba(24, 35, 31, 0.16);
+  transform: translateY(-5px) scale(1.01);
 }
 
 .regime-card:hover::before,
 .regime-card:focus-within::before,
 .regime-card:focus-visible::before {
-  opacity: 0.92;
-  transform: scale(1.2);
+  opacity: 0.95;
+  filter: blur(3px);
+  transform: translate(-10px, -10px) scale(1.26);
 }
 
 .regime-card:hover::after,
 .regime-card:focus-within::after,
 .regime-card:focus-visible::after {
-  opacity: 1;
+  opacity: 0.85;
+  transform: translateX(18%) skewX(-8deg) scale(1.04);
 }
 
 .regime-card:hover ul,
@@ -947,9 +1084,24 @@ textarea {
 }
 
 .steps article {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 236px;
   padding: 26px;
-  background: var(--surface);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.64), rgba(239, 248, 244, 0.34)),
+    rgba(255, 255, 255, 0.26);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 12px 34px rgba(24, 35, 31, 0.07);
+  backdrop-filter: blur(15px) saturate(1.16);
+  -webkit-backdrop-filter: blur(15px) saturate(1.16);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .steps span {
@@ -969,10 +1121,23 @@ textarea {
 }
 
 .faq-item {
-  border: 1px solid var(--line);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.52);
   border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: 0 10px 30px rgba(24, 35, 31, 0.05);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.66), rgba(239, 248, 244, 0.34)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    0 12px 34px rgba(24, 35, 31, 0.07);
+  backdrop-filter: blur(15px) saturate(1.16);
+  -webkit-backdrop-filter: blur(15px) saturate(1.16);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .faq-item summary {
@@ -1099,11 +1264,24 @@ textarea {
 }
 
 .contact-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: 28px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.54);
   border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: var(--shadow);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.68), rgba(239, 248, 244, 0.34)),
+    rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.76),
+    var(--shadow);
+  backdrop-filter: blur(16px) saturate(1.18);
+  -webkit-backdrop-filter: blur(16px) saturate(1.18);
+  transition:
+    transform 360ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 360ms ease;
 }
 
 .contact-card h3 {
@@ -1117,6 +1295,54 @@ textarea {
 
 .contact-card p + p {
   margin-top: 6px;
+}
+
+@media (hover: hover) {
+  .intro-item:hover,
+  .action-card:hover,
+  .action-card:focus-visible,
+  .about-focus-card:hover,
+  .service-card:hover,
+  .steps article:hover,
+  .faq-item:hover,
+  .faq-item:focus-within,
+  .contact-card:hover,
+  .contact-card:focus-within {
+    border-color: rgba(255, 255, 255, 0.78);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.88),
+      0 24px 62px rgba(24, 35, 31, 0.14);
+    transform: translateY(-4px) scale(1.01);
+  }
+
+  .intro-item:hover::before,
+  .action-card:hover::before,
+  .action-card:focus-visible::before,
+  .about-focus-card:hover::before,
+  .service-card:hover::before,
+  .steps article:hover::before,
+  .faq-item:hover::before,
+  .faq-item:focus-within::before,
+  .contact-card:hover::before,
+  .contact-card:focus-within::before {
+    opacity: 0.86;
+    transform: translateX(18%) skewX(-8deg) scale(1.04);
+  }
+
+  .intro-item:hover::after,
+  .action-card:hover::after,
+  .action-card:focus-visible::after,
+  .about-focus-card:hover::after,
+  .service-card:hover::after,
+  .steps article:hover::after,
+  .faq-item:hover::after,
+  .faq-item:focus-within::after,
+  .contact-card:hover::after,
+  .contact-card:focus-within::after {
+    opacity: 0.92;
+    filter: blur(3px);
+    transform: translate(-10px, -10px) scale(1.22);
+  }
 }
 
 .location-link {
@@ -1226,7 +1452,6 @@ textarea {
   position: relative;
   isolation: isolate;
   margin-top: 24px;
-  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -2245,16 +2470,18 @@ textarea {
 
 .motion-on .service-card:hover,
 .motion-on .contact-card:hover {
-  border-color: rgba(23, 98, 72, 0.26);
-  box-shadow: 0 18px 44px rgba(24, 35, 31, 0.12);
-  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.78);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.88),
+    0 24px 62px rgba(24, 35, 31, 0.14);
+  transform: translateY(-4px) scale(1.01);
 }
 
 .motion-on.motion-ready .service-card.is-visible:hover,
 .motion-on.motion-ready .action-card.is-visible:hover,
 .motion-on.motion-ready .action-card.is-visible:focus-visible,
 .motion-on.motion-ready .contact-card.is-visible:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px) scale(1.01);
 }
 
 .motion-on .button:hover,
