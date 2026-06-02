@@ -6,10 +6,12 @@ const footerPanel = document.querySelector(".footer-panel");
 const whatsappForm = document.querySelector("[data-whatsapp-form]");
 const contactForm = document.querySelector("#solicitar-contato");
 const contactLinks = document.querySelectorAll('a[href="#solicitar-contato"]');
+const stepDockCards = Array.from(document.querySelectorAll(".steps article"));
 const revealTargets = document.querySelectorAll(
   ".intro-item, .action-card, .service-card, .regime-card, .feature-list div, .steps article, .faq-item, .contact-copy, .contact-card",
 );
 const whatsappNumber = "553384401388";
+const dockInteractionQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
 
 const setSelectValue = (select, value) => {
   if (!(select instanceof HTMLSelectElement)) {
@@ -58,6 +60,54 @@ const closeMenu = () => {
   menuToggle.setAttribute("aria-expanded", "false");
   menuToggle.setAttribute("aria-label", "Abrir menu");
 };
+
+const clearStepDockState = () => {
+  stepDockCards.forEach((card) => {
+    card.classList.remove("is-dock-hover", "is-dock-near", "is-dock-far");
+  });
+};
+
+const setStepDockState = (activeIndex) => {
+  if (!dockInteractionQuery.matches) {
+    return;
+  }
+
+  clearStepDockState();
+
+  stepDockCards.forEach((card, index) => {
+    const distance = Math.abs(index - activeIndex);
+
+    if (distance === 0) {
+      card.classList.add("is-dock-hover");
+      return;
+    }
+
+    if (distance === 1) {
+      card.classList.add("is-dock-near");
+      return;
+    }
+
+    if (distance === 2) {
+      card.classList.add("is-dock-far");
+    }
+  });
+};
+
+if (stepDockCards.length) {
+  const stepsContainer = stepDockCards[0].closest(".steps");
+
+  stepDockCards.forEach((card, index) => {
+    card.addEventListener("pointerenter", () => setStepDockState(index));
+  });
+
+  if (stepsContainer instanceof HTMLElement) {
+    stepsContainer.addEventListener("pointerleave", clearStepDockState);
+  }
+
+  if (typeof dockInteractionQuery.addEventListener === "function") {
+    dockInteractionQuery.addEventListener("change", clearStepDockState);
+  }
+}
 
 if (menuToggle instanceof HTMLButtonElement && nav instanceof HTMLElement) {
   menuToggle.addEventListener("click", () => {
