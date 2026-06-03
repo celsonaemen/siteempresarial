@@ -7,6 +7,7 @@ const whatsappForm = document.querySelector("[data-whatsapp-form]");
 const contactForm = document.querySelector("#solicitar-contato");
 const contactLinks = document.querySelectorAll('a[href="#solicitar-contato"]');
 const stepDockCards = Array.from(document.querySelectorAll(".steps article"));
+const faqDockCards = Array.from(document.querySelectorAll(".faq-item"));
 const revealTargets = document.querySelectorAll(
   ".intro-item, .action-card, .service-card, .regime-card, .feature-list div, .steps article, .faq-item, .contact-copy, .contact-card",
 );
@@ -106,6 +107,60 @@ if (stepDockCards.length) {
 
   if (typeof dockInteractionQuery.addEventListener === "function") {
     dockInteractionQuery.addEventListener("change", clearStepDockState);
+  }
+}
+
+const clearFaqDockState = () => {
+  faqDockCards.forEach((card) => {
+    card.classList.remove("is-faq-dock-hover", "is-faq-dock-near", "is-faq-dock-far");
+  });
+};
+
+const setFaqDockState = (activeIndex) => {
+  if (!dockInteractionQuery.matches) {
+    return;
+  }
+
+  clearFaqDockState();
+
+  faqDockCards.forEach((card, index) => {
+    const distance = Math.abs(index - activeIndex);
+
+    if (distance === 0) {
+      card.classList.add("is-faq-dock-hover");
+      return;
+    }
+
+    if (distance === 1) {
+      card.classList.add("is-faq-dock-near");
+      return;
+    }
+
+    if (distance === 2) {
+      card.classList.add("is-faq-dock-far");
+    }
+  });
+};
+
+if (faqDockCards.length) {
+  const faqContainer = faqDockCards[0].closest(".faq-list");
+
+  faqDockCards.forEach((card, index) => {
+    card.addEventListener("pointerenter", () => setFaqDockState(index));
+    card.addEventListener("focusin", () => setFaqDockState(index));
+  });
+
+  if (faqContainer instanceof HTMLElement) {
+    faqContainer.addEventListener("pointerleave", clearFaqDockState);
+    faqContainer.addEventListener("focusout", (event) => {
+      if (!(event.relatedTarget instanceof Node) || !faqContainer.contains(event.relatedTarget)) {
+        clearFaqDockState();
+      }
+    });
+  }
+
+  if (typeof dockInteractionQuery.addEventListener === "function") {
+    dockInteractionQuery.addEventListener("change", clearFaqDockState);
   }
 }
 
