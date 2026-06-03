@@ -1526,9 +1526,17 @@ textarea {
 }
 
 .contact-form label:nth-of-type(5),
+.form-note,
 .privacy-consent,
 .contact-form .button {
   grid-column: 1 / -1;
+}
+
+.form-note {
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.4;
 }
 
 .contact-form .privacy-consent {
@@ -2210,6 +2218,7 @@ textarea {
 
   .contact-form h3,
   .contact-form label:nth-of-type(5),
+  .form-note,
   .contact-form .button {
     grid-column: auto;
   }

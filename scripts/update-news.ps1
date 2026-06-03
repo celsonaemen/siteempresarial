@@ -1,7 +1,8 @@
 param(
   [string]$OutputPath = (Join-Path $PSScriptRoot "..\news\data\noticias.json"),
   [string]$JsOutputPath = (Join-Path $PSScriptRoot "..\news\data\noticias.js"),
-  [int]$MaxItems = 24
+  [int]$MaxItems = 24,
+  [int]$SummaryMaxLength = 240
 )
 
 $ErrorActionPreference = "Stop"
@@ -132,6 +133,30 @@ function Get-ItemSummary {
   }
 
   return ""
+}
+
+function Convert-ToPublicSummary {
+  param(
+    [AllowNull()][string]$Value,
+    [int]$MaxLength = 240
+  )
+
+  $text = Convert-ToPlainText $Value
+  if (-not $text) {
+    return ""
+  }
+
+  $text = [regex]::Replace($text, "\s*Leia mais em\s+https?://\S+\s*$", "", "IgnoreCase").Trim()
+  if ($text.Length -le $MaxLength) {
+    return $text
+  }
+
+  $cutAt = $text.LastIndexOf(" ", [Math]::Min($MaxLength, $text.Length - 1))
+  if ($cutAt -lt 80) {
+    $cutAt = [Math]::Min($MaxLength, $text.Length)
+  }
+
+  return "$($text.Substring(0, $cutAt).TrimEnd())..."
 }
 
 function Get-ItemPublishedAt {
@@ -373,6 +398,16 @@ if ((@($topItems).Count -eq 0) -and (@($rankedItems).Count -gt 0)) {
     Sort-Object -Property sortKey -Descending |
     Select-Object -First $MaxItems |
     Select-Object title, url, source, publishedAt, summary
+}
+
+$topItems = @($topItems) | ForEach-Object {
+  [PSCustomObject]@{
+    title       = $_.title
+    url         = $_.url
+    source      = $_.source
+    publishedAt = $_.publishedAt
+    summary     = Convert-ToPublicSummary -Value $_.summary -MaxLength $SummaryMaxLength
+  }
 }
 
 $payload = [PSCustomObject]@{
