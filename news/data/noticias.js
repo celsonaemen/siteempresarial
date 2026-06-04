@@ -1,8 +1,99 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-03T15:53:31.6635130Z",
+  "generatedAt": "2026-06-04T14:09:26.6177257Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "Receita libera 2º lote da restituição do IR 2026 neste mês",
+      "url": "https://www.contabeis.com.br/noticias/77233/receita-libera-2o-lote-da-restituicao-do-ir-2026-neste-mes/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-04T11:00:01.0000000-03:00",
+      "summary": "Receita Federal paga segundo lote da restituição do IRPF 2026 no fim de junho. Confira quem tem prioridade e como consultar."
+    },
+    {
+      "title": "Autônomos e Simples terão de usar a NFS-e Nacional em agosto de 2026",
+      "url": "https://www.contabeis.com.br/noticias/77211/autonomos-e-simples-terao-de-usar-a-nfs-e-nacional-em-agosto-de-2026/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-04T10:30:02.0000000-03:00",
+      "summary": "Entenda as alterações na emissão de notas fiscais de serviço (NFS-e) com o padrão nacional em 2026 e prepare autônomos e empresas do Simples Nacional para as novas rotinas."
+    },
+    {
+      "title": "Corpus Christi: empresa pode exigir compensação de horas?",
+      "url": "https://www.contabeis.com.br/noticias/77193/corpus-christi-empresa-pode-exigir-compensacao-de-horas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-04T10:00:02.0000000-03:00",
+      "summary": "Folga na emenda do feriado não é obrigatória e pode exigir reposição das horas em algumas situações."
+    },
+    {
+      "title": "Profissão contábil alcança 79,39% de aprovação pela sociedade, diz pesquisa",
+      "url": "https://www.contabeis.com.br/noticias/77204/profissao-contabil-alcanca-79-39-de-aprovacao-pela-sociedade-diz-pesquisa/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-04T09:00:02.0000000-03:00",
+      "summary": "Relatório do Conselho Federal de Contabilidade detalha a percepção de profissionais, sociedade e colaboradores sobre as atividades e serviços do órgão em 2025."
+    },
+    {
+      "title": "Caged: Brasil cria menos empregos formais que o esperado em abril",
+      "url": "https://www.contabeis.com.br/noticias/77245/caged-brasil-cria-menos-empregos-formais-que-o-esperado-em-abril/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T17:30:02.0000000-03:00",
+      "summary": "Mercado de trabalho desacelera e saldo de vagas com carteira assinada fica abaixo das projeções de economistas."
+    },
+    {
+      "title": "Dia Mundial do Meio Ambiente: projetos no Senado reforçam agenda climática",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/03/dia-mundial-do-meio-ambiente-projetos-no-senado-reforcam-agenda-climatica",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-03T20:00:32.0000000+00:00",
+      "summary": "Nesta sexta-feira (5), comemora-se o Dia Mundial do Meio Ambiente. Na edição deste ano, as Nações Unidas convocam governos, instituições e cidadãos a acelerar respostas concretas à crise ambiental. O Senado faz parte desse debate. A Casa..."
+    },
+    {
+      "title": "IA substitui trabalhadores ou virou desculpa corporativa?",
+      "url": "https://www.contabeis.com.br/noticias/77244/ia-substitui-trabalhadores-ou-virou-desculpa-corporativa/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T17:00:02.0000000-03:00",
+      "summary": "Especialistas alertam que o avanço tecnológico tem sido usado por empresas para mascarar reestruturações financeiras."
+    },
+    {
+      "title": "Eleições 2026: o que empresas podem proibir no trabalho?",
+      "url": "https://www.contabeis.com.br/noticias/77243/eleicoes-2026-o-que-empresas-podem-proibir-no-trabalho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T16:30:01.0000000-03:00",
+      "summary": "Entenda os limites legais para manifestações políticas de funcionários dentro e fora do ambiente corporativo."
+    },
+    {
+      "title": "Corpus Christi: Bancos, INSS e Correios terão atendimento alterado",
+      "url": "https://www.contabeis.com.br/noticias/77234/corpus-christi-bancos-inss-e-correios-terao-atendimento-alterado/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T16:00:02.0000000-03:00",
+      "summary": "Saiba como ficará o funcionamento de bancos, INSS e Correios no feriado de Corpus Christi. Pagamentos e atendimentos remotos"
+    },
+    {
+      "title": "Greve geral em Portugal trava serviços e pressiona reforma trabalhista",
+      "url": "https://www.contabeis.com.br/noticias/77240/greve-geral-em-portugal-trava-servicos-e-pressiona-reforma-trabalhista/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T15:30:01.0000000-03:00",
+      "summary": "Paralisação afeta voos, transporte e serviços públicos enquanto proposta de reforma trabalhista avança no Parlamento."
+    },
+    {
+      "title": "MEIs lideram abertura de empresas em 2026",
+      "url": "https://www.contabeis.com.br/noticias/77231/meis-lideram-abertura-de-empresas-em-2026/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T15:00:02.0000000-03:00",
+      "summary": "Crescimento do empreendedorismo individual impulsiona número de pequenos negócios no país e reforça avanço da formalização."
+    },
+    {
+      "title": "Perdeu o prazo do IR 2026? Contador explica o que fazer agora",
+      "url": "https://www.contabeis.com.br/noticias/77229/perdeu-o-prazo-do-ir-2026-contador-explica-o-que-fazer-agora/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T14:30:01.0000000-03:00",
+      "summary": "Contribuintes que não entregaram a declaração ainda podem regularizar a situação, mas estão sujeitos a multa e outras consequências."
+    },
+    {
+      "title": "RFB permite presunção reduzida de IRPJ e CSLL no lucro presumido",
+      "url": "https://www.contabeis.com.br/noticias/77227/rfb-permite-presuncao-reduzida-de-irpj-e-csll-no-lucro-presumido/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-03T14:00:02.0000000-03:00",
+      "summary": "Empresas de saúde no lucro presumido podem aplicar percentuais reduzidos de IRPJ e CSLL sobre a receita bruta, conforme Soluções de Consulta da Receita Federal."
+    },
     {
       "title": "PIB surpreende no início do ano, mas analistas alertam para desaceleração",
       "url": "https://www.contabeis.com.br/noticias/77230/pib-surpreende-no-inicio-do-ano-mas-analistas-alertam-para-desaceleracao/",
@@ -79,97 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-02T16:00:01.0000000-03:00",
       "summary": "Falta da DASN-SIMEI pode gerar multa, deixar o CNPJ inapto e até levar ao cancelamento do MEI ."
-    },
-    {
-      "title": "Brasileiro trabalhou 150 dias para pagar impostos em 2026",
-      "url": "https://www.contabeis.com.br/noticias/77195/brasileiro-trabalhou-150-dias-para-pagar-impostos-em-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T15:30:01.0000000-03:00",
-      "summary": "Carga tributária atingiu 41,1% da renda em 2026. Veja quantos dias de trabalho foram destinados ao pagamento de tributos."
-    },
-    {
-      "title": "Falhas em documentos fiscais podem comprometer créditos tributários",
-      "url": "https://www.contabeis.com.br/noticias/77188/falhas-em-documentos-fiscais-podem-comprometer-creditos-tributarios/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T15:00:02.0000000-03:00",
-      "summary": "Entenda as penalidades previstas na reforma tributária para cancelamento irregular de documentos fiscais e falhas na gestão de créditos."
-    },
-    {
-      "title": "PEC do fim da escala 6x1 chega ao Senado e amplia pressão sobre empresas",
-      "url": "https://www.contabeis.com.br/noticias/77197/pec-do-fim-da-escala-6x1-chega-ao-senado-e-amplia-pressao-sobre-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T14:30:01.0000000-03:00",
-      "summary": "Proposta que reduz jornada semanal para 40 horas começa tramitação no Senado e enfrenta resistência do setor produtivo."
-    },
-    {
-      "title": "Trabalho em feriados muda para o comércio; regra já está valendo",
-      "url": "https://www.contabeis.com.br/noticias/77185/trabalho-em-feriados-muda-para-o-comercio-regra-ja-esta-valendo/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T14:00:01.0000000-03:00",
-      "summary": "Nova regra exige convenção coletiva para trabalho em feriados em parte do comércio. Entenda o que muda para empresas e trabalhadores."
-    },
-    {
-      "title": "PGFN abre edital de transação tributária para dívidas até R$ 45 mi",
-      "url": "https://www.contabeis.com.br/noticias/77182/pgfn-abre-edital-de-transacao-tributaria-para-dividas-ate-r-45-mi/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T12:00:01.0000000-03:00",
-      "summary": "PGFN abre adesão a novas modalidades de transação tributária com débitos em Dívida Ativa da União. Entenda as regras e descontos."
-    },
-    {
-      "title": "PGFN assume dívida ativa do FGTS; o que muda para empresas",
-      "url": "https://www.contabeis.com.br/noticias/77181/pgfn-assume-divida-ativa-do-fgts-o-que-muda-para-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T11:30:02.0000000-03:00",
-      "summary": "Entenda os impactos para empresas, contadores e a regularização dos débitos."
-    },
-    {
-      "title": "RFB muda cronograma de pagamento do último lote do IR 2026",
-      "url": "https://www.contabeis.com.br/noticias/77140/rfb-muda-cronograma-de-pagamento-do-ultimo-lote-do-ir-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T11:00:01.0000000-03:00",
-      "summary": "Receita Federal ajusta cronograma de restituição do IRPF 2026. Saiba a nova data para o 4º lote e confira o calendário."
-    },
-    {
-      "title": "O fim da escala 6x1 vai mudar apenas a jornada ou vai transformar a forma de contratar?",
-      "url": "https://www.contabeis.com.br/noticias/77187/o-fim-da-escala-6x1-vai-mudar-apenas-a-jornada-ou-vai-transformar-a-forma-de-contratar/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T10:45:02.0000000-03:00",
-      "summary": "Analise os possíveis efeitos do fim da escala 6x1 na organização empresarial, contratações e custos operacionais no Brasil."
-    },
-    {
-      "title": "INSS: prazo para contestar descontos indevidos termina em 20 de junho",
-      "url": "https://www.contabeis.com.br/noticias/77186/inss-prazo-para-contestar-descontos-indevidos-termina-em-20-de-junho/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T10:30:01.0000000-03:00",
-      "summary": "Aposentados e pensionistas têm até 20 de junho para contestar cobranças associativas não autorizadas e pedir ressarcimento."
-    },
-    {
-      "title": "Imposto de Renda pode virar automático em até três anos",
-      "url": "https://www.contabeis.com.br/noticias/77184/imposto-de-renda-pode-virar-automatico-em-ate-tres-anos/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T10:00:01.0000000-03:00",
-      "summary": "Ministério da Fazenda projeta o fim da prestação de contas tradicional do IR. Entenda como o fisco fará o processo."
-    },
-    {
-      "title": "Novo portal do SPED já está no ar com novidades para contadores",
-      "url": "https://www.contabeis.com.br/noticias/77180/novo-portal-do-sped-ja-esta-no-ar-com-novidades-para-contadores/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T09:00:02.0000000-03:00",
-      "summary": "Receita Federal lança novo portal do SPED com interface moderna, padronizada e integrada ao ecossistema digital do GOV.BR. Saiba as novidades."
-    },
-    {
-      "title": "Sincovaga-SP lança assessoria técnica inédita e gratuita para contadores de supermercados",
-      "url": "https://www.contabeis.com.br/noticias/77170/sincovaga-sp-lanca-assessoria-tecnica-inedita-e-gratuita-para-contadores-de-supermercados/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T08:30:01.0000000-03:00",
-      "summary": "Sincovaga-SP lança serviço gratuito com suporte tributário, técnico e previdenciário para contabilistas do varejo alimentar e supermercadista."
-    },
-    {
-      "title": "Saque-aniversário do FGTS de junho é liberado hoje",
-      "url": "https://www.contabeis.com.br/noticias/77174/saque-aniversario-do-fgts-de-junho-e-liberado-hoje/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-01T17:30:02.0000000-03:00",
-      "summary": "Veja o calendário de pagamentos e o prazo limite para resgatar o saldo."
     }
   ]
 };
