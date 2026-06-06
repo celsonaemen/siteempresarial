@@ -1,8 +1,43 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-05T13:57:23.0068668Z",
+  "generatedAt": "2026-06-06T12:14:51.3388818Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "IRPF 2026: como retificar a declaração e evitar multas",
+      "url": "https://www.contabeis.com.br/noticias/77208/irpf-2026-como-retificar-a-declaracao-e-evitar-multas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-06T09:00:02.0000000-03:00",
+      "summary": "Saiba como fazer a declaração retificadora do IRPF 2026, prazo para correção e o que fazer se caiu na malha fina ."
+    },
+    {
+      "title": "Escala 4x3 e fim da jornada 6x1: entenda o que está em debate",
+      "url": "https://www.contabeis.com.br/noticias/77222/escala-4x3-e-fim-da-jornada-6x1-entenda-o-que-esta-em-debate/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-05T15:00:01.0000000-03:00",
+      "summary": "PEC aprovada pela Câmara prevê jornada de 40 horas e duas folgas semanais. Veja como está o debate sobre a escala 4x3 e o fim da 6x1."
+    },
+    {
+      "title": "Desenrola Brasil: veja como usar o FGTS para pagar dívidas em atraso",
+      "url": "https://www.contabeis.com.br/noticias/77209/desenrola-brasil-veja-como-usar-o-fgts-para-pagar-dividas-em-atraso/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-05T14:00:01.0000000-03:00",
+      "summary": "Trabalhadores já podem utilizar parte do saldo do FGTS para quitar ou renegociar dívidas bancárias pelo Novo Desenrola Brasil."
+    },
+    {
+      "title": "Reforma Tributária: impactos e benefícios para o setor de serviços",
+      "url": "https://www.contabeis.com.br/noticias/77201/reforma-tributaria-impactos-e-beneficios-para-o-setor-de-servicos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-05T12:00:01.0000000-03:00",
+      "summary": "Entenda como a Reforma Tributária afetará o setor de serviços, abordando a simplificação fiscal, créditos tributários, reduções e isenções."
+    },
+    {
+      "title": "MEI: governo estuda liberar contratação de dois empregados",
+      "url": "https://www.contabeis.com.br/noticias/77218/mei-governo-estuda-liberar-contratacao-de-dois-empregados/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-05T11:00:01.0000000-03:00",
+      "summary": "Em meio aos debates sobre a jornada de trabalho, o governo federal avalia ampliar o limite de contratação e o teto de faturamento do MEI ."
+    },
     {
       "title": "Fim do 6x1 pode afetar preços, empregos e lucro das empresas",
       "url": "https://www.contabeis.com.br/noticias/77210/fim-do-6x1-pode-afetar-precos-empregos-e-lucro-das-empresas/",
@@ -135,41 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-03T10:30:02.0000000-03:00",
       "summary": "Saiba se Corpus Christi é feriado ou ponto facultativo, os direitos dos trabalhadores e os impactos para empregadores e RH no Brasil."
-    },
-    {
-      "title": "EUA propõem novo tarifaço para produtos brasileiros",
-      "url": "https://www.contabeis.com.br/noticias/77224/eua-propoem-novo-tarifaco-para-produtos-brasileiros/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T10:00:02.0000000-03:00",
-      "summary": "Governo dos EUA propõe tarifas de 25% em investigação específica e 12,5% em nova rodada sobre produtos brasileiros. Saiba os impactos."
-    },
-    {
-      "title": "MEI pode ter novo teto de faturamento já em 2027",
-      "url": "https://www.contabeis.com.br/noticias/77220/mei-pode-ter-novo-teto-de-faturamento-ja-em-2027/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T09:30:01.0000000-03:00",
-      "summary": "Governo avalia elevar gradualmente o limite do MEI e discute mudanças nas contribuições para reduzir impactos na Previdência."
-    },
-    {
-      "title": "Alerta do FGTS Digital: erro pode levar dívida direto à União",
-      "url": "https://www.contabeis.com.br/noticias/77221/alerta-do-fgts-digital-erro-pode-levar-divida-direto-a-uniao/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T09:00:01.0000000-03:00",
-      "summary": "Órgão federal reforça orientações sobre pendências trabalhistas que, se ignoradas, perdem direito à contestação."
-    },
-    {
-      "title": "Os erros mais comuns no cálculo de horas trabalhadas e como eles afetam as empresas",
-      "url": "https://www.contabeis.com.br/noticias/77213/os-erros-mais-comuns-no-calculo-de-horas-trabalhadas-e-como-eles-afetam-as-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T17:30:01.0000000-03:00",
-      "summary": "Descubra por que o cálculo de horas trabalhadas é mais complexo do que parece e como pequenos erros impactam sua rotina e empresa."
-    },
-    {
-      "title": "Operação mira esquema milionário de fraude tributária em SC",
-      "url": "https://www.contabeis.com.br/noticias/77200/operacao-mira-esquema-milionario-de-fraude-tributaria-em-sc/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-02T17:00:01.0000000-03:00",
-      "summary": "Polícia Civil e Fazenda de Santa Catarina investigam emissão de notas fiscais fraudulentas e bloqueiam bens de suspeitos."
     }
   ]
 };
