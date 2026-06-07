@@ -1,5 +1,5 @@
 window.ALMENARA_MARKET_DATA = {
-  "generatedAt": "2026-06-06T12:14:51.8603447Z",
+  "generatedAt": "2026-06-07T12:24:51.8159496Z",
   "sourceCount": 2,
   "items": {
     "USDBRL": {

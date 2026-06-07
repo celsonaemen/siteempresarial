@@ -1,8 +1,36 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-06T12:14:51.3388818Z",
+  "generatedAt": "2026-06-07T12:24:51.1724317Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "Pronampe Mulher amplia crédito para MPEs lideradas por mulheres",
+      "url": "https://www.contabeis.com.br/noticias/77232/pronampe-mulher-amplia-credito-para-mpes-lideradas-por-mulheres/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-07T09:00:01.0000000-03:00",
+      "summary": "Programa oferece condições especiais de financiamento e busca fortalecer o empreendedorismo feminino no país."
+    },
+    {
+      "title": "Nova NR-1 aumenta preocupação com ações trabalhistas",
+      "url": "https://www.contabeis.com.br/noticias/77219/nova-nr-1-aumenta-preocupacao-com-acoes-trabalhistas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-06T12:00:01.0000000-03:00",
+      "summary": "Empresas terão de identificar riscos psicossociais e adotar medidas contra burnout, assédio e sobrecarga no ambiente de trabalho."
+    },
+    {
+      "title": "MEI: saiba como regularizar a DASN-SIMEI mesmo após o prazo",
+      "url": "https://www.contabeis.com.br/noticias/77207/mei-saiba-como-regularizar-a-dasn-simei-mesmo-apos-o-prazo/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-06T11:00:01.0000000-03:00",
+      "summary": "MEI que não entregou a DASN-SIMEI no prazo ainda pode regularizar a situação. Saiba como evitar multas e problemas com o CNPJ ."
+    },
+    {
+      "title": "Riscos psicossociais na NR-1: o que pode ser considerado fator de risco?",
+      "url": "https://www.contabeis.com.br/noticias/77223/riscos-psicossociais-na-nr-1-o-que-pode-ser-considerado-fator-de-risco/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-06T10:00:01.0000000-03:00",
+      "summary": "Entenda quais situações podem ser consideradas riscos psicossociais na NR-1 e o que empresas, RHs e contadores devem observar."
+    },
     {
       "title": "IRPF 2026: como retificar a declaração e evitar multas",
       "url": "https://www.contabeis.com.br/noticias/77208/irpf-2026-como-retificar-a-declaracao-e-evitar-multas/",
@@ -95,6 +123,13 @@ window.ALMENARA_NEWS_DATA = {
       "summary": "Mercado de trabalho desacelera e saldo de vagas com carteira assinada fica abaixo das projeções de economistas."
     },
     {
+      "title": "Dia Mundial do Meio Ambiente: projetos no Senado reforçam agenda climática",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/03/dia-mundial-do-meio-ambiente-projetos-no-senado-reforcam-agenda-climatica",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-03T20:00:32.0000000+00:00",
+      "summary": "Nesta sexta-feira (5), comemora-se o Dia Mundial do Meio Ambiente. Na edição deste ano, as Nações Unidas convocam governos, instituições e cidadãos a acelerar respostas concretas à crise ambiental. O Senado faz parte desse debate. A Casa..."
+    },
+    {
       "title": "IA substitui trabalhadores ou virou desculpa corporativa?",
       "url": "https://www.contabeis.com.br/noticias/77244/ia-substitui-trabalhadores-ou-virou-desculpa-corporativa/",
       "source": "Portal Contabeis Noticias",
@@ -135,41 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-03T14:30:01.0000000-03:00",
       "summary": "Contribuintes que não entregaram a declaração ainda podem regularizar a situação, mas estão sujeitos a multa e outras consequências."
-    },
-    {
-      "title": "RFB permite presunção reduzida de IRPJ e CSLL no lucro presumido",
-      "url": "https://www.contabeis.com.br/noticias/77227/rfb-permite-presuncao-reduzida-de-irpj-e-csll-no-lucro-presumido/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T14:00:02.0000000-03:00",
-      "summary": "Empresas de saúde no lucro presumido podem aplicar percentuais reduzidos de IRPJ e CSLL sobre a receita bruta, conforme Soluções de Consulta da Receita Federal."
-    },
-    {
-      "title": "PIB surpreende no início do ano, mas analistas alertam para desaceleração",
-      "url": "https://www.contabeis.com.br/noticias/77230/pib-surpreende-no-inicio-do-ano-mas-analistas-alertam-para-desaceleracao/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T12:00:01.0000000-03:00",
-      "summary": "Atividade econômica avança no primeiro trimestre, mas juros altos e incertezas externas indicam perda de tração nos próximos meses."
-    },
-    {
-      "title": "Reforma tributária: veja principais preocupações das empresas na transição",
-      "url": "https://www.contabeis.com.br/noticias/77225/reforma-tributaria-veja-principais-preocupacoes-das-empresas-na-transicao/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T11:30:01.0000000-03:00",
-      "summary": "Pesquisa aponta que 60% das empresas brasileiras se preocupam com a transição entre o sistema atual e o novo modelo tributário."
-    },
-    {
-      "title": "Caixa nega indenização de R$ 15 mil para clientes",
-      "url": "https://www.contabeis.com.br/noticias/77226/caixa-nega-indenizacao-de-r-15-mil-para-clientes/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T11:00:01.0000000-03:00",
-      "summary": "Banco desmente promessa de pagamento para usuários do Caixa Tem e reforça cuidados para evitar golpes digitais."
-    },
-    {
-      "title": "Corpus Christi: Feriado ou Ponto Facultativo?",
-      "url": "https://www.contabeis.com.br/noticias/77228/corpus-christi-feriado-ou-ponto-facultativo/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T10:30:02.0000000-03:00",
-      "summary": "Saiba se Corpus Christi é feriado ou ponto facultativo, os direitos dos trabalhadores e os impactos para empregadores e RH no Brasil."
     }
   ]
 };
