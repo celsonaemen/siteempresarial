@@ -1,8 +1,85 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-07T12:24:51.1724317Z",
+  "generatedAt": "2026-06-08T14:52:03.5873097Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "NFSe incorpora CNPJ alfanumérico e regras para IBS e CBS",
+      "url": "https://www.contabeis.com.br/noticias/77256/nfse-incorpora-cnpj-alfanumerico-e-regras-para-ibs-e-cbs/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T11:30:01.0000000-03:00",
+      "summary": "Novos campos para IBS e CBS e mudanças para empresas do Simples Nacional ."
+    },
+    {
+      "title": "MTE abre prazo para empregadores enviarem a RAIS em 2026",
+      "url": "https://www.contabeis.com.br/noticias/77255/mte-abre-prazo-para-empregadores-enviarem-a-rais-em-2026/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T11:00:01.0000000-03:00",
+      "summary": "Empregadores devem enviar declarações RAIS de 1976 a 2022 via PGD RAIS Genérico."
+    },
+    {
+      "title": "Imposto Seletivo: controle de preços de transferência",
+      "url": "https://www.contabeis.com.br/noticias/77253/imposto-seletivo-controle-de-precos-de-transferencia/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T10:30:02.0000000-03:00",
+      "summary": "Analista Ricardo Rios discute os impactos do Imposto Seletivo nas operações de preços de transferência, desafios de fiscalização e conformidade fiscal."
+    },
+    {
+      "title": "Plenário analisa na terça isenção de ISS para Copa do Mundo Feminina 2027",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/08/plenario-analisa-na-terca-isencao-de-iss-para-copa-do-mundo-feminina-2027",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-08T13:15:43.0000000+00:00",
+      "summary": "Em clima de Copa do Mundo, o Plenário do Senado deve analisar nesta terça-feira (9), a partir das 14h, o projeto de lei complementar que permite a concessão de isenção do Imposto sobre Serviços (ISS) às empresas envolvidas na organização e..."
+    },
+    {
+      "title": "Receita Federal inicia fiscalização de inconsistências de IRPJ e CSLL",
+      "url": "https://www.contabeis.com.br/noticias/77254/receita-federal-inicia-fiscalizacao-de-inconsistencias-de-irpj-e-csll/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T10:00:01.0000000-03:00",
+      "summary": "Nova ação de conformidade do IRPJ e CSLL alcança mais de 29 mil empresas e abre prazo para regularização espontânea até o fim de julho."
+    },
+    {
+      "title": "Comissão da Câmara debate combate à pirataria, contrabando e evasão fiscal",
+      "url": "https://www.camara.leg.br/noticias/1278944-comissao-da-camara-debate-combate-a-pirataria-contrabando-e-evasao-fiscal/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-08T12:53:00.0000000+00:00",
+      "summary": "Deputados buscam mobilizar estados e instituições para ampliar o combate ao comércio ilegal"
+    },
+    {
+      "title": "Dmed: RFB define regras para envio de dados de planos empresariais",
+      "url": "https://www.contabeis.com.br/noticias/77252/dmed-rfb-define-regras-para-envio-de-dados-de-planos-empresariais/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T09:30:01.0000000-03:00",
+      "summary": "Receita Federal esclarece obrigatoriedade da Dmed para planos de saúde coletivos empresariais."
+    },
+    {
+      "title": "Split Payment: Receita divulga manual para CBS e IBS",
+      "url": "https://www.contabeis.com.br/noticias/77251/split-payment-receita-divulga-manual-para-cbs-e-ibs/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T09:05:01.0000000-03:00",
+      "summary": "Nova documentação técnica da Receita Federal e do CGIBS permite início do desenvolvimento dos sistemas que vão operacionalizar o split payment da reforma tributária ."
+    },
+    {
+      "title": "Demissão pode impulsionar sua carreira; entenda como",
+      "url": "https://www.contabeis.com.br/noticias/77194/demissao-pode-impulsionar-sua-carreira-entenda-como/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-07T12:00:01.0000000-03:00",
+      "summary": "Período de transição pode abrir espaço para qualificação, networking e novas oportunidades profissionais."
+    },
+    {
+      "title": "PEC da jornada de 40 horas pode acelerar automação e terceirização nas empresas",
+      "url": "https://www.contabeis.com.br/noticias/77239/pec-da-jornada-de-40-horas-pode-acelerar-automacao-e-terceirizacao-nas-empresas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-07T11:00:01.0000000-03:00",
+      "summary": "Especialistas alertam que redução da carga semanal e fim da escala 6x1 podem elevar custos operacionais e mudar modelo de contratação."
+    },
+    {
+      "title": "Terceiro Setor: pressão fiscal e contábil aumenta no segundo semestre de 2026",
+      "url": "https://www.contabeis.com.br/noticias/77203/terceiro-setor-pressao-fiscal-e-contabil-aumenta-no-segundo-semestre-de-2026/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-07T10:00:01.0000000-03:00",
+      "summary": "Falta de organização financeira segue comprometendo acesso a recursos, parcerias e ao alcance dos resultados."
+    },
     {
       "title": "Pronampe Mulher amplia crédito para MPEs lideradas por mulheres",
       "url": "https://www.contabeis.com.br/noticias/77232/pronampe-mulher-amplia-credito-para-mpes-lideradas-por-mulheres/",
@@ -93,83 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-04T11:00:01.0000000-03:00",
       "summary": "Receita Federal paga segundo lote da restituição do IRPF 2026 no fim de junho. Confira quem tem prioridade e como consultar."
-    },
-    {
-      "title": "Autônomos e Simples terão de usar a NFS-e Nacional em agosto de 2026",
-      "url": "https://www.contabeis.com.br/noticias/77211/autonomos-e-simples-terao-de-usar-a-nfs-e-nacional-em-agosto-de-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-04T10:30:02.0000000-03:00",
-      "summary": "Entenda as alterações na emissão de notas fiscais de serviço (NFS-e) com o padrão nacional em 2026 e prepare autônomos e empresas do Simples Nacional para as novas rotinas."
-    },
-    {
-      "title": "Corpus Christi: empresa pode exigir compensação de horas?",
-      "url": "https://www.contabeis.com.br/noticias/77193/corpus-christi-empresa-pode-exigir-compensacao-de-horas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-04T10:00:02.0000000-03:00",
-      "summary": "Folga na emenda do feriado não é obrigatória e pode exigir reposição das horas em algumas situações."
-    },
-    {
-      "title": "Profissão contábil alcança 79,39% de aprovação pela sociedade, diz pesquisa",
-      "url": "https://www.contabeis.com.br/noticias/77204/profissao-contabil-alcanca-79-39-de-aprovacao-pela-sociedade-diz-pesquisa/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-04T09:00:02.0000000-03:00",
-      "summary": "Relatório do Conselho Federal de Contabilidade detalha a percepção de profissionais, sociedade e colaboradores sobre as atividades e serviços do órgão em 2025."
-    },
-    {
-      "title": "Caged: Brasil cria menos empregos formais que o esperado em abril",
-      "url": "https://www.contabeis.com.br/noticias/77245/caged-brasil-cria-menos-empregos-formais-que-o-esperado-em-abril/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T17:30:02.0000000-03:00",
-      "summary": "Mercado de trabalho desacelera e saldo de vagas com carteira assinada fica abaixo das projeções de economistas."
-    },
-    {
-      "title": "Dia Mundial do Meio Ambiente: projetos no Senado reforçam agenda climática",
-      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/03/dia-mundial-do-meio-ambiente-projetos-no-senado-reforcam-agenda-climatica",
-      "source": "Senado Noticias",
-      "publishedAt": "2026-06-03T20:00:32.0000000+00:00",
-      "summary": "Nesta sexta-feira (5), comemora-se o Dia Mundial do Meio Ambiente. Na edição deste ano, as Nações Unidas convocam governos, instituições e cidadãos a acelerar respostas concretas à crise ambiental. O Senado faz parte desse debate. A Casa..."
-    },
-    {
-      "title": "IA substitui trabalhadores ou virou desculpa corporativa?",
-      "url": "https://www.contabeis.com.br/noticias/77244/ia-substitui-trabalhadores-ou-virou-desculpa-corporativa/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T17:00:02.0000000-03:00",
-      "summary": "Especialistas alertam que o avanço tecnológico tem sido usado por empresas para mascarar reestruturações financeiras."
-    },
-    {
-      "title": "Eleições 2026: o que empresas podem proibir no trabalho?",
-      "url": "https://www.contabeis.com.br/noticias/77243/eleicoes-2026-o-que-empresas-podem-proibir-no-trabalho/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T16:30:01.0000000-03:00",
-      "summary": "Entenda os limites legais para manifestações políticas de funcionários dentro e fora do ambiente corporativo."
-    },
-    {
-      "title": "Corpus Christi: Bancos, INSS e Correios terão atendimento alterado",
-      "url": "https://www.contabeis.com.br/noticias/77234/corpus-christi-bancos-inss-e-correios-terao-atendimento-alterado/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T16:00:02.0000000-03:00",
-      "summary": "Saiba como ficará o funcionamento de bancos, INSS e Correios no feriado de Corpus Christi. Pagamentos e atendimentos remotos"
-    },
-    {
-      "title": "Greve geral em Portugal trava serviços e pressiona reforma trabalhista",
-      "url": "https://www.contabeis.com.br/noticias/77240/greve-geral-em-portugal-trava-servicos-e-pressiona-reforma-trabalhista/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T15:30:01.0000000-03:00",
-      "summary": "Paralisação afeta voos, transporte e serviços públicos enquanto proposta de reforma trabalhista avança no Parlamento."
-    },
-    {
-      "title": "MEIs lideram abertura de empresas em 2026",
-      "url": "https://www.contabeis.com.br/noticias/77231/meis-lideram-abertura-de-empresas-em-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T15:00:02.0000000-03:00",
-      "summary": "Crescimento do empreendedorismo individual impulsiona número de pequenos negócios no país e reforça avanço da formalização."
-    },
-    {
-      "title": "Perdeu o prazo do IR 2026? Contador explica o que fazer agora",
-      "url": "https://www.contabeis.com.br/noticias/77229/perdeu-o-prazo-do-ir-2026-contador-explica-o-que-fazer-agora/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-03T14:30:01.0000000-03:00",
-      "summary": "Contribuintes que não entregaram a declaração ainda podem regularizar a situação, mas estão sujeitos a multa e outras consequências."
     }
   ]
 };
