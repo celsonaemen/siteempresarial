@@ -1,8 +1,120 @@
 {
-  "generatedAt": "2026-06-08T14:52:03.5873097Z",
+  "generatedAt": "2026-06-09T13:47:18.5875417Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "Principais demandas contábeis para o portal nacional da nota fiscal eletrônica",
+      "url": "https://www.contabeis.com.br/noticias/77291/principais-demandas-contabeis-para-o-portal-nacional-da-nota-fiscal-eletronica/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T10:30:01.0000000-03:00",
+      "summary": "Entenda as adaptações necessárias nos sistemas fiscais e contábeis com a reforma tributária , focando no Portal Nacional da Nota Fiscal Eletrônica."
+    },
+    {
+      "title": "CONBCON 2026: inscrições abertas para o maior congresso online de contabilidade",
+      "url": "https://www.contabeis.com.br/noticias/77284/conbcon-2026-inscricoes-abertas-para-o-maior-congresso-online-de-contabilidade/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T10:00:02.0000000-03:00",
+      "summary": "Maior congresso contábil online do país será realizado entre os dias 21 e 25 de setembro, com participação gratuita, certificado e programação voltada à Reforma Tributária , inteligência artificial e gestão contábil."
+    },
+    {
+      "title": "Comissão da Câmara aprova projeto que limita aumentos no IOF",
+      "url": "https://www.contabeis.com.br/noticias/77288/comissao-da-camara-aprova-projeto-que-limita-aumentos-no-iof/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T09:30:01.0000000-03:00",
+      "summary": "Comissão aprova projeto que barra aumentos abusivos do imposto por decreto executivo."
+    },
+    {
+      "title": "RFB altera regras da NF-e e NFC-e para adoção do CNPJ alfanumérico",
+      "url": "https://www.contabeis.com.br/noticias/77283/rfb-altera-regras-da-nf-e-e-nfc-e-para-adocao-do-cnpj-alfanumerico/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T09:00:02.0000000-03:00",
+      "summary": "Nota Técnica 2026.004 altera schemas XML e exige atenção de empresas e desenvolvedores de sistemas fiscais ainda em junho."
+    },
+    {
+      "title": "Contador: atenda mais de 200 clientes com apenas 1 colaborador!",
+      "url": "https://www.contabeis.com.br/noticias/77277/contador-atenda-mais-de-200-clientes-com-apenas-1-colaborador/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T08:30:01.0000000-03:00",
+      "summary": "Saiba como otimizar o seu tempo e o do seu cliente através da tecnologia."
+    },
+    {
+      "title": "Comissão da Câmara discute combate à pirataria, contrabando e evasão fiscal",
+      "url": "https://www.camara.leg.br/noticias/1278944-comissao-da-camara-discute-combate-a-pirataria-contrabando-e-evasao-fiscal/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-09T11:22:00.0000000+00:00",
+      "summary": "Deputados buscam mobilizar estados e instituições para ampliar o combate ao comércio ilegal"
+    },
+    {
+      "title": "CRC-GO: 285 penalidades e R$ 558 mil em multas em 2024 e 2025",
+      "url": "https://www.contabeis.com.br/noticias/77064/crc-go-285-penalidades-e-r-558-mil-em-multas-em-2024-e-2025/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T17:30:01.0000000-03:00",
+      "summary": "CRC-GO aplicou 285 penalidades e mais de R$ 558 mil em multas entre 2024 e 2025, com foco em exercício irregular da profissão contábil."
+    },
+    {
+      "title": "Como escritórios contábeis podem usar agentes de IA para melhorar o atendimento ao cliente",
+      "url": "https://www.contabeis.com.br/noticias/77278/como-escritorios-contabeis-podem-usar-agentes-de-ia-para-melhorar-o-atendimento-ao-cliente/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T17:00:02.0000000-03:00",
+      "summary": "Descubra como agentes de IA podem automatizar o atendimento em escritórios contábeis, liberando tempo para análises estratégicas e melhorando a experiência do cliente."
+    },
+    {
+      "title": "Comissão aprova plataforma para resolver conflitos de MPESem até 15 dias",
+      "url": "https://www.contabeis.com.br/noticias/77273/comissao-aprova-plataforma-para-resolver-conflitos-de-mpesem-ate-15-dias/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T16:30:01.0000000-03:00",
+      "summary": "Projeto cria ambiente virtual de mediação para micro e pequenas empresas e busca reduzir custos com disputas judiciais."
+    },
+    {
+      "title": "Deputados discutem impactos da reforma tributária sobre transporte aéreo internacional",
+      "url": "https://www.camara.leg.br/noticias/1279228-deputados-discutem-impactos-da-reforma-tributaria-sobre-transporte-aereo-internacional/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-08T19:20:00.0000000+00:00",
+      "summary": "Debate será promovido pela Comissão de Turismo"
+    },
+    {
+      "title": "Carga tributária do IOF atinge máxima em 14 anos e amplia custos para empresas",
+      "url": "https://www.contabeis.com.br/noticias/77271/carga-tributaria-do-iof-atinge-maxima-em-14-anos-e-amplia-custos-para-empresas/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T16:00:02.0000000-03:00",
+      "summary": "Elevação da arrecadação do IOF reflete aumento das operações financeiras e reforça debate sobre o peso dos tributos na economia brasileira."
+    },
+    {
+      "title": "PL isenta jovens empreendedores de tributos por 3 anos",
+      "url": "https://www.contabeis.com.br/noticias/77269/pl-isenta-jovens-empreendedores-de-tributos-por-3-anos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T15:30:01.0000000-03:00",
+      "summary": "Proposta prevê isenção de IRPJ , CSLL , PIS e Cofins para empresas abertas por jovens em cidades com baixo IDH-M."
+    },
+    {
+      "title": "Imposto Seletivo deve começar em 2027; veja os alvos",
+      "url": "https://www.contabeis.com.br/noticias/77268/imposto-seletivo-deve-comecar-em-2027-veja-os-alvos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T15:00:01.0000000-03:00",
+      "summary": "Novo tributo da reforma tributária atingirá bebidas alcoólicas, cigarros, apostas, mineração e outros setores definidos em lei."
+    },
+    {
+      "title": "STF derruba idade mínima para aposentadoria especial",
+      "url": "https://www.contabeis.com.br/noticias/77260/stf-derruba-idade-minima-para-aposentadoria-especial/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T14:30:02.0000000-03:00",
+      "summary": "Decisão do Supremo beneficia profissionais que atuam em ambientes nocivos e permite aposentadoria especial com base apenas no tempo de exposição ao risco."
+    },
+    {
+      "title": "Novo Prazo para Manifestação do Destinatário na NFe já está valendo",
+      "url": "https://www.contabeis.com.br/noticias/77258/novo-prazo-para-manifestacao-do-destinatario-na-nfe-ja-esta-valendo/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T14:00:01.0000000-03:00",
+      "summary": "Redução de 180 para 90 dias já está em vigor e impacta o monitoramento de NF-es, a escrituração fiscal e o controle de documentos eletrônicos."
+    },
+    {
+      "title": "Empresas aceleram revisão de escalas de trabalho com fim do 6x1",
+      "url": "https://www.contabeis.com.br/noticias/77259/empresas-aceleram-revisao-de-escalas-de-trabalho-com-fim-do-6x1/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-08T12:00:01.0000000-03:00",
+      "summary": "Tramitação da PEC que reduz a jornada semanal para 40 horas e acaba com escala 6x1 já leva empresas a revisar turnos, custos e estratégias operacionais."
+    },
     {
       "title": "NFSe incorpora CNPJ alfanumérico e regras para IBS e CBS",
       "url": "https://www.contabeis.com.br/noticias/77256/nfse-incorpora-cnpj-alfanumerico-e-regras-para-ibs-e-cbs/",
@@ -25,25 +137,11 @@
       "summary": "Analista Ricardo Rios discute os impactos do Imposto Seletivo nas operações de preços de transferência, desafios de fiscalização e conformidade fiscal."
     },
     {
-      "title": "Plenário analisa na terça isenção de ISS para Copa do Mundo Feminina 2027",
-      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/08/plenario-analisa-na-terca-isencao-de-iss-para-copa-do-mundo-feminina-2027",
-      "source": "Senado Noticias",
-      "publishedAt": "2026-06-08T13:15:43.0000000+00:00",
-      "summary": "Em clima de Copa do Mundo, o Plenário do Senado deve analisar nesta terça-feira (9), a partir das 14h, o projeto de lei complementar que permite a concessão de isenção do Imposto sobre Serviços (ISS) às empresas envolvidas na organização e..."
-    },
-    {
       "title": "Receita Federal inicia fiscalização de inconsistências de IRPJ e CSLL",
       "url": "https://www.contabeis.com.br/noticias/77254/receita-federal-inicia-fiscalizacao-de-inconsistencias-de-irpj-e-csll/",
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-08T10:00:01.0000000-03:00",
       "summary": "Nova ação de conformidade do IRPJ e CSLL alcança mais de 29 mil empresas e abre prazo para regularização espontânea até o fim de julho."
-    },
-    {
-      "title": "Comissão da Câmara debate combate à pirataria, contrabando e evasão fiscal",
-      "url": "https://www.camara.leg.br/noticias/1278944-comissao-da-camara-debate-combate-a-pirataria-contrabando-e-evasao-fiscal/",
-      "source": "Camara Economia",
-      "publishedAt": "2026-06-08T12:53:00.0000000+00:00",
-      "summary": "Deputados buscam mobilizar estados e instituições para ampliar o combate ao comércio ilegal"
     },
     {
       "title": "Dmed: RFB define regras para envio de dados de planos empresariais",
@@ -72,104 +170,6 @@
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-07T11:00:01.0000000-03:00",
       "summary": "Especialistas alertam que redução da carga semanal e fim da escala 6x1 podem elevar custos operacionais e mudar modelo de contratação."
-    },
-    {
-      "title": "Terceiro Setor: pressão fiscal e contábil aumenta no segundo semestre de 2026",
-      "url": "https://www.contabeis.com.br/noticias/77203/terceiro-setor-pressao-fiscal-e-contabil-aumenta-no-segundo-semestre-de-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-07T10:00:01.0000000-03:00",
-      "summary": "Falta de organização financeira segue comprometendo acesso a recursos, parcerias e ao alcance dos resultados."
-    },
-    {
-      "title": "Pronampe Mulher amplia crédito para MPEs lideradas por mulheres",
-      "url": "https://www.contabeis.com.br/noticias/77232/pronampe-mulher-amplia-credito-para-mpes-lideradas-por-mulheres/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-07T09:00:01.0000000-03:00",
-      "summary": "Programa oferece condições especiais de financiamento e busca fortalecer o empreendedorismo feminino no país."
-    },
-    {
-      "title": "Nova NR-1 aumenta preocupação com ações trabalhistas",
-      "url": "https://www.contabeis.com.br/noticias/77219/nova-nr-1-aumenta-preocupacao-com-acoes-trabalhistas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-06T12:00:01.0000000-03:00",
-      "summary": "Empresas terão de identificar riscos psicossociais e adotar medidas contra burnout, assédio e sobrecarga no ambiente de trabalho."
-    },
-    {
-      "title": "MEI: saiba como regularizar a DASN-SIMEI mesmo após o prazo",
-      "url": "https://www.contabeis.com.br/noticias/77207/mei-saiba-como-regularizar-a-dasn-simei-mesmo-apos-o-prazo/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-06T11:00:01.0000000-03:00",
-      "summary": "MEI que não entregou a DASN-SIMEI no prazo ainda pode regularizar a situação. Saiba como evitar multas e problemas com o CNPJ ."
-    },
-    {
-      "title": "Riscos psicossociais na NR-1: o que pode ser considerado fator de risco?",
-      "url": "https://www.contabeis.com.br/noticias/77223/riscos-psicossociais-na-nr-1-o-que-pode-ser-considerado-fator-de-risco/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-06T10:00:01.0000000-03:00",
-      "summary": "Entenda quais situações podem ser consideradas riscos psicossociais na NR-1 e o que empresas, RHs e contadores devem observar."
-    },
-    {
-      "title": "IRPF 2026: como retificar a declaração e evitar multas",
-      "url": "https://www.contabeis.com.br/noticias/77208/irpf-2026-como-retificar-a-declaracao-e-evitar-multas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-06T09:00:02.0000000-03:00",
-      "summary": "Saiba como fazer a declaração retificadora do IRPF 2026, prazo para correção e o que fazer se caiu na malha fina ."
-    },
-    {
-      "title": "Escala 4x3 e fim da jornada 6x1: entenda o que está em debate",
-      "url": "https://www.contabeis.com.br/noticias/77222/escala-4x3-e-fim-da-jornada-6x1-entenda-o-que-esta-em-debate/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T15:00:01.0000000-03:00",
-      "summary": "PEC aprovada pela Câmara prevê jornada de 40 horas e duas folgas semanais. Veja como está o debate sobre a escala 4x3 e o fim da 6x1."
-    },
-    {
-      "title": "Desenrola Brasil: veja como usar o FGTS para pagar dívidas em atraso",
-      "url": "https://www.contabeis.com.br/noticias/77209/desenrola-brasil-veja-como-usar-o-fgts-para-pagar-dividas-em-atraso/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T14:00:01.0000000-03:00",
-      "summary": "Trabalhadores já podem utilizar parte do saldo do FGTS para quitar ou renegociar dívidas bancárias pelo Novo Desenrola Brasil."
-    },
-    {
-      "title": "Reforma Tributária: impactos e benefícios para o setor de serviços",
-      "url": "https://www.contabeis.com.br/noticias/77201/reforma-tributaria-impactos-e-beneficios-para-o-setor-de-servicos/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T12:00:01.0000000-03:00",
-      "summary": "Entenda como a Reforma Tributária afetará o setor de serviços, abordando a simplificação fiscal, créditos tributários, reduções e isenções."
-    },
-    {
-      "title": "MEI: governo estuda liberar contratação de dois empregados",
-      "url": "https://www.contabeis.com.br/noticias/77218/mei-governo-estuda-liberar-contratacao-de-dois-empregados/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T11:00:01.0000000-03:00",
-      "summary": "Em meio aos debates sobre a jornada de trabalho, o governo federal avalia ampliar o limite de contratação e o teto de faturamento do MEI ."
-    },
-    {
-      "title": "Fim do 6x1 pode afetar preços, empregos e lucro das empresas",
-      "url": "https://www.contabeis.com.br/noticias/77210/fim-do-6x1-pode-afetar-precos-empregos-e-lucro-das-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T10:00:04.0000000-03:00",
-      "summary": "Estudo citado pelo BTG Pactual estima impactos sobre o resultado operacional de segmentos como varejo farmacêutico, alimentação, vestuário e e-commerce."
-    },
-    {
-      "title": "Escala 6x1 compromete qualidade de vida mas salário ainda preocupa",
-      "url": "https://www.contabeis.com.br/noticias/77202/escala-6x1-compromete-qualidade-de-vida-mas-salario-ainda-preocupa/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-05T09:00:01.0000000-03:00",
-      "summary": "Levantamento com mais de 18 mil pessoas mostra que a falta de descanso é a principal queixa entre trabalhadores, enquanto 63% temem perder renda em mudanças na jornada."
-    },
-    {
-      "title": "IR 2026: mesmo após o prazo, contribuinte ainda pode cair na malha fina",
-      "url": "https://www.contabeis.com.br/noticias/77235/ir-2026-mesmo-apos-o-prazo-contribuinte-ainda-pode-cair-na-malha-fina/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-04T12:00:02.0000000-03:00",
-      "summary": "Receita Federal segue analisando declarações do IR 2026; veja os erros mais comuns, multas e como corrigir informações."
-    },
-    {
-      "title": "Receita libera 2º lote da restituição do IR 2026 neste mês",
-      "url": "https://www.contabeis.com.br/noticias/77233/receita-libera-2o-lote-da-restituicao-do-ir-2026-neste-mes/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-04T11:00:01.0000000-03:00",
-      "summary": "Receita Federal paga segundo lote da restituição do IRPF 2026 no fim de junho. Confira quem tem prioridade e como consultar."
     }
   ]
 }
