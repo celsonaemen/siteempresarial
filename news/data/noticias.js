@@ -1,8 +1,155 @@
 window.ALMENARA_NEWS_DATA = {
-  "generatedAt": "2026-06-09T13:47:18.5875417Z",
+  "generatedAt": "2026-06-10T14:28:32.4243928Z",
   "sourceCount": 5,
   "itemCount": 24,
   "items": [
+    {
+      "title": "PEC que dá autonomia total ao Banco Central vai a Plenário",
+      "url": "https://www12.senado.leg.br/noticias/materias/2026/06/10/ccj-aprova-pec-que-da-autonomia-total-ao-banco-central-texto-vai-a-plenario",
+      "source": "Senado Noticias",
+      "publishedAt": "2026-06-10T14:14:29.0000000+00:00",
+      "summary": "A Comissão de Constituição e Justiça (CCJ) aprovou nesta quarta-feira-feira (10) o substitutivo do senador Plínio Valério (PSDB-AM) à proposta de emenda à Constituição que cria um regime jurídico próprio e concede autonomia orçamentária e..."
+    },
+    {
+      "title": "eSocial atualiza certificado de segurança em 24 de junho",
+      "url": "https://www.contabeis.com.br/noticias/77313/esocial-atualiza-certificado-de-seguranca-em-24-de-junho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-10T11:00:02.0000000-03:00",
+      "summary": "Nova exigência de segurança no eSocial a partir de junho de 2026 impacta empresas com integração via WebServices. Saiba o que fazer."
+    },
+    {
+      "title": "Direitos dos trabalhadores no período de Copa do Mundo",
+      "url": "https://www.contabeis.com.br/noticias/77322/direitos-dos-trabalhadores-no-periodo-de-copa-do-mundo/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-10T10:30:01.0000000-03:00",
+      "summary": "Entenda a legislação trabalhista sobre horários, compensação de jornada e liberação para acompanhar jogos durante a Copa do Mundo. Camila Cruz explica direitos e deveres."
+    },
+    {
+      "title": "NFS-e Nacional terá novidades para adequação ao IBS e CBS",
+      "url": "https://www.contabeis.com.br/noticias/77315/nfs-e-nacional-tera-novidades-para-adequacao-ao-ibs-e-cbs/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-10T10:00:02.0000000-03:00",
+      "summary": "Nota Fiscal de Serviço Eletrônica (NFS-e) terá adequações para incorporar exigências da Reforma Tributária sobre o Consumo ( IBS e CBS ). Saiba mais."
+    },
+    {
+      "title": "Nova Nota Técnica atualiza NFS-e para IBS, CBS e novo CNPJ",
+      "url": "https://www.contabeis.com.br/noticias/77311/nova-nota-tecnica-atualiza-nfs-e-para-ibs-cbs-e-novo-cnpj/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-10T09:30:01.0000000-03:00",
+      "summary": "Atualização do leiaute da NFS-e inclui mudanças para a Reforma Tributária , novas regras para o Simples Nacional e adequações ao CNPJ alfanumérico."
+    },
+    {
+      "title": "Projeto amplia limite do Simples para até R$ 12 milhões",
+      "url": "https://www.contabeis.com.br/noticias/77312/projeto-amplia-limite-do-simples-para-ate-r-12-milhoes/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-10T09:00:02.0000000-03:00",
+      "summary": "Proposta cria novas faixas de faturamento para micro e pequenas empresas e estabelece prazo máximo de permanência em benefício ampliado."
+    },
+    {
+      "title": "Deputados discutem impactos da reforma tributária sobre transporte aéreo internacional",
+      "url": "https://www.camara.leg.br/noticias/1279228-deputados-discutem-impactos-da-reforma-tributaria-sobre-transporte-aereo-internacional/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-10T11:24:00.0000000+00:00",
+      "summary": "Debate será promovido pela Comissão de Turismo"
+    },
+    {
+      "title": "Crédito Consignado Privado: Como implementar sem custos ou riscos",
+      "url": "https://www.contabeis.com.br/noticias/77272/credito-consignado-privado-como-implementar-sem-custos-ou-riscos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T20:00:01.0000000-03:00",
+      "summary": "Entenda o crédito consignado privado, seu crescimento e como as empresas podem implementá-lo sem custos, riscos trabalhistas ou jurídicos. Saiba mais!"
+    },
+    {
+      "title": "Crédito consignado privado: R$ 120 bi movimentados e expansão a caminho",
+      "url": "https://www.contabeis.com.br/noticias/77270/credito-consignado-privado-r-120-bi-movimentados-e-expansao-a-caminho/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T19:30:01.0000000-03:00",
+      "summary": "Modalidade de crédito com desconto em folha movimenta R$ 120 bilhões em um ano no Brasil e deve se expandir com entrada de novos players."
+    },
+    {
+      "title": "Previdência privada: um guia completo para planejar seu futuro",
+      "url": "https://www.contabeis.com.br/noticias/77301/previdencia-privada-um-guia-completo-para-planejar-seu-futuro/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T17:30:01.0000000-03:00",
+      "summary": "Descubra como a previdência privada pode ser sua aliada na construção de patrimônio, planejamento sucessório e alcance de objetivos de longo prazo."
+    },
+    {
+      "title": "Bets dobram faturamento e já arrecadam equivalente a agricultura",
+      "url": "https://www.contabeis.com.br/noticias/77302/bets-dobram-faturamento-e-ja-arrecadam-equivalente-a-agricultura/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T17:00:01.0000000-03:00",
+      "summary": "Mercado regulado de apostas esportivas gerou R$ 12,2 bilhões no primeiro quadrimestre e ampliou significativamente a arrecadação federal."
+    },
+    {
+      "title": "Pesquisa mostra que 4 em cada 10 segurados do INSS desconhecem novas regras do consignado",
+      "url": "https://www.contabeis.com.br/noticias/77300/pesquisa-mostra-que-4-em-cada-10-segurados-do-inss-desconhecem-novas-regras-do-consignado/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T16:30:01.0000000-03:00",
+      "summary": "Levantamento aponta falta de informação sobre mudanças na margem consignável, prazo de pagamento e novas medidas de segurança para contratação de crédito."
+    },
+    {
+      "title": "Número de empresas inadimplentes aumentam no país",
+      "url": "https://www.contabeis.com.br/noticias/77295/numero-de-empresas-inadimplentes-aumentam-no-pais/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T16:00:02.0000000-03:00",
+      "summary": "Levantamento nacional revela salto histórico de contas atrasadas e acende alerta no mercado corporativo brasileiro."
+    },
+    {
+      "title": "CFC e entidades questionam regra da CVM para reportes ESG",
+      "url": "https://www.contabeis.com.br/noticias/77294/cfc-e-entidades-questionam-regra-da-cvm-para-reportes-esg/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T15:30:01.0000000-03:00",
+      "summary": "Grupo pede que autarquia reavalie decisão que tornou facultativos os relatórios de sustentabilidade."
+    },
+    {
+      "title": "iFood confirma vazamento de dados de 1,2 milhão de clientes e notifica ANPD",
+      "url": "https://www.contabeis.com.br/noticias/77293/ifood-confirma-vazamento-de-dados-de-1-2-milhao-de-clientes-e-notifica-anpd/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T15:00:01.0000000-03:00",
+      "summary": "Empresa afirma que senhas e dados bancários não foram comprometidos, mas especialistas alertam para riscos de golpes e fraudes digitais."
+    },
+    {
+      "title": "Regularize exigirá Gov.br prata ou ouro a partir do dia 15",
+      "url": "https://www.contabeis.com.br/noticias/77292/regularize-exigira-gov-br-prata-ou-ouro-a-partir-do-dia-15/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T14:30:02.0000000-03:00",
+      "summary": "Contas bronze de pessoas físicas perderão acesso ao portal de consulta, negociação e parcelamento de débitos da União."
+    },
+    {
+      "title": "Receita Federal notifica devedores contumazes no setor de combustíveis",
+      "url": "https://www.contabeis.com.br/noticias/77287/receita-federal-notifica-devedores-contumazes-no-setor-de-combustiveis/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T14:00:01.0000000-03:00",
+      "summary": "Receita Federal e PGFN notificam empresas de combustíveis sobre inadimplência contumaz. Prazos e medidas para regularização."
+    },
+    {
+      "title": "Comissão aprova redução de custos para adaptação de carro de pessoa com deficiência",
+      "url": "https://www.camara.leg.br/noticias/1279225-comissao-aprova-reducao-de-custos-para-adaptacao-de-carro-de-pessoa-com-deficiencia/",
+      "source": "Camara Economia",
+      "publishedAt": "2026-06-09T15:06:00.0000000+00:00",
+      "summary": "Proposta, que amplia benefício tributário previsto na reforma tributária, continua em análise na Câmara dos Deputados"
+    },
+    {
+      "title": "Receita confirma uso de créditos de PIS/Cofins na CBS",
+      "url": "https://www.contabeis.com.br/noticias/77289/receita-confirma-uso-de-creditos-de-pis-cofins-na-cbs/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T12:00:01.0000000-03:00",
+      "summary": "Saldos acumulados poderão ser compensados com a CBS , outros tributos federais ou ressarcidos."
+    },
+    {
+      "title": "IBS amplia testes e passa a incluir notas fiscais de serviços",
+      "url": "https://www.contabeis.com.br/noticias/77285/ibs-amplia-testes-e-passa-a-incluir-notas-fiscais-de-servicos/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T11:30:01.0000000-03:00",
+      "summary": "Nova etapa do projeto piloto do IBS começa em junho, incorpora NFS-e e amplia a participação de empresas nos testes da apuração assistida."
+    },
+    {
+      "title": "Reforma Tributária: curso da RFB acontece hoje (9) sobre FCBF",
+      "url": "https://www.contabeis.com.br/noticias/77286/reforma-tributaria-curso-da-rfb-acontece-hoje-9-sobre-fcbf/",
+      "source": "Portal Contabeis Noticias",
+      "publishedAt": "2026-06-09T11:00:02.0000000-03:00",
+      "summary": "Receita Federal e CFC realizam terceiro módulo do curso sobre Reforma Tributária do Consumo, focado no Fundo de Compensação de Benefícios Fiscais."
+    },
     {
       "title": "Principais demandas contábeis para o portal nacional da nota fiscal eletrônica",
       "url": "https://www.contabeis.com.br/noticias/77291/principais-demandas-contabeis-para-o-portal-nacional-da-nota-fiscal-eletronica/",
@@ -23,153 +170,6 @@ window.ALMENARA_NEWS_DATA = {
       "source": "Portal Contabeis Noticias",
       "publishedAt": "2026-06-09T09:30:01.0000000-03:00",
       "summary": "Comissão aprova projeto que barra aumentos abusivos do imposto por decreto executivo."
-    },
-    {
-      "title": "RFB altera regras da NF-e e NFC-e para adoção do CNPJ alfanumérico",
-      "url": "https://www.contabeis.com.br/noticias/77283/rfb-altera-regras-da-nf-e-e-nfc-e-para-adocao-do-cnpj-alfanumerico/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-09T09:00:02.0000000-03:00",
-      "summary": "Nota Técnica 2026.004 altera schemas XML e exige atenção de empresas e desenvolvedores de sistemas fiscais ainda em junho."
-    },
-    {
-      "title": "Contador: atenda mais de 200 clientes com apenas 1 colaborador!",
-      "url": "https://www.contabeis.com.br/noticias/77277/contador-atenda-mais-de-200-clientes-com-apenas-1-colaborador/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-09T08:30:01.0000000-03:00",
-      "summary": "Saiba como otimizar o seu tempo e o do seu cliente através da tecnologia."
-    },
-    {
-      "title": "Comissão da Câmara discute combate à pirataria, contrabando e evasão fiscal",
-      "url": "https://www.camara.leg.br/noticias/1278944-comissao-da-camara-discute-combate-a-pirataria-contrabando-e-evasao-fiscal/",
-      "source": "Camara Economia",
-      "publishedAt": "2026-06-09T11:22:00.0000000+00:00",
-      "summary": "Deputados buscam mobilizar estados e instituições para ampliar o combate ao comércio ilegal"
-    },
-    {
-      "title": "CRC-GO: 285 penalidades e R$ 558 mil em multas em 2024 e 2025",
-      "url": "https://www.contabeis.com.br/noticias/77064/crc-go-285-penalidades-e-r-558-mil-em-multas-em-2024-e-2025/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T17:30:01.0000000-03:00",
-      "summary": "CRC-GO aplicou 285 penalidades e mais de R$ 558 mil em multas entre 2024 e 2025, com foco em exercício irregular da profissão contábil."
-    },
-    {
-      "title": "Como escritórios contábeis podem usar agentes de IA para melhorar o atendimento ao cliente",
-      "url": "https://www.contabeis.com.br/noticias/77278/como-escritorios-contabeis-podem-usar-agentes-de-ia-para-melhorar-o-atendimento-ao-cliente/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T17:00:02.0000000-03:00",
-      "summary": "Descubra como agentes de IA podem automatizar o atendimento em escritórios contábeis, liberando tempo para análises estratégicas e melhorando a experiência do cliente."
-    },
-    {
-      "title": "Comissão aprova plataforma para resolver conflitos de MPESem até 15 dias",
-      "url": "https://www.contabeis.com.br/noticias/77273/comissao-aprova-plataforma-para-resolver-conflitos-de-mpesem-ate-15-dias/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T16:30:01.0000000-03:00",
-      "summary": "Projeto cria ambiente virtual de mediação para micro e pequenas empresas e busca reduzir custos com disputas judiciais."
-    },
-    {
-      "title": "Deputados discutem impactos da reforma tributária sobre transporte aéreo internacional",
-      "url": "https://www.camara.leg.br/noticias/1279228-deputados-discutem-impactos-da-reforma-tributaria-sobre-transporte-aereo-internacional/",
-      "source": "Camara Economia",
-      "publishedAt": "2026-06-08T19:20:00.0000000+00:00",
-      "summary": "Debate será promovido pela Comissão de Turismo"
-    },
-    {
-      "title": "Carga tributária do IOF atinge máxima em 14 anos e amplia custos para empresas",
-      "url": "https://www.contabeis.com.br/noticias/77271/carga-tributaria-do-iof-atinge-maxima-em-14-anos-e-amplia-custos-para-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T16:00:02.0000000-03:00",
-      "summary": "Elevação da arrecadação do IOF reflete aumento das operações financeiras e reforça debate sobre o peso dos tributos na economia brasileira."
-    },
-    {
-      "title": "PL isenta jovens empreendedores de tributos por 3 anos",
-      "url": "https://www.contabeis.com.br/noticias/77269/pl-isenta-jovens-empreendedores-de-tributos-por-3-anos/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T15:30:01.0000000-03:00",
-      "summary": "Proposta prevê isenção de IRPJ , CSLL , PIS e Cofins para empresas abertas por jovens em cidades com baixo IDH-M."
-    },
-    {
-      "title": "Imposto Seletivo deve começar em 2027; veja os alvos",
-      "url": "https://www.contabeis.com.br/noticias/77268/imposto-seletivo-deve-comecar-em-2027-veja-os-alvos/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T15:00:01.0000000-03:00",
-      "summary": "Novo tributo da reforma tributária atingirá bebidas alcoólicas, cigarros, apostas, mineração e outros setores definidos em lei."
-    },
-    {
-      "title": "STF derruba idade mínima para aposentadoria especial",
-      "url": "https://www.contabeis.com.br/noticias/77260/stf-derruba-idade-minima-para-aposentadoria-especial/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T14:30:02.0000000-03:00",
-      "summary": "Decisão do Supremo beneficia profissionais que atuam em ambientes nocivos e permite aposentadoria especial com base apenas no tempo de exposição ao risco."
-    },
-    {
-      "title": "Novo Prazo para Manifestação do Destinatário na NFe já está valendo",
-      "url": "https://www.contabeis.com.br/noticias/77258/novo-prazo-para-manifestacao-do-destinatario-na-nfe-ja-esta-valendo/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T14:00:01.0000000-03:00",
-      "summary": "Redução de 180 para 90 dias já está em vigor e impacta o monitoramento de NF-es, a escrituração fiscal e o controle de documentos eletrônicos."
-    },
-    {
-      "title": "Empresas aceleram revisão de escalas de trabalho com fim do 6x1",
-      "url": "https://www.contabeis.com.br/noticias/77259/empresas-aceleram-revisao-de-escalas-de-trabalho-com-fim-do-6x1/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T12:00:01.0000000-03:00",
-      "summary": "Tramitação da PEC que reduz a jornada semanal para 40 horas e acaba com escala 6x1 já leva empresas a revisar turnos, custos e estratégias operacionais."
-    },
-    {
-      "title": "NFSe incorpora CNPJ alfanumérico e regras para IBS e CBS",
-      "url": "https://www.contabeis.com.br/noticias/77256/nfse-incorpora-cnpj-alfanumerico-e-regras-para-ibs-e-cbs/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T11:30:01.0000000-03:00",
-      "summary": "Novos campos para IBS e CBS e mudanças para empresas do Simples Nacional ."
-    },
-    {
-      "title": "MTE abre prazo para empregadores enviarem a RAIS em 2026",
-      "url": "https://www.contabeis.com.br/noticias/77255/mte-abre-prazo-para-empregadores-enviarem-a-rais-em-2026/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T11:00:01.0000000-03:00",
-      "summary": "Empregadores devem enviar declarações RAIS de 1976 a 2022 via PGD RAIS Genérico."
-    },
-    {
-      "title": "Imposto Seletivo: controle de preços de transferência",
-      "url": "https://www.contabeis.com.br/noticias/77253/imposto-seletivo-controle-de-precos-de-transferencia/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T10:30:02.0000000-03:00",
-      "summary": "Analista Ricardo Rios discute os impactos do Imposto Seletivo nas operações de preços de transferência, desafios de fiscalização e conformidade fiscal."
-    },
-    {
-      "title": "Receita Federal inicia fiscalização de inconsistências de IRPJ e CSLL",
-      "url": "https://www.contabeis.com.br/noticias/77254/receita-federal-inicia-fiscalizacao-de-inconsistencias-de-irpj-e-csll/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T10:00:01.0000000-03:00",
-      "summary": "Nova ação de conformidade do IRPJ e CSLL alcança mais de 29 mil empresas e abre prazo para regularização espontânea até o fim de julho."
-    },
-    {
-      "title": "Dmed: RFB define regras para envio de dados de planos empresariais",
-      "url": "https://www.contabeis.com.br/noticias/77252/dmed-rfb-define-regras-para-envio-de-dados-de-planos-empresariais/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T09:30:01.0000000-03:00",
-      "summary": "Receita Federal esclarece obrigatoriedade da Dmed para planos de saúde coletivos empresariais."
-    },
-    {
-      "title": "Split Payment: Receita divulga manual para CBS e IBS",
-      "url": "https://www.contabeis.com.br/noticias/77251/split-payment-receita-divulga-manual-para-cbs-e-ibs/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-08T09:05:01.0000000-03:00",
-      "summary": "Nova documentação técnica da Receita Federal e do CGIBS permite início do desenvolvimento dos sistemas que vão operacionalizar o split payment da reforma tributária ."
-    },
-    {
-      "title": "Demissão pode impulsionar sua carreira; entenda como",
-      "url": "https://www.contabeis.com.br/noticias/77194/demissao-pode-impulsionar-sua-carreira-entenda-como/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-07T12:00:01.0000000-03:00",
-      "summary": "Período de transição pode abrir espaço para qualificação, networking e novas oportunidades profissionais."
-    },
-    {
-      "title": "PEC da jornada de 40 horas pode acelerar automação e terceirização nas empresas",
-      "url": "https://www.contabeis.com.br/noticias/77239/pec-da-jornada-de-40-horas-pode-acelerar-automacao-e-terceirizacao-nas-empresas/",
-      "source": "Portal Contabeis Noticias",
-      "publishedAt": "2026-06-07T11:00:01.0000000-03:00",
-      "summary": "Especialistas alertam que redução da carga semanal e fim da escala 6x1 podem elevar custos operacionais e mudar modelo de contratação."
     }
   ]
 };
